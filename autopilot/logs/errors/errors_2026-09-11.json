@@ -1,0 +1,252 @@
+[
+  {
+    "timestamp": "2026-09-11T08:05:40.817Z",
+    "context": "Fetching bidding data for 260911AF6Z",
+    "error": {
+      "message": "Request failed with status code 504",
+      "stack": "AxiosError: Request failed with status code 504\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_RESPONSE",
+      "response": "upstream request timeout"
+    }
+  },
+  {
+    "timestamp": "2026-09-11T09:06:50.790Z",
+    "context": "Bid submission for 260911MSRQ",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1964:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260911MSRQ",
+    "bidType": "HIGH",
+    "bidPrice": 81072,
+    "quoteId": "029df01b-ac85-40b3-928d-ca114c6b332e"
+  },
+  {
+    "timestamp": "2026-09-11T09:06:51.583Z",
+    "context": "Bid submission for 260911MSRQ",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1964:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260911MSRQ",
+    "bidType": "HIGH",
+    "bidPrice": 81072,
+    "quoteId": "029df01b-ac85-40b3-928d-ca114c6b332e"
+  },
+  {
+    "timestamp": "2026-09-11T09:06:52.158Z",
+    "context": "Bid submission for 260911MSRQ",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1964:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260911MSRQ",
+    "bidType": "HIGH",
+    "bidPrice": 81072,
+    "quoteId": "029df01b-ac85-40b3-928d-ca114c6b332e"
+  },
+  {
+    "timestamp": "2026-09-11T09:06:52.601Z",
+    "context": "Bid submission for 260911MSRQ",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1964:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260911MSRQ",
+    "bidType": "HIGH",
+    "bidPrice": 81072,
+    "quoteId": "029df01b-ac85-40b3-928d-ca114c6b332e"
+  },
+  {
+    "timestamp": "2026-09-11T09:06:53.879Z",
+    "context": "Bid submission for 260911MSRQ",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1964:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260911MSRQ",
+    "bidType": "HIGH",
+    "bidPrice": 81072,
+    "quoteId": "029df01b-ac85-40b3-928d-ca114c6b332e"
+  },
+  {
+    "timestamp": "2026-09-11T09:06:54.658Z",
+    "context": "Bid submission for 260911MSRQ",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1964:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260911MSRQ",
+    "bidType": "HIGH",
+    "bidPrice": 81072,
+    "quoteId": "029df01b-ac85-40b3-928d-ca114c6b332e"
+  },
+  {
+    "timestamp": "2026-09-11T09:06:55.162Z",
+    "context": "Bid submission for 260911MSRQ",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1964:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260911MSRQ",
+    "bidType": "HIGH",
+    "bidPrice": 81072,
+    "quoteId": "029df01b-ac85-40b3-928d-ca114c6b332e"
+  },
+  {
+    "timestamp": "2026-09-11T09:06:56.104Z",
+    "context": "Bid submission for 260911MSRQ",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1964:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260911MSRQ",
+    "bidType": "HIGH",
+    "bidPrice": 81072,
+    "quoteId": "029df01b-ac85-40b3-928d-ca114c6b332e"
+  },
+  {
+    "timestamp": "2026-09-11T09:06:57.078Z",
+    "context": "Bid submission for 260911MSRQ",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1964:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260911MSRQ",
+    "bidType": "HIGH",
+    "bidPrice": 81072,
+    "quoteId": "029df01b-ac85-40b3-928d-ca114c6b332e"
+  },
+  {
+    "timestamp": "2026-09-11T09:06:57.509Z",
+    "context": "Bid submission for 260911MSRQ",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1964:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260911MSRQ",
+    "bidType": "HIGH",
+    "bidPrice": 81072,
+    "quoteId": "029df01b-ac85-40b3-928d-ca114c6b332e"
+  },
+  {
+    "timestamp": "2026-09-11T09:06:58.084Z",
+    "context": "Bid submission for 260911MSRQ",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1964:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260911MSRQ",
+    "bidType": "HIGH",
+    "bidPrice": 81072,
+    "quoteId": "029df01b-ac85-40b3-928d-ca114c6b332e"
+  },
+  {
+    "timestamp": "2026-09-11T09:06:58.793Z",
+    "context": "Bid submission for 260911MSRQ",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1964:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260911MSRQ",
+    "bidType": "HIGH",
+    "bidPrice": 81072,
+    "quoteId": "029df01b-ac85-40b3-928d-ca114c6b332e"
+  },
+  {
+    "timestamp": "2026-09-11T09:06:59.095Z",
+    "context": "Bid submission for 260911MSRQ",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1964:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260911MSRQ",
+    "bidType": "HIGH",
+    "bidPrice": 81072,
+    "quoteId": "029df01b-ac85-40b3-928d-ca114c6b332e"
+  },
+  {
+    "timestamp": "2026-09-11T09:06:59.805Z",
+    "context": "Bid submission for 260911MSRQ",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid (/var/www/autopilot/server.js:1964:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260911MSRQ",
+    "bidType": "HIGH",
+    "bidPrice": 81072,
+    "quoteId": "029df01b-ac85-40b3-928d-ca114c6b332e"
+  },
+  {
+    "timestamp": "2026-09-11T09:07:00.372Z",
+    "context": "Bid submission for 260911MSRQ",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid (/var/www/autopilot/server.js:1964:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260911MSRQ",
+    "bidType": "HIGH",
+    "bidPrice": 81072,
+    "quoteId": "029df01b-ac85-40b3-928d-ca114c6b332e"
+  }
+]

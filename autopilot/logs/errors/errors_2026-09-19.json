@@ -1,0 +1,242 @@
+[
+  {
+    "timestamp": "2026-09-19T10:54:52.179Z",
+    "context": "Bid submission for 260919FQ56",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1978:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Quote can only be reduced by given Cost Reduction Rate"
+      }
+    },
+    "enquiryKey": "260919FQ56",
+    "bidType": "MEDIUM",
+    "bidPrice": 14404,
+    "quoteId": "2f7861a4-bb96-4b98-b73c-19c06650d9dd"
+  },
+  {
+    "timestamp": "2026-09-19T10:54:52.751Z",
+    "context": "Bid submission for 260919FQ56",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1978:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Quote can only be reduced by given Cost Reduction Rate"
+      }
+    },
+    "enquiryKey": "260919FQ56",
+    "bidType": "MEDIUM",
+    "bidPrice": 14404,
+    "quoteId": "2f7861a4-bb96-4b98-b73c-19c06650d9dd"
+  },
+  {
+    "timestamp": "2026-09-19T10:54:53.346Z",
+    "context": "Bid submission for 260919FQ56",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1978:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Quote can only be reduced by given Cost Reduction Rate"
+      }
+    },
+    "enquiryKey": "260919FQ56",
+    "bidType": "MEDIUM",
+    "bidPrice": 14404,
+    "quoteId": "2f7861a4-bb96-4b98-b73c-19c06650d9dd"
+  },
+  {
+    "timestamp": "2026-09-19T10:54:53.617Z",
+    "context": "Bid submission for 260919FQ56",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1978:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Quote can only be reduced by given Cost Reduction Rate"
+      }
+    },
+    "enquiryKey": "260919FQ56",
+    "bidType": "MEDIUM",
+    "bidPrice": 14404,
+    "quoteId": "2f7861a4-bb96-4b98-b73c-19c06650d9dd"
+  },
+  {
+    "timestamp": "2026-09-19T10:54:54.223Z",
+    "context": "Bid submission for 260919FQ56",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1978:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Quote can only be reduced by given Cost Reduction Rate"
+      }
+    },
+    "enquiryKey": "260919FQ56",
+    "bidType": "MEDIUM",
+    "bidPrice": 14404,
+    "quoteId": "2f7861a4-bb96-4b98-b73c-19c06650d9dd"
+  },
+  {
+    "timestamp": "2026-09-19T10:54:54.784Z",
+    "context": "Bid submission for 260919FQ56",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1978:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Quote can only be reduced by given Cost Reduction Rate"
+      }
+    },
+    "enquiryKey": "260919FQ56",
+    "bidType": "MEDIUM",
+    "bidPrice": 14404,
+    "quoteId": "2f7861a4-bb96-4b98-b73c-19c06650d9dd"
+  },
+  {
+    "timestamp": "2026-09-19T10:54:55.091Z",
+    "context": "Bid submission for 260919FQ56",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1978:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Quote can only be reduced by given Cost Reduction Rate"
+      }
+    },
+    "enquiryKey": "260919FQ56",
+    "bidType": "MEDIUM",
+    "bidPrice": 14404,
+    "quoteId": "2f7861a4-bb96-4b98-b73c-19c06650d9dd"
+  },
+  {
+    "timestamp": "2026-09-19T10:54:55.681Z",
+    "context": "Bid submission for 260919FQ56",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1978:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Quote can only be reduced by given Cost Reduction Rate"
+      }
+    },
+    "enquiryKey": "260919FQ56",
+    "bidType": "MEDIUM",
+    "bidPrice": 14404,
+    "quoteId": "2f7861a4-bb96-4b98-b73c-19c06650d9dd"
+  },
+  {
+    "timestamp": "2026-09-19T10:54:56.234Z",
+    "context": "Bid submission for 260919FQ56",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1978:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Quote can only be reduced by given Cost Reduction Rate"
+      }
+    },
+    "enquiryKey": "260919FQ56",
+    "bidType": "MEDIUM",
+    "bidPrice": 14404,
+    "quoteId": "2f7861a4-bb96-4b98-b73c-19c06650d9dd"
+  },
+  {
+    "timestamp": "2026-09-19T10:54:56.625Z",
+    "context": "Bid submission for 260919FQ56",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1978:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Quote can only be reduced by given Cost Reduction Rate"
+      }
+    },
+    "enquiryKey": "260919FQ56",
+    "bidType": "MEDIUM",
+    "bidPrice": 14404,
+    "quoteId": "2f7861a4-bb96-4b98-b73c-19c06650d9dd"
+  },
+  {
+    "timestamp": "2026-09-19T10:54:57.149Z",
+    "context": "Bid submission for 260919FQ56",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1978:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Quote can only be reduced by given Cost Reduction Rate"
+      }
+    },
+    "enquiryKey": "260919FQ56",
+    "bidType": "MEDIUM",
+    "bidPrice": 14404,
+    "quoteId": "2f7861a4-bb96-4b98-b73c-19c06650d9dd"
+  },
+  {
+    "timestamp": "2026-09-19T10:54:57.714Z",
+    "context": "Bid submission for 260919FQ56",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1978:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Quote can only be reduced by given Cost Reduction Rate"
+      }
+    },
+    "enquiryKey": "260919FQ56",
+    "bidType": "MEDIUM",
+    "bidPrice": 14404,
+    "quoteId": "2f7861a4-bb96-4b98-b73c-19c06650d9dd"
+  },
+  {
+    "timestamp": "2026-09-19T10:54:58.085Z",
+    "context": "Bid submission for 260919FQ56",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1978:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Quote can only be reduced by given Cost Reduction Rate"
+      }
+    },
+    "enquiryKey": "260919FQ56",
+    "bidType": "MEDIUM",
+    "bidPrice": 14404,
+    "quoteId": "2f7861a4-bb96-4b98-b73c-19c06650d9dd"
+  },
+  {
+    "timestamp": "2026-09-19T10:54:58.613Z",
+    "context": "Bid submission for 260919FQ56",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1978:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Quote can only be reduced by given Cost Reduction Rate"
+      }
+    },
+    "enquiryKey": "260919FQ56",
+    "bidType": "MEDIUM",
+    "bidPrice": 14404,
+    "quoteId": "2f7861a4-bb96-4b98-b73c-19c06650d9dd"
+  },
+  {
+    "timestamp": "2026-09-19T10:54:59.168Z",
+    "context": "Bid submission for 260919FQ56",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid (/var/www/autopilot/server.js:1978:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Quote can only be reduced by given Cost Reduction Rate"
+      }
+    },
+    "enquiryKey": "260919FQ56",
+    "bidType": "MEDIUM",
+    "bidPrice": 14404,
+    "quoteId": "2f7861a4-bb96-4b98-b73c-19c06650d9dd"
+  }
+]

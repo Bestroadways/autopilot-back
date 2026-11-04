@@ -1,0 +1,158 @@
+[
+  {
+    "timestamp": "2026-08-04T02:58:28.804Z",
+    "context": "Fetching bidding data for 260803D1X4",
+    "error": {
+      "message": "Request failed with status code 504",
+      "stack": "AxiosError: Request failed with status code 504\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_RESPONSE",
+      "response": "<html>\r\n<head><title>504 Gateway Time-out</title></head>\r\n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n"
+    }
+  },
+  {
+    "timestamp": "2026-08-04T03:03:53.516Z",
+    "context": "Fetching bidding data for 2608034XV7",
+    "error": {
+      "message": "Request failed with status code 504",
+      "stack": "AxiosError: Request failed with status code 504\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_RESPONSE",
+      "response": "<html>\r\n<head><title>504 Gateway Time-out</title></head>\r\n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n"
+    }
+  },
+  {
+    "timestamp": "2026-08-04T03:07:19.014Z",
+    "context": "Fetching bidding data for 260803M4ZQ",
+    "error": {
+      "message": "Request failed with status code 504",
+      "stack": "AxiosError: Request failed with status code 504\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_RESPONSE",
+      "response": "<html>\r\n<head><title>504 Gateway Time-out</title></head>\r\n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n"
+    }
+  },
+  {
+    "timestamp": "2026-08-04T03:26:05.165Z",
+    "context": "Fetching bidding data for 260803MVY2",
+    "error": {
+      "message": "Request failed with status code 504",
+      "stack": "AxiosError: Request failed with status code 504\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_RESPONSE",
+      "response": "<html>\r\n<head><title>504 Gateway Time-out</title></head>\r\n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n"
+    }
+  },
+  {
+    "timestamp": "2026-08-04T03:41:23.791Z",
+    "context": "Fetching bidding data for 260803XI1K",
+    "error": {
+      "message": "Request failed with status code 504",
+      "stack": "AxiosError: Request failed with status code 504\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_RESPONSE",
+      "response": "<html>\r\n<head><title>504 Gateway Time-out</title></head>\r\n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n"
+    }
+  },
+  {
+    "timestamp": "2026-08-04T07:51:57.256Z",
+    "context": "Bid submission for 2608041HQU",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1978:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Quote can only be reduced by given Cost Reduction Rate"
+      }
+    },
+    "enquiryKey": "2608041HQU",
+    "bidType": "MEDIUM",
+    "bidPrice": 24035,
+    "quoteId": "f094985b-ee40-40e4-a390-095ec192c81c"
+  },
+  {
+    "timestamp": "2026-08-04T07:51:57.790Z",
+    "context": "Bid submission for 2608041HQU",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1978:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Quote can only be reduced by given Cost Reduction Rate"
+      }
+    },
+    "enquiryKey": "2608041HQU",
+    "bidType": "MEDIUM",
+    "bidPrice": 24035,
+    "quoteId": "f094985b-ee40-40e4-a390-095ec192c81c"
+  },
+  {
+    "timestamp": "2026-08-04T07:51:58.291Z",
+    "context": "Bid submission for 2608041HQU",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1978:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Quote can only be reduced by given Cost Reduction Rate"
+      }
+    },
+    "enquiryKey": "2608041HQU",
+    "bidType": "MEDIUM",
+    "bidPrice": 24035,
+    "quoteId": "f094985b-ee40-40e4-a390-095ec192c81c"
+  },
+  {
+    "timestamp": "2026-08-04T07:51:58.673Z",
+    "context": "Bid submission for 2608041HQU",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1978:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Quote can only be reduced by given Cost Reduction Rate"
+      }
+    },
+    "enquiryKey": "2608041HQU",
+    "bidType": "MEDIUM",
+    "bidPrice": 24035,
+    "quoteId": "f094985b-ee40-40e4-a390-095ec192c81c"
+  },
+  {
+    "timestamp": "2026-08-04T07:51:59.348Z",
+    "context": "Bid submission for 2608041HQU",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1978:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Quote can only be reduced by given Cost Reduction Rate"
+      }
+    },
+    "enquiryKey": "2608041HQU",
+    "bidType": "MEDIUM",
+    "bidPrice": 24035,
+    "quoteId": "f094985b-ee40-40e4-a390-095ec192c81c"
+  },
+  {
+    "timestamp": "2026-08-04T07:51:59.853Z",
+    "context": "Bid submission for 2608041HQU",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid (/var/www/autopilot/server.js:1978:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Quote can only be reduced by given Cost Reduction Rate"
+      }
+    },
+    "enquiryKey": "2608041HQU",
+    "bidType": "MEDIUM",
+    "bidPrice": 24035,
+    "quoteId": "f094985b-ee40-40e4-a390-095ec192c81c"
+  },
+  {
+    "timestamp": "2026-08-04T07:57:48.854Z",
+    "context": "Fetching bidding data for 260804586A",
+    "error": {
+      "message": "Request failed with status code 504",
+      "stack": "AxiosError: Request failed with status code 504\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_RESPONSE",
+      "response": "<html>\r\n<head><title>504 Gateway Time-out</title></head>\r\n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n"
+    }
+  }
+]

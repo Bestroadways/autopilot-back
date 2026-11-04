@@ -1,0 +1,102 @@
+[
+  {
+    "timestamp": "2026-07-06T08:45:03.988Z",
+    "context": "Bid submission for 260706SDBI",
+    "error": {
+      "message": "timeout of 5000ms exceeded",
+      "stack": "AxiosError: timeout of 5000ms exceeded\n    at RedirectableRequest.handleRequestTimeout (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3265:16)\n    at RedirectableRequest.emit (node:events:517:28)\n    at Timeout.<anonymous> (/var/www/autopilot/node_modules/follow-redirects/index.js:221:12)\n    at listOnTimeout (node:internal/timers:569:17)\n    at process.processTimers (node:internal/timers:512:7)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid (/var/www/autopilot/server.js:1990:11)",
+      "code": "ECONNABORTED"
+    },
+    "enquiryKey": "260706SDBI",
+    "bidType": "LOW",
+    "bidPrice": 108780,
+    "quoteId": "6c6d77af-e694-4ac5-bbb2-6aed8cb99774"
+  },
+  {
+    "timestamp": "2026-07-06T08:45:09.328Z",
+    "context": "Bid submission for 260706SDBI",
+    "error": {
+      "message": "timeout of 5000ms exceeded",
+      "stack": "AxiosError: timeout of 5000ms exceeded\n    at RedirectableRequest.handleRequestTimeout (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3265:16)\n    at RedirectableRequest.emit (node:events:517:28)\n    at Timeout.<anonymous> (/var/www/autopilot/node_modules/follow-redirects/index.js:221:12)\n    at listOnTimeout (node:internal/timers:569:17)\n    at process.processTimers (node:internal/timers:512:7)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid (/var/www/autopilot/server.js:1990:11)",
+      "code": "ECONNABORTED"
+    },
+    "enquiryKey": "260706SDBI",
+    "bidType": "LOW",
+    "bidPrice": 108780,
+    "quoteId": "6c6d77af-e694-4ac5-bbb2-6aed8cb99774"
+  },
+  {
+    "timestamp": "2026-07-06T09:09:58.194Z",
+    "context": "Bid submission for 260706H568",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1990:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Quote can only be reduced by given Cost Reduction Rate"
+      }
+    },
+    "enquiryKey": "260706H568",
+    "bidType": "LOW",
+    "bidPrice": 27972,
+    "quoteId": "ab00540c-88d2-411d-abaf-9b8d395ac284"
+  },
+  {
+    "timestamp": "2026-07-06T09:09:59.656Z",
+    "context": "Bid submission for 260706H568",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid (/var/www/autopilot/server.js:1990:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Quote can only be reduced by given Cost Reduction Rate"
+      }
+    },
+    "enquiryKey": "260706H568",
+    "bidType": "LOW",
+    "bidPrice": 27972,
+    "quoteId": "ab00540c-88d2-411d-abaf-9b8d395ac284"
+  },
+  {
+    "timestamp": "2026-07-06T09:10:00.299Z",
+    "context": "Bid submission for 260706H568",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid (/var/www/autopilot/server.js:1990:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Quote can only be reduced by given Cost Reduction Rate"
+      }
+    },
+    "enquiryKey": "260706H568",
+    "bidType": "LOW",
+    "bidPrice": 27972,
+    "quoteId": "ab00540c-88d2-411d-abaf-9b8d395ac284"
+  },
+  {
+    "timestamp": "2026-07-06T18:03:55.722Z",
+    "context": "Bid submission for 260706JU1N",
+    "error": {
+      "message": "timeout of 5000ms exceeded",
+      "stack": "AxiosError: timeout of 5000ms exceeded\n    at RedirectableRequest.handleRequestTimeout (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3265:16)\n    at RedirectableRequest.emit (node:events:517:28)\n    at Timeout.<anonymous> (/var/www/autopilot/node_modules/follow-redirects/index.js:221:12)\n    at listOnTimeout (node:internal/timers:569:17)\n    at process.processTimers (node:internal/timers:512:7)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1964:11)",
+      "code": "ECONNABORTED"
+    },
+    "enquiryKey": "260706JU1N",
+    "bidType": "HIGH",
+    "bidPrice": 90355,
+    "quoteId": "5a523a20-93f5-4c3d-81aa-fced03159119"
+  },
+  {
+    "timestamp": "2026-07-06T18:04:55.090Z",
+    "context": "Bid submission for 260706ZZUD",
+    "error": {
+      "message": "timeout of 5000ms exceeded",
+      "stack": "AxiosError: timeout of 5000ms exceeded\n    at RedirectableRequest.handleRequestTimeout (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3265:16)\n    at RedirectableRequest.emit (node:events:517:28)\n    at Timeout.<anonymous> (/var/www/autopilot/node_modules/follow-redirects/index.js:221:12)\n    at listOnTimeout (node:internal/timers:569:17)\n    at process.processTimers (node:internal/timers:512:7)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1964:11)",
+      "code": "ECONNABORTED"
+    },
+    "enquiryKey": "260706ZZUD",
+    "bidType": "HIGH",
+    "bidPrice": 72284,
+    "quoteId": "7b93fdb2-886e-4d6e-9563-b173e73d4e9d"
+  }
+]

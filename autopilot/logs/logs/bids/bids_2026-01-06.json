@@ -1,0 +1,24 @@
+[
+  {
+    "timestamp": "2026-01-06T06:41:45.971Z",
+    "enquiryKey": "2601068ZXC",
+    "bidType": "PUBLIC_SUBMISSION",
+    "bidPrice": 75000,
+    "timeToClosingMs": null,
+    "timeToClosingSec": 0,
+    "currentRank": null,
+    "success": true,
+    "responseTimeMs": 0,
+    "calculatedBids": {
+      "high": 80888,
+      "medium": 79725,
+      "low": 78847,
+      "marketValue": 75000
+    },
+    "percentages": {
+      "high": 7.85,
+      "medium": 6.3,
+      "low": 5.13
+    }
+  }
+]

@@ -1,0 +1,722 @@
+[
+  {
+    "timestamp": "2026-03-03T12:58:47.555Z",
+    "context": "Bid submission for 260303B8N1",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260303B8N1",
+    "bidType": "HIGH",
+    "bidPrice": 137280,
+    "quoteId": "e60f72e9-2ea3-4b6d-86ec-2e1bddbe9fc9"
+  },
+  {
+    "timestamp": "2026-03-03T12:58:47.832Z",
+    "context": "Bid submission for 260303B8N1",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260303B8N1",
+    "bidType": "HIGH",
+    "bidPrice": 137280,
+    "quoteId": "e60f72e9-2ea3-4b6d-86ec-2e1bddbe9fc9"
+  },
+  {
+    "timestamp": "2026-03-03T12:58:48.044Z",
+    "context": "Bid submission for 260303B8N1",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260303B8N1",
+    "bidType": "HIGH",
+    "bidPrice": 137280,
+    "quoteId": "e60f72e9-2ea3-4b6d-86ec-2e1bddbe9fc9"
+  },
+  {
+    "timestamp": "2026-03-03T12:58:48.232Z",
+    "context": "Bid submission for 260303B8N1",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260303B8N1",
+    "bidType": "HIGH",
+    "bidPrice": 137280,
+    "quoteId": "e60f72e9-2ea3-4b6d-86ec-2e1bddbe9fc9"
+  },
+  {
+    "timestamp": "2026-03-03T12:58:48.459Z",
+    "context": "Bid submission for 260303B8N1",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260303B8N1",
+    "bidType": "HIGH",
+    "bidPrice": 137280,
+    "quoteId": "e60f72e9-2ea3-4b6d-86ec-2e1bddbe9fc9"
+  },
+  {
+    "timestamp": "2026-03-03T12:58:48.697Z",
+    "context": "Bid submission for 260303B8N1",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260303B8N1",
+    "bidType": "HIGH",
+    "bidPrice": 137280,
+    "quoteId": "e60f72e9-2ea3-4b6d-86ec-2e1bddbe9fc9"
+  },
+  {
+    "timestamp": "2026-03-03T12:58:48.789Z",
+    "context": "Bid submission for 260303B8N1",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260303B8N1",
+    "bidType": "HIGH",
+    "bidPrice": 137280,
+    "quoteId": "e60f72e9-2ea3-4b6d-86ec-2e1bddbe9fc9"
+  },
+  {
+    "timestamp": "2026-03-03T12:58:49.061Z",
+    "context": "Bid submission for 260303B8N1",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260303B8N1",
+    "bidType": "HIGH",
+    "bidPrice": 137280,
+    "quoteId": "e60f72e9-2ea3-4b6d-86ec-2e1bddbe9fc9"
+  },
+  {
+    "timestamp": "2026-03-03T12:58:49.293Z",
+    "context": "Bid submission for 260303B8N1",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260303B8N1",
+    "bidType": "HIGH",
+    "bidPrice": 137280,
+    "quoteId": "e60f72e9-2ea3-4b6d-86ec-2e1bddbe9fc9"
+  },
+  {
+    "timestamp": "2026-03-03T12:58:49.473Z",
+    "context": "Bid submission for 260303B8N1",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260303B8N1",
+    "bidType": "HIGH",
+    "bidPrice": 137280,
+    "quoteId": "e60f72e9-2ea3-4b6d-86ec-2e1bddbe9fc9"
+  },
+  {
+    "timestamp": "2026-03-03T12:58:49.703Z",
+    "context": "Bid submission for 260303B8N1",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260303B8N1",
+    "bidType": "HIGH",
+    "bidPrice": 137280,
+    "quoteId": "e60f72e9-2ea3-4b6d-86ec-2e1bddbe9fc9"
+  },
+  {
+    "timestamp": "2026-03-03T12:58:49.943Z",
+    "context": "Bid submission for 260303B8N1",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260303B8N1",
+    "bidType": "HIGH",
+    "bidPrice": 137280,
+    "quoteId": "e60f72e9-2ea3-4b6d-86ec-2e1bddbe9fc9"
+  },
+  {
+    "timestamp": "2026-03-03T12:58:50.024Z",
+    "context": "Bid submission for 260303B8N1",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260303B8N1",
+    "bidType": "HIGH",
+    "bidPrice": 137280,
+    "quoteId": "e60f72e9-2ea3-4b6d-86ec-2e1bddbe9fc9"
+  },
+  {
+    "timestamp": "2026-03-03T12:58:50.245Z",
+    "context": "Bid submission for 260303B8N1",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260303B8N1",
+    "bidType": "HIGH",
+    "bidPrice": 137280,
+    "quoteId": "e60f72e9-2ea3-4b6d-86ec-2e1bddbe9fc9"
+  },
+  {
+    "timestamp": "2026-03-03T12:58:50.480Z",
+    "context": "Bid submission for 260303B8N1",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260303B8N1",
+    "bidType": "HIGH",
+    "bidPrice": 137280,
+    "quoteId": "e60f72e9-2ea3-4b6d-86ec-2e1bddbe9fc9"
+  },
+  {
+    "timestamp": "2026-03-03T12:58:50.656Z",
+    "context": "Bid submission for 260303B8N1",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260303B8N1",
+    "bidType": "HIGH",
+    "bidPrice": 137280,
+    "quoteId": "e60f72e9-2ea3-4b6d-86ec-2e1bddbe9fc9"
+  },
+  {
+    "timestamp": "2026-03-03T12:58:50.898Z",
+    "context": "Bid submission for 260303B8N1",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260303B8N1",
+    "bidType": "HIGH",
+    "bidPrice": 137280,
+    "quoteId": "e60f72e9-2ea3-4b6d-86ec-2e1bddbe9fc9"
+  },
+  {
+    "timestamp": "2026-03-03T12:58:51.192Z",
+    "context": "Bid submission for 260303B8N1",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260303B8N1",
+    "bidType": "HIGH",
+    "bidPrice": 137280,
+    "quoteId": "e60f72e9-2ea3-4b6d-86ec-2e1bddbe9fc9"
+  },
+  {
+    "timestamp": "2026-03-03T12:58:51.334Z",
+    "context": "Bid submission for 260303B8N1",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260303B8N1",
+    "bidType": "HIGH",
+    "bidPrice": 137280,
+    "quoteId": "e60f72e9-2ea3-4b6d-86ec-2e1bddbe9fc9"
+  },
+  {
+    "timestamp": "2026-03-03T12:58:51.572Z",
+    "context": "Bid submission for 260303B8N1",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260303B8N1",
+    "bidType": "HIGH",
+    "bidPrice": 137280,
+    "quoteId": "e60f72e9-2ea3-4b6d-86ec-2e1bddbe9fc9"
+  },
+  {
+    "timestamp": "2026-03-03T12:58:51.811Z",
+    "context": "Bid submission for 260303B8N1",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260303B8N1",
+    "bidType": "HIGH",
+    "bidPrice": 137280,
+    "quoteId": "e60f72e9-2ea3-4b6d-86ec-2e1bddbe9fc9"
+  },
+  {
+    "timestamp": "2026-03-03T12:58:51.934Z",
+    "context": "Bid submission for 260303B8N1",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260303B8N1",
+    "bidType": "HIGH",
+    "bidPrice": 137280,
+    "quoteId": "e60f72e9-2ea3-4b6d-86ec-2e1bddbe9fc9"
+  },
+  {
+    "timestamp": "2026-03-03T12:58:52.175Z",
+    "context": "Bid submission for 260303B8N1",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260303B8N1",
+    "bidType": "HIGH",
+    "bidPrice": 137280,
+    "quoteId": "e60f72e9-2ea3-4b6d-86ec-2e1bddbe9fc9"
+  },
+  {
+    "timestamp": "2026-03-03T12:58:52.418Z",
+    "context": "Bid submission for 260303B8N1",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260303B8N1",
+    "bidType": "HIGH",
+    "bidPrice": 137280,
+    "quoteId": "e60f72e9-2ea3-4b6d-86ec-2e1bddbe9fc9"
+  },
+  {
+    "timestamp": "2026-03-03T12:58:52.547Z",
+    "context": "Bid submission for 260303B8N1",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260303B8N1",
+    "bidType": "HIGH",
+    "bidPrice": 137280,
+    "quoteId": "e60f72e9-2ea3-4b6d-86ec-2e1bddbe9fc9"
+  },
+  {
+    "timestamp": "2026-03-03T12:58:52.784Z",
+    "context": "Bid submission for 260303B8N1",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260303B8N1",
+    "bidType": "HIGH",
+    "bidPrice": 137280,
+    "quoteId": "e60f72e9-2ea3-4b6d-86ec-2e1bddbe9fc9"
+  },
+  {
+    "timestamp": "2026-03-03T12:58:53.007Z",
+    "context": "Bid submission for 260303B8N1",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260303B8N1",
+    "bidType": "HIGH",
+    "bidPrice": 137280,
+    "quoteId": "e60f72e9-2ea3-4b6d-86ec-2e1bddbe9fc9"
+  },
+  {
+    "timestamp": "2026-03-03T12:58:53.177Z",
+    "context": "Bid submission for 260303B8N1",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260303B8N1",
+    "bidType": "HIGH",
+    "bidPrice": 137280,
+    "quoteId": "e60f72e9-2ea3-4b6d-86ec-2e1bddbe9fc9"
+  },
+  {
+    "timestamp": "2026-03-03T12:58:53.434Z",
+    "context": "Bid submission for 260303B8N1",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260303B8N1",
+    "bidType": "HIGH",
+    "bidPrice": 137280,
+    "quoteId": "e60f72e9-2ea3-4b6d-86ec-2e1bddbe9fc9"
+  },
+  {
+    "timestamp": "2026-03-03T12:58:53.675Z",
+    "context": "Bid submission for 260303B8N1",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260303B8N1",
+    "bidType": "HIGH",
+    "bidPrice": 137280,
+    "quoteId": "e60f72e9-2ea3-4b6d-86ec-2e1bddbe9fc9"
+  },
+  {
+    "timestamp": "2026-03-03T12:58:53.764Z",
+    "context": "Bid submission for 260303B8N1",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260303B8N1",
+    "bidType": "HIGH",
+    "bidPrice": 137280,
+    "quoteId": "e60f72e9-2ea3-4b6d-86ec-2e1bddbe9fc9"
+  },
+  {
+    "timestamp": "2026-03-03T12:58:54.020Z",
+    "context": "Bid submission for 260303B8N1",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260303B8N1",
+    "bidType": "HIGH",
+    "bidPrice": 137280,
+    "quoteId": "e60f72e9-2ea3-4b6d-86ec-2e1bddbe9fc9"
+  },
+  {
+    "timestamp": "2026-03-03T12:58:54.242Z",
+    "context": "Bid submission for 260303B8N1",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260303B8N1",
+    "bidType": "HIGH",
+    "bidPrice": 137280,
+    "quoteId": "e60f72e9-2ea3-4b6d-86ec-2e1bddbe9fc9"
+  },
+  {
+    "timestamp": "2026-03-03T12:58:54.376Z",
+    "context": "Bid submission for 260303B8N1",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260303B8N1",
+    "bidType": "HIGH",
+    "bidPrice": 137280,
+    "quoteId": "e60f72e9-2ea3-4b6d-86ec-2e1bddbe9fc9"
+  },
+  {
+    "timestamp": "2026-03-03T12:58:54.603Z",
+    "context": "Bid submission for 260303B8N1",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260303B8N1",
+    "bidType": "HIGH",
+    "bidPrice": 137280,
+    "quoteId": "e60f72e9-2ea3-4b6d-86ec-2e1bddbe9fc9"
+  },
+  {
+    "timestamp": "2026-03-03T12:58:54.820Z",
+    "context": "Bid submission for 260303B8N1",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260303B8N1",
+    "bidType": "HIGH",
+    "bidPrice": 137280,
+    "quoteId": "e60f72e9-2ea3-4b6d-86ec-2e1bddbe9fc9"
+  },
+  {
+    "timestamp": "2026-03-03T12:58:55.015Z",
+    "context": "Bid submission for 260303B8N1",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260303B8N1",
+    "bidType": "HIGH",
+    "bidPrice": 137280,
+    "quoteId": "e60f72e9-2ea3-4b6d-86ec-2e1bddbe9fc9"
+  },
+  {
+    "timestamp": "2026-03-03T12:58:55.254Z",
+    "context": "Bid submission for 260303B8N1",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260303B8N1",
+    "bidType": "HIGH",
+    "bidPrice": 137280,
+    "quoteId": "e60f72e9-2ea3-4b6d-86ec-2e1bddbe9fc9"
+  },
+  {
+    "timestamp": "2026-03-03T12:58:55.476Z",
+    "context": "Bid submission for 260303B8N1",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260303B8N1",
+    "bidType": "HIGH",
+    "bidPrice": 137280,
+    "quoteId": "e60f72e9-2ea3-4b6d-86ec-2e1bddbe9fc9"
+  },
+  {
+    "timestamp": "2026-03-03T12:58:55.628Z",
+    "context": "Bid submission for 260303B8N1",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260303B8N1",
+    "bidType": "HIGH",
+    "bidPrice": 137280,
+    "quoteId": "e60f72e9-2ea3-4b6d-86ec-2e1bddbe9fc9"
+  },
+  {
+    "timestamp": "2026-03-03T12:58:55.867Z",
+    "context": "Bid submission for 260303B8N1",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260303B8N1",
+    "bidType": "HIGH",
+    "bidPrice": 137280,
+    "quoteId": "e60f72e9-2ea3-4b6d-86ec-2e1bddbe9fc9"
+  },
+  {
+    "timestamp": "2026-03-03T12:58:56.092Z",
+    "context": "Bid submission for 260303B8N1",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260303B8N1",
+    "bidType": "HIGH",
+    "bidPrice": 137280,
+    "quoteId": "e60f72e9-2ea3-4b6d-86ec-2e1bddbe9fc9"
+  },
+  {
+    "timestamp": "2026-03-03T12:58:56.233Z",
+    "context": "Bid submission for 260303B8N1",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260303B8N1",
+    "bidType": "HIGH",
+    "bidPrice": 137280,
+    "quoteId": "e60f72e9-2ea3-4b6d-86ec-2e1bddbe9fc9"
+  },
+  {
+    "timestamp": "2026-03-03T12:58:56.461Z",
+    "context": "Bid submission for 260303B8N1",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260303B8N1",
+    "bidType": "HIGH",
+    "bidPrice": 137280,
+    "quoteId": "e60f72e9-2ea3-4b6d-86ec-2e1bddbe9fc9"
+  },
+  {
+    "timestamp": "2026-03-03T12:58:56.675Z",
+    "context": "Bid submission for 260303B8N1",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260303B8N1",
+    "bidType": "HIGH",
+    "bidPrice": 137280,
+    "quoteId": "e60f72e9-2ea3-4b6d-86ec-2e1bddbe9fc9"
+  }
+]

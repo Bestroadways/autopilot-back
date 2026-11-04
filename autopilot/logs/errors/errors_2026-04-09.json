@@ -1,0 +1,788 @@
+[
+  {
+    "timestamp": "2026-04-09T10:49:58.701Z",
+    "context": "Fetching bidding data for 2604091BX9",
+    "error": {
+      "message": "socket hang up",
+      "stack": "Error: socket hang up\n    at AxiosError.from (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:899:14)\n    at RedirectableRequest.handleRequestError (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3228:25)\n    at RedirectableRequest.emit (node:events:518:28)\n    at eventHandlers.<computed> (D:\\LIVE_iis\\spot.bidding\\node_modules\\follow-redirects\\index.js:49:24)\n    at ClientRequest.emit (node:events:518:28)\n    at emitErrorEvent (node:_http_client:104:11)\n    at TLSSocket.socketCloseListener (node:_http_client:491:7)\n    at TLSSocket.emit (node:events:530:35)\n    at node:net:346:12\n    at TCP.done (node:_tls_wrap:650:7)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at async fetchBiddingData (D:\\LIVE_iis\\spot.bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid (D:\\LIVE_iis\\spot.bidding\\server.js:1921:25)",
+      "code": "ECONNRESET"
+    }
+  },
+  {
+    "timestamp": "2026-04-09T14:22:52.005Z",
+    "context": "Fetching quote details for 260409N3Z6",
+    "error": {
+      "message": "socket hang up",
+      "stack": "Error: socket hang up\n    at AxiosError.from (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:899:14)\n    at RedirectableRequest.handleRequestError (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3228:25)\n    at RedirectableRequest.emit (node:events:518:28)\n    at eventHandlers.<computed> (D:\\LIVE_iis\\spot.bidding\\node_modules\\follow-redirects\\index.js:49:24)\n    at ClientRequest.emit (node:events:518:28)\n    at emitErrorEvent (node:_http_client:104:11)\n    at TLSSocket.socketCloseListener (node:_http_client:491:7)\n    at TLSSocket.emit (node:events:530:35)\n    at node:net:346:12\n    at TCP.done (node:_tls_wrap:650:7)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at async fetchQuoteDetails (D:\\LIVE_iis\\spot.bidding\\server.js:1666:24)",
+      "code": "ECONNRESET"
+    }
+  },
+  {
+    "timestamp": "2026-04-09T16:04:48.338Z",
+    "context": "Bid submission for 2604093ILG",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\spot.bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\spot.bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Quote can only be reduced by given Cost Reduction Rate"
+      }
+    },
+    "enquiryKey": "2604093ILG",
+    "bidType": "MEDIUM",
+    "bidPrice": 24574,
+    "quoteId": "77ca94b4-3799-4f78-8e74-e77231ba7153"
+  },
+  {
+    "timestamp": "2026-04-09T16:04:48.785Z",
+    "context": "Bid submission for 2604093ILG",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\spot.bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\spot.bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Quote can only be reduced by given Cost Reduction Rate"
+      }
+    },
+    "enquiryKey": "2604093ILG",
+    "bidType": "MEDIUM",
+    "bidPrice": 24574,
+    "quoteId": "77ca94b4-3799-4f78-8e74-e77231ba7153"
+  },
+  {
+    "timestamp": "2026-04-09T16:04:49.335Z",
+    "context": "Bid submission for 2604093ILG",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\spot.bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\spot.bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Quote can only be reduced by given Cost Reduction Rate"
+      }
+    },
+    "enquiryKey": "2604093ILG",
+    "bidType": "MEDIUM",
+    "bidPrice": 24574,
+    "quoteId": "77ca94b4-3799-4f78-8e74-e77231ba7153"
+  },
+  {
+    "timestamp": "2026-04-09T16:04:49.648Z",
+    "context": "Bid submission for 2604093ILG",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\spot.bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\spot.bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Quote can only be reduced by given Cost Reduction Rate"
+      }
+    },
+    "enquiryKey": "2604093ILG",
+    "bidType": "MEDIUM",
+    "bidPrice": 24574,
+    "quoteId": "77ca94b4-3799-4f78-8e74-e77231ba7153"
+  },
+  {
+    "timestamp": "2026-04-09T16:04:50.010Z",
+    "context": "Bid submission for 2604093ILG",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\spot.bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\spot.bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Quote can only be reduced by given Cost Reduction Rate"
+      }
+    },
+    "enquiryKey": "2604093ILG",
+    "bidType": "MEDIUM",
+    "bidPrice": 24574,
+    "quoteId": "77ca94b4-3799-4f78-8e74-e77231ba7153"
+  },
+  {
+    "timestamp": "2026-04-09T16:04:50.541Z",
+    "context": "Bid submission for 2604093ILG",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\spot.bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\spot.bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Quote can only be reduced by given Cost Reduction Rate"
+      }
+    },
+    "enquiryKey": "2604093ILG",
+    "bidType": "MEDIUM",
+    "bidPrice": 24574,
+    "quoteId": "77ca94b4-3799-4f78-8e74-e77231ba7153"
+  },
+  {
+    "timestamp": "2026-04-09T16:04:50.896Z",
+    "context": "Bid submission for 2604093ILG",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\spot.bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\spot.bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Quote can only be reduced by given Cost Reduction Rate"
+      }
+    },
+    "enquiryKey": "2604093ILG",
+    "bidType": "MEDIUM",
+    "bidPrice": 24574,
+    "quoteId": "77ca94b4-3799-4f78-8e74-e77231ba7153"
+  },
+  {
+    "timestamp": "2026-04-09T16:04:51.335Z",
+    "context": "Bid submission for 2604093ILG",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\spot.bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\spot.bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Quote can only be reduced by given Cost Reduction Rate"
+      }
+    },
+    "enquiryKey": "2604093ILG",
+    "bidType": "MEDIUM",
+    "bidPrice": 24574,
+    "quoteId": "77ca94b4-3799-4f78-8e74-e77231ba7153"
+  },
+  {
+    "timestamp": "2026-04-09T16:04:51.822Z",
+    "context": "Bid submission for 2604093ILG",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\spot.bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\spot.bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Quote can only be reduced by given Cost Reduction Rate"
+      }
+    },
+    "enquiryKey": "2604093ILG",
+    "bidType": "MEDIUM",
+    "bidPrice": 24574,
+    "quoteId": "77ca94b4-3799-4f78-8e74-e77231ba7153"
+  },
+  {
+    "timestamp": "2026-04-09T16:04:52.062Z",
+    "context": "Bid submission for 2604093ILG",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\spot.bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\spot.bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Quote can only be reduced by given Cost Reduction Rate"
+      }
+    },
+    "enquiryKey": "2604093ILG",
+    "bidType": "MEDIUM",
+    "bidPrice": 24574,
+    "quoteId": "77ca94b4-3799-4f78-8e74-e77231ba7153"
+  },
+  {
+    "timestamp": "2026-04-09T16:04:52.627Z",
+    "context": "Bid submission for 2604093ILG",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\spot.bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\spot.bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Quote can only be reduced by given Cost Reduction Rate"
+      }
+    },
+    "enquiryKey": "2604093ILG",
+    "bidType": "MEDIUM",
+    "bidPrice": 24574,
+    "quoteId": "77ca94b4-3799-4f78-8e74-e77231ba7153"
+  },
+  {
+    "timestamp": "2026-04-09T16:04:53.118Z",
+    "context": "Bid submission for 2604093ILG",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\spot.bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\spot.bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Quote can only be reduced by given Cost Reduction Rate"
+      }
+    },
+    "enquiryKey": "2604093ILG",
+    "bidType": "MEDIUM",
+    "bidPrice": 24574,
+    "quoteId": "77ca94b4-3799-4f78-8e74-e77231ba7153"
+  },
+  {
+    "timestamp": "2026-04-09T16:04:53.402Z",
+    "context": "Bid submission for 2604093ILG",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\spot.bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\spot.bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Quote can only be reduced by given Cost Reduction Rate"
+      }
+    },
+    "enquiryKey": "2604093ILG",
+    "bidType": "MEDIUM",
+    "bidPrice": 24574,
+    "quoteId": "77ca94b4-3799-4f78-8e74-e77231ba7153"
+  },
+  {
+    "timestamp": "2026-04-09T16:04:53.798Z",
+    "context": "Bid submission for 2604093ILG",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\spot.bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\spot.bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Quote can only be reduced by given Cost Reduction Rate"
+      }
+    },
+    "enquiryKey": "2604093ILG",
+    "bidType": "MEDIUM",
+    "bidPrice": 24574,
+    "quoteId": "77ca94b4-3799-4f78-8e74-e77231ba7153"
+  },
+  {
+    "timestamp": "2026-04-09T16:04:54.244Z",
+    "context": "Bid submission for 2604093ILG",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\spot.bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\spot.bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Quote can only be reduced by given Cost Reduction Rate"
+      }
+    },
+    "enquiryKey": "2604093ILG",
+    "bidType": "MEDIUM",
+    "bidPrice": 24574,
+    "quoteId": "77ca94b4-3799-4f78-8e74-e77231ba7153"
+  },
+  {
+    "timestamp": "2026-04-09T16:11:48.313Z",
+    "context": "Bid submission for 260409V839",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\spot.bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\spot.bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Quote can only be reduced by given Cost Reduction Rate"
+      }
+    },
+    "enquiryKey": "260409V839",
+    "bidType": "MEDIUM",
+    "bidPrice": 26808,
+    "quoteId": "5e2c4221-c7a4-4c5a-9e34-9dfa2f68e509"
+  },
+  {
+    "timestamp": "2026-04-09T16:11:48.670Z",
+    "context": "Bid submission for 260409V839",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\spot.bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\spot.bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Quote can only be reduced by given Cost Reduction Rate"
+      }
+    },
+    "enquiryKey": "260409V839",
+    "bidType": "MEDIUM",
+    "bidPrice": 26808,
+    "quoteId": "5e2c4221-c7a4-4c5a-9e34-9dfa2f68e509"
+  },
+  {
+    "timestamp": "2026-04-09T16:11:49.047Z",
+    "context": "Bid submission for 260409V839",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\spot.bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\spot.bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Quote can only be reduced by given Cost Reduction Rate"
+      }
+    },
+    "enquiryKey": "260409V839",
+    "bidType": "MEDIUM",
+    "bidPrice": 26808,
+    "quoteId": "5e2c4221-c7a4-4c5a-9e34-9dfa2f68e509"
+  },
+  {
+    "timestamp": "2026-04-09T16:11:49.347Z",
+    "context": "Bid submission for 260409V839",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\spot.bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\spot.bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Quote can only be reduced by given Cost Reduction Rate"
+      }
+    },
+    "enquiryKey": "260409V839",
+    "bidType": "MEDIUM",
+    "bidPrice": 26808,
+    "quoteId": "5e2c4221-c7a4-4c5a-9e34-9dfa2f68e509"
+  },
+  {
+    "timestamp": "2026-04-09T16:11:49.696Z",
+    "context": "Bid submission for 260409V839",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\spot.bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\spot.bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Quote can only be reduced by given Cost Reduction Rate"
+      }
+    },
+    "enquiryKey": "260409V839",
+    "bidType": "MEDIUM",
+    "bidPrice": 26808,
+    "quoteId": "5e2c4221-c7a4-4c5a-9e34-9dfa2f68e509"
+  },
+  {
+    "timestamp": "2026-04-09T16:11:50.054Z",
+    "context": "Bid submission for 260409V839",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\spot.bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\spot.bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Quote can only be reduced by given Cost Reduction Rate"
+      }
+    },
+    "enquiryKey": "260409V839",
+    "bidType": "MEDIUM",
+    "bidPrice": 26808,
+    "quoteId": "5e2c4221-c7a4-4c5a-9e34-9dfa2f68e509"
+  },
+  {
+    "timestamp": "2026-04-09T16:11:50.177Z",
+    "context": "Bid submission for 260409V839",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\spot.bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\spot.bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Quote can only be reduced by given Cost Reduction Rate"
+      }
+    },
+    "enquiryKey": "260409V839",
+    "bidType": "MEDIUM",
+    "bidPrice": 26808,
+    "quoteId": "5e2c4221-c7a4-4c5a-9e34-9dfa2f68e509"
+  },
+  {
+    "timestamp": "2026-04-09T16:11:50.605Z",
+    "context": "Bid submission for 260409V839",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\spot.bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\spot.bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Quote can only be reduced by given Cost Reduction Rate"
+      }
+    },
+    "enquiryKey": "260409V839",
+    "bidType": "MEDIUM",
+    "bidPrice": 26808,
+    "quoteId": "5e2c4221-c7a4-4c5a-9e34-9dfa2f68e509"
+  },
+  {
+    "timestamp": "2026-04-09T16:11:52.299Z",
+    "context": "Bid submission for 260409V839",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\spot.bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\spot.bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Quote can only be reduced by given Cost Reduction Rate"
+      }
+    },
+    "enquiryKey": "260409V839",
+    "bidType": "MEDIUM",
+    "bidPrice": 26808,
+    "quoteId": "5e2c4221-c7a4-4c5a-9e34-9dfa2f68e509"
+  },
+  {
+    "timestamp": "2026-04-09T16:11:52.540Z",
+    "context": "Bid submission for 260409V839",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\spot.bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\spot.bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Quote can only be reduced by given Cost Reduction Rate"
+      }
+    },
+    "enquiryKey": "260409V839",
+    "bidType": "MEDIUM",
+    "bidPrice": 26808,
+    "quoteId": "5e2c4221-c7a4-4c5a-9e34-9dfa2f68e509"
+  },
+  {
+    "timestamp": "2026-04-09T16:11:52.872Z",
+    "context": "Bid submission for 260409V839",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\spot.bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\spot.bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Quote can only be reduced by given Cost Reduction Rate"
+      }
+    },
+    "enquiryKey": "260409V839",
+    "bidType": "MEDIUM",
+    "bidPrice": 26808,
+    "quoteId": "5e2c4221-c7a4-4c5a-9e34-9dfa2f68e509"
+  },
+  {
+    "timestamp": "2026-04-09T16:11:53.256Z",
+    "context": "Bid submission for 260409V839",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\spot.bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\spot.bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Quote can only be reduced by given Cost Reduction Rate"
+      }
+    },
+    "enquiryKey": "260409V839",
+    "bidType": "MEDIUM",
+    "bidPrice": 26808,
+    "quoteId": "5e2c4221-c7a4-4c5a-9e34-9dfa2f68e509"
+  },
+  {
+    "timestamp": "2026-04-09T16:11:53.528Z",
+    "context": "Bid submission for 260409V839",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\spot.bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\spot.bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Quote can only be reduced by given Cost Reduction Rate"
+      }
+    },
+    "enquiryKey": "260409V839",
+    "bidType": "MEDIUM",
+    "bidPrice": 26808,
+    "quoteId": "5e2c4221-c7a4-4c5a-9e34-9dfa2f68e509"
+  },
+  {
+    "timestamp": "2026-04-09T16:11:53.881Z",
+    "context": "Bid submission for 260409V839",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\spot.bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\spot.bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Quote can only be reduced by given Cost Reduction Rate"
+      }
+    },
+    "enquiryKey": "260409V839",
+    "bidType": "MEDIUM",
+    "bidPrice": 26808,
+    "quoteId": "5e2c4221-c7a4-4c5a-9e34-9dfa2f68e509"
+  },
+  {
+    "timestamp": "2026-04-09T16:11:54.211Z",
+    "context": "Bid submission for 260409V839",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\spot.bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\spot.bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Quote can only be reduced by given Cost Reduction Rate"
+      }
+    },
+    "enquiryKey": "260409V839",
+    "bidType": "MEDIUM",
+    "bidPrice": 26808,
+    "quoteId": "5e2c4221-c7a4-4c5a-9e34-9dfa2f68e509"
+  },
+  {
+    "timestamp": "2026-04-09T16:11:54.359Z",
+    "context": "Bid submission for 260409V839",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\spot.bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\spot.bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Quote can only be reduced by given Cost Reduction Rate"
+      }
+    },
+    "enquiryKey": "260409V839",
+    "bidType": "MEDIUM",
+    "bidPrice": 26808,
+    "quoteId": "5e2c4221-c7a4-4c5a-9e34-9dfa2f68e509"
+  },
+  {
+    "timestamp": "2026-04-09T16:11:54.741Z",
+    "context": "Bid submission for 260409V839",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\spot.bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\spot.bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Quote can only be reduced by given Cost Reduction Rate"
+      }
+    },
+    "enquiryKey": "260409V839",
+    "bidType": "MEDIUM",
+    "bidPrice": 26808,
+    "quoteId": "5e2c4221-c7a4-4c5a-9e34-9dfa2f68e509"
+  },
+  {
+    "timestamp": "2026-04-09T16:11:55.291Z",
+    "context": "Bid submission for 260409V839",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\spot.bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\spot.bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid (D:\\LIVE_iis\\spot.bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Quote can only be reduced by given Cost Reduction Rate"
+      }
+    },
+    "enquiryKey": "260409V839",
+    "bidType": "MEDIUM",
+    "bidPrice": 26808,
+    "quoteId": "5e2c4221-c7a4-4c5a-9e34-9dfa2f68e509"
+  },
+  {
+    "timestamp": "2026-04-09T16:13:48.817Z",
+    "context": "Bid submission for 260409W41M",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\spot.bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\spot.bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Quote can only be reduced by given Cost Reduction Rate"
+      }
+    },
+    "enquiryKey": "260409W41M",
+    "bidType": "MEDIUM",
+    "bidPrice": 29042,
+    "quoteId": "0c9a97ea-6628-4a64-8209-3813e5f5da23"
+  },
+  {
+    "timestamp": "2026-04-09T16:13:49.247Z",
+    "context": "Bid submission for 260409W41M",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\spot.bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\spot.bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Quote can only be reduced by given Cost Reduction Rate"
+      }
+    },
+    "enquiryKey": "260409W41M",
+    "bidType": "MEDIUM",
+    "bidPrice": 29042,
+    "quoteId": "0c9a97ea-6628-4a64-8209-3813e5f5da23"
+  },
+  {
+    "timestamp": "2026-04-09T16:13:49.812Z",
+    "context": "Bid submission for 260409W41M",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\spot.bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\spot.bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Quote can only be reduced by given Cost Reduction Rate"
+      }
+    },
+    "enquiryKey": "260409W41M",
+    "bidType": "MEDIUM",
+    "bidPrice": 29042,
+    "quoteId": "0c9a97ea-6628-4a64-8209-3813e5f5da23"
+  },
+  {
+    "timestamp": "2026-04-09T16:13:50.017Z",
+    "context": "Bid submission for 260409W41M",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\spot.bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\spot.bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Quote can only be reduced by given Cost Reduction Rate"
+      }
+    },
+    "enquiryKey": "260409W41M",
+    "bidType": "MEDIUM",
+    "bidPrice": 29042,
+    "quoteId": "0c9a97ea-6628-4a64-8209-3813e5f5da23"
+  },
+  {
+    "timestamp": "2026-04-09T16:13:50.398Z",
+    "context": "Bid submission for 260409W41M",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\spot.bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\spot.bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Quote can only be reduced by given Cost Reduction Rate"
+      }
+    },
+    "enquiryKey": "260409W41M",
+    "bidType": "MEDIUM",
+    "bidPrice": 29042,
+    "quoteId": "0c9a97ea-6628-4a64-8209-3813e5f5da23"
+  },
+  {
+    "timestamp": "2026-04-09T16:13:50.782Z",
+    "context": "Bid submission for 260409W41M",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\spot.bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\spot.bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Quote can only be reduced by given Cost Reduction Rate"
+      }
+    },
+    "enquiryKey": "260409W41M",
+    "bidType": "MEDIUM",
+    "bidPrice": 29042,
+    "quoteId": "0c9a97ea-6628-4a64-8209-3813e5f5da23"
+  },
+  {
+    "timestamp": "2026-04-09T16:13:51.136Z",
+    "context": "Bid submission for 260409W41M",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\spot.bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\spot.bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Quote can only be reduced by given Cost Reduction Rate"
+      }
+    },
+    "enquiryKey": "260409W41M",
+    "bidType": "MEDIUM",
+    "bidPrice": 29042,
+    "quoteId": "0c9a97ea-6628-4a64-8209-3813e5f5da23"
+  },
+  {
+    "timestamp": "2026-04-09T16:13:51.489Z",
+    "context": "Bid submission for 260409W41M",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\spot.bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\spot.bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Quote can only be reduced by given Cost Reduction Rate"
+      }
+    },
+    "enquiryKey": "260409W41M",
+    "bidType": "MEDIUM",
+    "bidPrice": 29042,
+    "quoteId": "0c9a97ea-6628-4a64-8209-3813e5f5da23"
+  },
+  {
+    "timestamp": "2026-04-09T16:13:53.250Z",
+    "context": "Bid submission for 260409W41M",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\spot.bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\spot.bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Quote can only be reduced by given Cost Reduction Rate"
+      }
+    },
+    "enquiryKey": "260409W41M",
+    "bidType": "MEDIUM",
+    "bidPrice": 29042,
+    "quoteId": "0c9a97ea-6628-4a64-8209-3813e5f5da23"
+  },
+  {
+    "timestamp": "2026-04-09T16:13:53.502Z",
+    "context": "Bid submission for 260409W41M",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\spot.bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\spot.bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Quote can only be reduced by given Cost Reduction Rate"
+      }
+    },
+    "enquiryKey": "260409W41M",
+    "bidType": "MEDIUM",
+    "bidPrice": 29042,
+    "quoteId": "0c9a97ea-6628-4a64-8209-3813e5f5da23"
+  },
+  {
+    "timestamp": "2026-04-09T16:13:54.178Z",
+    "context": "Bid submission for 260409W41M",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\spot.bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\spot.bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Quote can only be reduced by given Cost Reduction Rate"
+      }
+    },
+    "enquiryKey": "260409W41M",
+    "bidType": "MEDIUM",
+    "bidPrice": 29042,
+    "quoteId": "0c9a97ea-6628-4a64-8209-3813e5f5da23"
+  },
+  {
+    "timestamp": "2026-04-09T16:13:54.720Z",
+    "context": "Bid submission for 260409W41M",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\spot.bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\spot.bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Quote can only be reduced by given Cost Reduction Rate"
+      }
+    },
+    "enquiryKey": "260409W41M",
+    "bidType": "MEDIUM",
+    "bidPrice": 29042,
+    "quoteId": "0c9a97ea-6628-4a64-8209-3813e5f5da23"
+  },
+  {
+    "timestamp": "2026-04-09T16:13:54.966Z",
+    "context": "Bid submission for 260409W41M",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\spot.bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\spot.bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Quote can only be reduced by given Cost Reduction Rate"
+      }
+    },
+    "enquiryKey": "260409W41M",
+    "bidType": "MEDIUM",
+    "bidPrice": 29042,
+    "quoteId": "0c9a97ea-6628-4a64-8209-3813e5f5da23"
+  },
+  {
+    "timestamp": "2026-04-09T16:13:55.417Z",
+    "context": "Bid submission for 260409W41M",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\spot.bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\spot.bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Quote can only be reduced by given Cost Reduction Rate"
+      }
+    },
+    "enquiryKey": "260409W41M",
+    "bidType": "MEDIUM",
+    "bidPrice": 29042,
+    "quoteId": "0c9a97ea-6628-4a64-8209-3813e5f5da23"
+  },
+  {
+    "timestamp": "2026-04-09T16:13:55.862Z",
+    "context": "Bid submission for 260409W41M",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\spot.bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\spot.bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid (D:\\LIVE_iis\\spot.bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Quote can only be reduced by given Cost Reduction Rate"
+      }
+    },
+    "enquiryKey": "260409W41M",
+    "bidType": "MEDIUM",
+    "bidPrice": 29042,
+    "quoteId": "0c9a97ea-6628-4a64-8209-3813e5f5da23"
+  }
+]

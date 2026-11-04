@@ -1,0 +1,674 @@
+[
+  {
+    "timestamp": "2026-07-27T06:59:51.262Z",
+    "context": "Bid submission for 260727FXIL",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1964:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Cannot Submit Quote either the enquiry is closed or you have reached maximum revision limit"
+      }
+    },
+    "enquiryKey": "260727FXIL",
+    "bidType": "HIGH",
+    "bidPrice": 72284,
+    "quoteId": "3ec1c5d3-b51d-4a91-8b5c-f6ce6d46d40e"
+  },
+  {
+    "timestamp": "2026-07-27T06:59:52.191Z",
+    "context": "Bid submission for 260727FXIL",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1964:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Cannot Submit Quote either the enquiry is closed or you have reached maximum revision limit"
+      }
+    },
+    "enquiryKey": "260727FXIL",
+    "bidType": "HIGH",
+    "bidPrice": 72284,
+    "quoteId": "3ec1c5d3-b51d-4a91-8b5c-f6ce6d46d40e"
+  },
+  {
+    "timestamp": "2026-07-27T06:59:52.789Z",
+    "context": "Bid submission for 260727FXIL",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1964:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Cannot Submit Quote either the enquiry is closed or you have reached maximum revision limit"
+      }
+    },
+    "enquiryKey": "260727FXIL",
+    "bidType": "HIGH",
+    "bidPrice": 72284,
+    "quoteId": "3ec1c5d3-b51d-4a91-8b5c-f6ce6d46d40e"
+  },
+  {
+    "timestamp": "2026-07-27T06:59:53.195Z",
+    "context": "Bid submission for 260727FXIL",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1964:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Cannot Submit Quote either the enquiry is closed or you have reached maximum revision limit"
+      }
+    },
+    "enquiryKey": "260727FXIL",
+    "bidType": "HIGH",
+    "bidPrice": 72284,
+    "quoteId": "3ec1c5d3-b51d-4a91-8b5c-f6ce6d46d40e"
+  },
+  {
+    "timestamp": "2026-07-27T06:59:53.814Z",
+    "context": "Bid submission for 260727FXIL",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1964:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Cannot Submit Quote either the enquiry is closed or you have reached maximum revision limit"
+      }
+    },
+    "enquiryKey": "260727FXIL",
+    "bidType": "HIGH",
+    "bidPrice": 72284,
+    "quoteId": "3ec1c5d3-b51d-4a91-8b5c-f6ce6d46d40e"
+  },
+  {
+    "timestamp": "2026-07-27T06:59:54.380Z",
+    "context": "Bid submission for 260727FXIL",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1964:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Cannot Submit Quote either the enquiry is closed or you have reached maximum revision limit"
+      }
+    },
+    "enquiryKey": "260727FXIL",
+    "bidType": "HIGH",
+    "bidPrice": 72284,
+    "quoteId": "3ec1c5d3-b51d-4a91-8b5c-f6ce6d46d40e"
+  },
+  {
+    "timestamp": "2026-07-27T06:59:54.788Z",
+    "context": "Bid submission for 260727FXIL",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1978:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Cannot Submit Quote either the enquiry is closed or you have reached maximum revision limit"
+      }
+    },
+    "enquiryKey": "260727FXIL",
+    "bidType": "MEDIUM",
+    "bidPrice": 71060,
+    "quoteId": "3ec1c5d3-b51d-4a91-8b5c-f6ce6d46d40e"
+  },
+  {
+    "timestamp": "2026-07-27T06:59:55.388Z",
+    "context": "Bid submission for 260727FXIL",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1978:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Cannot Submit Quote either the enquiry is closed or you have reached maximum revision limit"
+      }
+    },
+    "enquiryKey": "260727FXIL",
+    "bidType": "MEDIUM",
+    "bidPrice": 71060,
+    "quoteId": "3ec1c5d3-b51d-4a91-8b5c-f6ce6d46d40e"
+  },
+  {
+    "timestamp": "2026-07-27T06:59:56.112Z",
+    "context": "Bid submission for 260727FXIL",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1978:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Cannot Submit Quote either the enquiry is closed or you have reached maximum revision limit"
+      }
+    },
+    "enquiryKey": "260727FXIL",
+    "bidType": "MEDIUM",
+    "bidPrice": 71060,
+    "quoteId": "3ec1c5d3-b51d-4a91-8b5c-f6ce6d46d40e"
+  },
+  {
+    "timestamp": "2026-07-27T06:59:56.595Z",
+    "context": "Bid submission for 260727FXIL",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1964:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Cannot Submit Quote either the enquiry is closed or you have reached maximum revision limit"
+      }
+    },
+    "enquiryKey": "260727FXIL",
+    "bidType": "HIGH",
+    "bidPrice": 72284,
+    "quoteId": "3ec1c5d3-b51d-4a91-8b5c-f6ce6d46d40e"
+  },
+  {
+    "timestamp": "2026-07-27T06:59:57.188Z",
+    "context": "Bid submission for 260727FXIL",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1964:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Cannot Submit Quote either the enquiry is closed or you have reached maximum revision limit"
+      }
+    },
+    "enquiryKey": "260727FXIL",
+    "bidType": "HIGH",
+    "bidPrice": 72284,
+    "quoteId": "3ec1c5d3-b51d-4a91-8b5c-f6ce6d46d40e"
+  },
+  {
+    "timestamp": "2026-07-27T06:59:57.841Z",
+    "context": "Bid submission for 260727FXIL",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1964:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Cannot Submit Quote either the enquiry is closed or you have reached maximum revision limit"
+      }
+    },
+    "enquiryKey": "260727FXIL",
+    "bidType": "HIGH",
+    "bidPrice": 72284,
+    "quoteId": "3ec1c5d3-b51d-4a91-8b5c-f6ce6d46d40e"
+  },
+  {
+    "timestamp": "2026-07-27T06:59:58.165Z",
+    "context": "Bid submission for 260727FXIL",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1964:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Cannot Submit Quote either the enquiry is closed or you have reached maximum revision limit"
+      }
+    },
+    "enquiryKey": "260727FXIL",
+    "bidType": "HIGH",
+    "bidPrice": 72284,
+    "quoteId": "3ec1c5d3-b51d-4a91-8b5c-f6ce6d46d40e"
+  },
+  {
+    "timestamp": "2026-07-27T06:59:58.962Z",
+    "context": "Bid submission for 260727FXIL",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1964:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Cannot Submit Quote either the enquiry is closed or you have reached maximum revision limit"
+      }
+    },
+    "enquiryKey": "260727FXIL",
+    "bidType": "HIGH",
+    "bidPrice": 72284,
+    "quoteId": "3ec1c5d3-b51d-4a91-8b5c-f6ce6d46d40e"
+  },
+  {
+    "timestamp": "2026-07-27T06:59:59.583Z",
+    "context": "Bid submission for 260727FXIL",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1964:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Cannot Submit Quote either the enquiry is closed or you have reached maximum revision limit"
+      }
+    },
+    "enquiryKey": "260727FXIL",
+    "bidType": "HIGH",
+    "bidPrice": 72284,
+    "quoteId": "3ec1c5d3-b51d-4a91-8b5c-f6ce6d46d40e"
+  },
+  {
+    "timestamp": "2026-07-27T07:00:00.053Z",
+    "context": "Bid submission for 260727FXIL",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid (/var/www/autopilot/server.js:1964:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Cannot Submit Quote either the enquiry is closed or you have reached maximum revision limit"
+      }
+    },
+    "enquiryKey": "260727FXIL",
+    "bidType": "HIGH",
+    "bidPrice": 72284,
+    "quoteId": "3ec1c5d3-b51d-4a91-8b5c-f6ce6d46d40e"
+  },
+  {
+    "timestamp": "2026-07-27T07:00:00.686Z",
+    "context": "Bid submission for 260727FXIL",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid (/var/www/autopilot/server.js:1964:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Cannot Submit Quote either the enquiry is closed or you have reached maximum revision limit"
+      }
+    },
+    "enquiryKey": "260727FXIL",
+    "bidType": "HIGH",
+    "bidPrice": 72284,
+    "quoteId": "3ec1c5d3-b51d-4a91-8b5c-f6ce6d46d40e"
+  },
+  {
+    "timestamp": "2026-07-27T07:00:01.460Z",
+    "context": "Bid submission for 260727FXIL",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid (/var/www/autopilot/server.js:1964:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Cannot Submit Quote either the enquiry is closed or you have reached maximum revision limit"
+      }
+    },
+    "enquiryKey": "260727FXIL",
+    "bidType": "HIGH",
+    "bidPrice": 72284,
+    "quoteId": "3ec1c5d3-b51d-4a91-8b5c-f6ce6d46d40e"
+  },
+  {
+    "timestamp": "2026-07-27T07:00:01.953Z",
+    "context": "Bid submission for 260727FXIL",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid (/var/www/autopilot/server.js:1990:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Cannot Submit Quote either the enquiry is closed or you have reached maximum revision limit"
+      }
+    },
+    "enquiryKey": "260727FXIL",
+    "bidType": "LOW",
+    "bidPrice": 70448,
+    "quoteId": "3ec1c5d3-b51d-4a91-8b5c-f6ce6d46d40e"
+  },
+  {
+    "timestamp": "2026-07-27T07:00:03.046Z",
+    "context": "Bid submission for 260727FXIL",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid (/var/www/autopilot/server.js:1990:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Cannot Submit Quote either the enquiry is closed or you have reached maximum revision limit"
+      }
+    },
+    "enquiryKey": "260727FXIL",
+    "bidType": "LOW",
+    "bidPrice": 70448,
+    "quoteId": "3ec1c5d3-b51d-4a91-8b5c-f6ce6d46d40e"
+  },
+  {
+    "timestamp": "2026-07-27T07:00:03.904Z",
+    "context": "Bid submission for 260727FXIL",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid (/var/www/autopilot/server.js:1990:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Cannot Submit Quote either the enquiry is closed or you have reached maximum revision limit"
+      }
+    },
+    "enquiryKey": "260727FXIL",
+    "bidType": "LOW",
+    "bidPrice": 70448,
+    "quoteId": "3ec1c5d3-b51d-4a91-8b5c-f6ce6d46d40e"
+  },
+  {
+    "timestamp": "2026-07-27T07:04:51.017Z",
+    "context": "Bid submission for 260727GGHT",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1964:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Cannot Submit Quote either the enquiry is closed or you have reached maximum revision limit"
+      }
+    },
+    "enquiryKey": "260727GGHT",
+    "bidType": "HIGH",
+    "bidPrice": 79725,
+    "quoteId": "0c3def0e-f0ce-4def-b5a2-89a0c2f14628"
+  },
+  {
+    "timestamp": "2026-07-27T07:04:51.611Z",
+    "context": "Bid submission for 260727GGHT",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1964:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Cannot Submit Quote either the enquiry is closed or you have reached maximum revision limit"
+      }
+    },
+    "enquiryKey": "260727GGHT",
+    "bidType": "HIGH",
+    "bidPrice": 79725,
+    "quoteId": "0c3def0e-f0ce-4def-b5a2-89a0c2f14628"
+  },
+  {
+    "timestamp": "2026-07-27T07:04:52.054Z",
+    "context": "Bid submission for 260727GGHT",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1964:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Cannot Submit Quote either the enquiry is closed or you have reached maximum revision limit"
+      }
+    },
+    "enquiryKey": "260727GGHT",
+    "bidType": "HIGH",
+    "bidPrice": 79725,
+    "quoteId": "0c3def0e-f0ce-4def-b5a2-89a0c2f14628"
+  },
+  {
+    "timestamp": "2026-07-27T07:04:52.369Z",
+    "context": "Bid submission for 260727GGHT",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1964:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Cannot Submit Quote either the enquiry is closed or you have reached maximum revision limit"
+      }
+    },
+    "enquiryKey": "260727GGHT",
+    "bidType": "HIGH",
+    "bidPrice": 79725,
+    "quoteId": "0c3def0e-f0ce-4def-b5a2-89a0c2f14628"
+  },
+  {
+    "timestamp": "2026-07-27T07:04:52.928Z",
+    "context": "Bid submission for 260727GGHT",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1964:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Cannot Submit Quote either the enquiry is closed or you have reached maximum revision limit"
+      }
+    },
+    "enquiryKey": "260727GGHT",
+    "bidType": "HIGH",
+    "bidPrice": 79725,
+    "quoteId": "0c3def0e-f0ce-4def-b5a2-89a0c2f14628"
+  },
+  {
+    "timestamp": "2026-07-27T07:04:53.433Z",
+    "context": "Bid submission for 260727GGHT",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1964:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Cannot Submit Quote either the enquiry is closed or you have reached maximum revision limit"
+      }
+    },
+    "enquiryKey": "260727GGHT",
+    "bidType": "HIGH",
+    "bidPrice": 79725,
+    "quoteId": "0c3def0e-f0ce-4def-b5a2-89a0c2f14628"
+  },
+  {
+    "timestamp": "2026-07-27T07:04:53.727Z",
+    "context": "Bid submission for 260727GGHT",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1978:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Cannot Submit Quote either the enquiry is closed or you have reached maximum revision limit"
+      }
+    },
+    "enquiryKey": "260727GGHT",
+    "bidType": "MEDIUM",
+    "bidPrice": 78375,
+    "quoteId": "0c3def0e-f0ce-4def-b5a2-89a0c2f14628"
+  },
+  {
+    "timestamp": "2026-07-27T07:04:54.307Z",
+    "context": "Bid submission for 260727GGHT",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1978:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Cannot Submit Quote either the enquiry is closed or you have reached maximum revision limit"
+      }
+    },
+    "enquiryKey": "260727GGHT",
+    "bidType": "MEDIUM",
+    "bidPrice": 78375,
+    "quoteId": "0c3def0e-f0ce-4def-b5a2-89a0c2f14628"
+  },
+  {
+    "timestamp": "2026-07-27T07:04:54.768Z",
+    "context": "Bid submission for 260727GGHT",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1978:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Cannot Submit Quote either the enquiry is closed or you have reached maximum revision limit"
+      }
+    },
+    "enquiryKey": "260727GGHT",
+    "bidType": "MEDIUM",
+    "bidPrice": 78375,
+    "quoteId": "0c3def0e-f0ce-4def-b5a2-89a0c2f14628"
+  },
+  {
+    "timestamp": "2026-07-27T07:04:55.051Z",
+    "context": "Bid submission for 260727GGHT",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1978:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Cannot Submit Quote either the enquiry is closed or you have reached maximum revision limit"
+      }
+    },
+    "enquiryKey": "260727GGHT",
+    "bidType": "MEDIUM",
+    "bidPrice": 78375,
+    "quoteId": "0c3def0e-f0ce-4def-b5a2-89a0c2f14628"
+  },
+  {
+    "timestamp": "2026-07-27T07:04:55.703Z",
+    "context": "Bid submission for 260727GGHT",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1978:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Cannot Submit Quote either the enquiry is closed or you have reached maximum revision limit"
+      }
+    },
+    "enquiryKey": "260727GGHT",
+    "bidType": "MEDIUM",
+    "bidPrice": 78375,
+    "quoteId": "0c3def0e-f0ce-4def-b5a2-89a0c2f14628"
+  },
+  {
+    "timestamp": "2026-07-27T07:04:56.222Z",
+    "context": "Bid submission for 260727GGHT",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1978:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Cannot Submit Quote either the enquiry is closed or you have reached maximum revision limit"
+      }
+    },
+    "enquiryKey": "260727GGHT",
+    "bidType": "MEDIUM",
+    "bidPrice": 78375,
+    "quoteId": "0c3def0e-f0ce-4def-b5a2-89a0c2f14628"
+  },
+  {
+    "timestamp": "2026-07-27T07:04:56.486Z",
+    "context": "Bid submission for 260727GGHT",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1978:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Cannot Submit Quote either the enquiry is closed or you have reached maximum revision limit"
+      }
+    },
+    "enquiryKey": "260727GGHT",
+    "bidType": "MEDIUM",
+    "bidPrice": 78375,
+    "quoteId": "0c3def0e-f0ce-4def-b5a2-89a0c2f14628"
+  },
+  {
+    "timestamp": "2026-07-27T07:04:57.252Z",
+    "context": "Bid submission for 260727GGHT",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1978:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Cannot Submit Quote either the enquiry is closed or you have reached maximum revision limit"
+      }
+    },
+    "enquiryKey": "260727GGHT",
+    "bidType": "MEDIUM",
+    "bidPrice": 78375,
+    "quoteId": "0c3def0e-f0ce-4def-b5a2-89a0c2f14628"
+  },
+  {
+    "timestamp": "2026-07-27T07:04:57.830Z",
+    "context": "Bid submission for 260727GGHT",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1978:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Cannot Submit Quote either the enquiry is closed or you have reached maximum revision limit"
+      }
+    },
+    "enquiryKey": "260727GGHT",
+    "bidType": "MEDIUM",
+    "bidPrice": 78375,
+    "quoteId": "0c3def0e-f0ce-4def-b5a2-89a0c2f14628"
+  },
+  {
+    "timestamp": "2026-07-27T07:04:58.141Z",
+    "context": "Bid submission for 260727GGHT",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1964:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Cannot Submit Quote either the enquiry is closed or you have reached maximum revision limit"
+      }
+    },
+    "enquiryKey": "260727GGHT",
+    "bidType": "HIGH",
+    "bidPrice": 79725,
+    "quoteId": "0c3def0e-f0ce-4def-b5a2-89a0c2f14628"
+  },
+  {
+    "timestamp": "2026-07-27T07:04:58.715Z",
+    "context": "Bid submission for 260727GGHT",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1964:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Cannot Submit Quote either the enquiry is closed or you have reached maximum revision limit"
+      }
+    },
+    "enquiryKey": "260727GGHT",
+    "bidType": "HIGH",
+    "bidPrice": 79725,
+    "quoteId": "0c3def0e-f0ce-4def-b5a2-89a0c2f14628"
+  },
+  {
+    "timestamp": "2026-07-27T07:04:59.370Z",
+    "context": "Bid submission for 260727GGHT",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1964:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Cannot Submit Quote either the enquiry is closed or you have reached maximum revision limit"
+      }
+    },
+    "enquiryKey": "260727GGHT",
+    "bidType": "HIGH",
+    "bidPrice": 79725,
+    "quoteId": "0c3def0e-f0ce-4def-b5a2-89a0c2f14628"
+  },
+  {
+    "timestamp": "2026-07-27T07:04:59.683Z",
+    "context": "Bid submission for 260727GGHT",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid (/var/www/autopilot/server.js:1990:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Cannot Submit Quote either the enquiry is closed or you have reached maximum revision limit"
+      }
+    },
+    "enquiryKey": "260727GGHT",
+    "bidType": "LOW",
+    "bidPrice": 77700,
+    "quoteId": "0c3def0e-f0ce-4def-b5a2-89a0c2f14628"
+  },
+  {
+    "timestamp": "2026-07-27T07:05:00.308Z",
+    "context": "Bid submission for 260727GGHT",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid (/var/www/autopilot/server.js:1990:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Cannot Submit Quote either the enquiry is closed or you have reached maximum revision limit"
+      }
+    },
+    "enquiryKey": "260727GGHT",
+    "bidType": "LOW",
+    "bidPrice": 77700,
+    "quoteId": "0c3def0e-f0ce-4def-b5a2-89a0c2f14628"
+  },
+  {
+    "timestamp": "2026-07-27T07:05:00.825Z",
+    "context": "Bid submission for 260727GGHT",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid (/var/www/autopilot/server.js:1990:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Cannot Submit Quote either the enquiry is closed or you have reached maximum revision limit"
+      }
+    },
+    "enquiryKey": "260727GGHT",
+    "bidType": "LOW",
+    "bidPrice": 77700,
+    "quoteId": "0c3def0e-f0ce-4def-b5a2-89a0c2f14628"
+  }
+]

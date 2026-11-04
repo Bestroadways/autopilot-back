@@ -1,0 +1,1157 @@
+[
+  {
+    "timestamp": "2026-07-07T06:04:55.088Z",
+    "context": "Bid submission for 260707RSL6",
+    "error": {
+      "message": "timeout of 5000ms exceeded",
+      "stack": "AxiosError: timeout of 5000ms exceeded\n    at RedirectableRequest.handleRequestTimeout (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3265:16)\n    at RedirectableRequest.emit (node:events:517:28)\n    at Timeout.<anonymous> (/var/www/autopilot/node_modules/follow-redirects/index.js:221:12)\n    at listOnTimeout (node:internal/timers:569:17)\n    at process.processTimers (node:internal/timers:512:7)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1964:11)",
+      "code": "ECONNABORTED"
+    },
+    "enquiryKey": "260707RSL6",
+    "bidType": "HIGH",
+    "bidPrice": 138190,
+    "quoteId": "cdc254fb-0035-45b8-93f2-34bd5c50a658"
+  },
+  {
+    "timestamp": "2026-07-07T08:16:00.663Z",
+    "context": "Fetching bidding data for 260225J9BN",
+    "error": {
+      "message": "Request failed with status code 504",
+      "stack": "AxiosError: Request failed with status code 504\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_RESPONSE",
+      "response": "<html>\r\n<head><title>504 Gateway Time-out</title></head>\r\n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n"
+    }
+  },
+  {
+    "timestamp": "2026-07-07T08:22:57.313Z",
+    "context": "Fetching bidding data for 260707H28A",
+    "error": {
+      "message": "Request failed with status code 504",
+      "stack": "AxiosError: Request failed with status code 504\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_RESPONSE",
+      "response": "<html>\r\n<head><title>504 Gateway Time-out</title></head>\r\n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n"
+    }
+  },
+  {
+    "timestamp": "2026-07-07T08:46:51.768Z",
+    "context": "Bid submission for 260225J9BN",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1964:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260225J9BN",
+    "bidType": "HIGH",
+    "bidPrice": 170080,
+    "quoteId": "ae1ab915-3669-465f-b571-a956b8aeba74"
+  },
+  {
+    "timestamp": "2026-07-07T08:46:53.568Z",
+    "context": "Bid submission for 260225J9BN",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1964:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260225J9BN",
+    "bidType": "HIGH",
+    "bidPrice": 170080,
+    "quoteId": "ae1ab915-3669-465f-b571-a956b8aeba74"
+  },
+  {
+    "timestamp": "2026-07-07T08:46:53.889Z",
+    "context": "Fetching bidding data for 260225J9BN",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1981:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-07-07T08:46:53.907Z",
+    "context": "Fetching bidding data for 260225J9BN",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-07-07T08:46:53.967Z",
+    "context": "Fetching bidding data for 260225J9BN",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1967:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-07-07T08:46:54.033Z",
+    "context": "Fetching bidding data for 260225J9BN",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1967:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-07-07T08:46:54.062Z",
+    "context": "Bid submission for 260225J9BN",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1964:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260225J9BN",
+    "bidType": "HIGH",
+    "bidPrice": 170080,
+    "quoteId": "ae1ab915-3669-465f-b571-a956b8aeba74"
+  },
+  {
+    "timestamp": "2026-07-07T08:46:54.085Z",
+    "context": "Fetching bidding data for 260225J9BN",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1981:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-07-07T08:46:54.110Z",
+    "context": "Fetching bidding data for 260225J9BN",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-07-07T08:46:54.168Z",
+    "context": "Fetching bidding data for 260225J9BN",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1967:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-07-07T08:46:54.302Z",
+    "context": "Fetching bidding data for 260225J9BN",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-07-07T08:46:54.530Z",
+    "context": "Fetching bidding data for 260225J9BN",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-07-07T08:46:54.697Z",
+    "context": "Fetching bidding data for 260225J9BN",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-07-07T08:46:54.902Z",
+    "context": "Fetching bidding data for 260225J9BN",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-07-07T08:46:55.105Z",
+    "context": "Fetching bidding data for 260225J9BN",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-07-07T08:46:55.328Z",
+    "context": "Fetching bidding data for 260225J9BN",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-07-07T08:46:55.507Z",
+    "context": "Fetching bidding data for 260225J9BN",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-07-07T08:46:55.726Z",
+    "context": "Fetching bidding data for 260225J9BN",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-07-07T08:46:55.908Z",
+    "context": "Fetching bidding data for 260225J9BN",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-07-07T08:46:56.115Z",
+    "context": "Fetching bidding data for 260225J9BN",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-07-07T08:46:56.313Z",
+    "context": "Fetching bidding data for 260225J9BN",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-07-07T08:46:56.505Z",
+    "context": "Fetching bidding data for 260225J9BN",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-07-07T08:46:56.710Z",
+    "context": "Fetching bidding data for 260225J9BN",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-07-07T08:46:56.906Z",
+    "context": "Fetching bidding data for 260225J9BN",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-07-07T08:46:57.114Z",
+    "context": "Fetching bidding data for 260225J9BN",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-07-07T08:46:57.327Z",
+    "context": "Fetching bidding data for 260225J9BN",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-07-07T08:46:57.517Z",
+    "context": "Fetching bidding data for 260225J9BN",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-07-07T08:46:57.705Z",
+    "context": "Fetching bidding data for 260225J9BN",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-07-07T08:46:57.905Z",
+    "context": "Fetching bidding data for 260225J9BN",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-07-07T08:46:58.113Z",
+    "context": "Fetching bidding data for 260225J9BN",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-07-07T08:46:58.313Z",
+    "context": "Fetching bidding data for 260225J9BN",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-07-07T08:46:58.503Z",
+    "context": "Fetching bidding data for 260225J9BN",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-07-07T08:46:58.711Z",
+    "context": "Fetching bidding data for 260225J9BN",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-07-07T08:46:58.909Z",
+    "context": "Fetching bidding data for 260225J9BN",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-07-07T08:46:59.109Z",
+    "context": "Fetching bidding data for 260225J9BN",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-07-07T08:46:59.298Z",
+    "context": "Fetching bidding data for 260225J9BN",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-07-07T08:46:59.505Z",
+    "context": "Fetching bidding data for 260225J9BN",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-07-07T08:46:59.704Z",
+    "context": "Fetching bidding data for 260225J9BN",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-07-07T08:46:59.907Z",
+    "context": "Fetching bidding data for 260225J9BN",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-07-07T09:59:50.662Z",
+    "context": "Bid submission for 260707KCHB",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1964:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260707KCHB",
+    "bidType": "HIGH",
+    "bidPrice": 124371,
+    "quoteId": "6bf16cba-9fc0-4533-83d9-a1c09a2acd6a"
+  },
+  {
+    "timestamp": "2026-07-07T09:59:51.375Z",
+    "context": "Bid submission for 260707KCHB",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1964:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260707KCHB",
+    "bidType": "HIGH",
+    "bidPrice": 124371,
+    "quoteId": "6bf16cba-9fc0-4533-83d9-a1c09a2acd6a"
+  },
+  {
+    "timestamp": "2026-07-07T09:59:52.103Z",
+    "context": "Bid submission for 260707KCHB",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1964:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260707KCHB",
+    "bidType": "HIGH",
+    "bidPrice": 124371,
+    "quoteId": "6bf16cba-9fc0-4533-83d9-a1c09a2acd6a"
+  },
+  {
+    "timestamp": "2026-07-07T09:59:52.396Z",
+    "context": "Bid submission for 260707KCHB",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1964:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260707KCHB",
+    "bidType": "HIGH",
+    "bidPrice": 124371,
+    "quoteId": "6bf16cba-9fc0-4533-83d9-a1c09a2acd6a"
+  },
+  {
+    "timestamp": "2026-07-07T09:59:53.101Z",
+    "context": "Bid submission for 260707KCHB",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1964:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260707KCHB",
+    "bidType": "HIGH",
+    "bidPrice": 124371,
+    "quoteId": "6bf16cba-9fc0-4533-83d9-a1c09a2acd6a"
+  },
+  {
+    "timestamp": "2026-07-07T09:59:54.071Z",
+    "context": "Bid submission for 260707KCHB",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1964:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260707KCHB",
+    "bidType": "HIGH",
+    "bidPrice": 124371,
+    "quoteId": "6bf16cba-9fc0-4533-83d9-a1c09a2acd6a"
+  },
+  {
+    "timestamp": "2026-07-07T09:59:54.301Z",
+    "context": "Bid submission for 260707KCHB",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1964:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260707KCHB",
+    "bidType": "HIGH",
+    "bidPrice": 124371,
+    "quoteId": "6bf16cba-9fc0-4533-83d9-a1c09a2acd6a"
+  },
+  {
+    "timestamp": "2026-07-07T09:59:54.967Z",
+    "context": "Bid submission for 260707KCHB",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1964:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260707KCHB",
+    "bidType": "HIGH",
+    "bidPrice": 124371,
+    "quoteId": "6bf16cba-9fc0-4533-83d9-a1c09a2acd6a"
+  },
+  {
+    "timestamp": "2026-07-07T09:59:55.701Z",
+    "context": "Bid submission for 260707KCHB",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1964:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260707KCHB",
+    "bidType": "HIGH",
+    "bidPrice": 124371,
+    "quoteId": "6bf16cba-9fc0-4533-83d9-a1c09a2acd6a"
+  },
+  {
+    "timestamp": "2026-07-07T09:59:56.269Z",
+    "context": "Bid submission for 260707KCHB",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1964:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260707KCHB",
+    "bidType": "HIGH",
+    "bidPrice": 124371,
+    "quoteId": "6bf16cba-9fc0-4533-83d9-a1c09a2acd6a"
+  },
+  {
+    "timestamp": "2026-07-07T09:59:56.992Z",
+    "context": "Bid submission for 260707KCHB",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1964:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260707KCHB",
+    "bidType": "HIGH",
+    "bidPrice": 124371,
+    "quoteId": "6bf16cba-9fc0-4533-83d9-a1c09a2acd6a"
+  },
+  {
+    "timestamp": "2026-07-07T09:59:57.594Z",
+    "context": "Bid submission for 260707KCHB",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1964:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260707KCHB",
+    "bidType": "HIGH",
+    "bidPrice": 124371,
+    "quoteId": "6bf16cba-9fc0-4533-83d9-a1c09a2acd6a"
+  },
+  {
+    "timestamp": "2026-07-07T09:59:58.020Z",
+    "context": "Bid submission for 260707KCHB",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1964:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260707KCHB",
+    "bidType": "HIGH",
+    "bidPrice": 124371,
+    "quoteId": "6bf16cba-9fc0-4533-83d9-a1c09a2acd6a"
+  },
+  {
+    "timestamp": "2026-07-07T09:59:58.476Z",
+    "context": "Fetching bidding data for 260707KCHB",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1967:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-07-07T09:59:58.544Z",
+    "context": "Fetching bidding data for 260707KCHB",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-07-07T09:59:58.664Z",
+    "context": "Bid submission for 260707KCHB",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1964:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260707KCHB",
+    "bidType": "HIGH",
+    "bidPrice": 124371,
+    "quoteId": "6bf16cba-9fc0-4533-83d9-a1c09a2acd6a"
+  },
+  {
+    "timestamp": "2026-07-07T09:59:58.750Z",
+    "context": "Fetching bidding data for 260707KCHB",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-07-07T09:59:58.942Z",
+    "context": "Fetching bidding data for 260707KCHB",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-07-07T09:59:59.175Z",
+    "context": "Fetching bidding data for 260707KCHB",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-07-07T09:59:59.295Z",
+    "context": "Bid submission for 260707KCHB",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1964:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260707KCHB",
+    "bidType": "HIGH",
+    "bidPrice": 124371,
+    "quoteId": "6bf16cba-9fc0-4533-83d9-a1c09a2acd6a"
+  },
+  {
+    "timestamp": "2026-07-07T09:59:59.351Z",
+    "context": "Fetching bidding data for 260707KCHB",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-07-07T09:59:59.540Z",
+    "context": "Fetching bidding data for 260707KCHB",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-07-07T09:59:59.749Z",
+    "context": "Fetching bidding data for 260707KCHB",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-07-07T09:59:59.941Z",
+    "context": "Fetching bidding data for 260707KCHB",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-07-07T11:19:59.110Z",
+    "context": "Bid submission for 26070793U8",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1990:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Cannot Submit Quote either the enquiry is closed or you have reached maximum revision limit"
+      }
+    },
+    "enquiryKey": "26070793U8",
+    "bidType": "LOW",
+    "bidPrice": 80808,
+    "quoteId": "bd96a4e6-143b-473e-a45c-8e9e19355634"
+  },
+  {
+    "timestamp": "2026-07-07T11:19:59.735Z",
+    "context": "Bid submission for 26070793U8",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1990:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Cannot Submit Quote either the enquiry is closed or you have reached maximum revision limit"
+      }
+    },
+    "enquiryKey": "26070793U8",
+    "bidType": "LOW",
+    "bidPrice": 80808,
+    "quoteId": "bd96a4e6-143b-473e-a45c-8e9e19355634"
+  },
+  {
+    "timestamp": "2026-07-07T11:20:00.477Z",
+    "context": "Bid submission for 26070793U8",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid (/var/www/autopilot/server.js:1990:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Cannot Submit Quote either the enquiry is closed or you have reached maximum revision limit"
+      }
+    },
+    "enquiryKey": "26070793U8",
+    "bidType": "LOW",
+    "bidPrice": 80808,
+    "quoteId": "bd96a4e6-143b-473e-a45c-8e9e19355634"
+  },
+  {
+    "timestamp": "2026-07-07T11:52:51.013Z",
+    "context": "Bid submission for 260707QXFG",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1964:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260707QXFG",
+    "bidType": "HIGH",
+    "bidPrice": 116930,
+    "quoteId": "d48d60f5-4641-44b6-a6f5-32962e1baad8"
+  },
+  {
+    "timestamp": "2026-07-07T11:52:51.556Z",
+    "context": "Bid submission for 260707QXFG",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1964:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260707QXFG",
+    "bidType": "HIGH",
+    "bidPrice": 116930,
+    "quoteId": "d48d60f5-4641-44b6-a6f5-32962e1baad8"
+  },
+  {
+    "timestamp": "2026-07-07T11:52:52.186Z",
+    "context": "Bid submission for 260707QXFG",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1964:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260707QXFG",
+    "bidType": "HIGH",
+    "bidPrice": 116930,
+    "quoteId": "d48d60f5-4641-44b6-a6f5-32962e1baad8"
+  },
+  {
+    "timestamp": "2026-07-07T11:52:52.382Z",
+    "context": "Bid submission for 260707QXFG",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1964:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260707QXFG",
+    "bidType": "HIGH",
+    "bidPrice": 116930,
+    "quoteId": "d48d60f5-4641-44b6-a6f5-32962e1baad8"
+  },
+  {
+    "timestamp": "2026-07-07T11:52:52.799Z",
+    "context": "Bid submission for 260707QXFG",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1964:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260707QXFG",
+    "bidType": "HIGH",
+    "bidPrice": 116930,
+    "quoteId": "d48d60f5-4641-44b6-a6f5-32962e1baad8"
+  },
+  {
+    "timestamp": "2026-07-07T11:52:53.244Z",
+    "context": "Bid submission for 260707QXFG",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1964:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260707QXFG",
+    "bidType": "HIGH",
+    "bidPrice": 116930,
+    "quoteId": "d48d60f5-4641-44b6-a6f5-32962e1baad8"
+  },
+  {
+    "timestamp": "2026-07-07T11:52:53.495Z",
+    "context": "Bid submission for 260707QXFG",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1964:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260707QXFG",
+    "bidType": "HIGH",
+    "bidPrice": 116930,
+    "quoteId": "d48d60f5-4641-44b6-a6f5-32962e1baad8"
+  },
+  {
+    "timestamp": "2026-07-07T11:52:54.082Z",
+    "context": "Bid submission for 260707QXFG",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1964:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260707QXFG",
+    "bidType": "HIGH",
+    "bidPrice": 116930,
+    "quoteId": "d48d60f5-4641-44b6-a6f5-32962e1baad8"
+  },
+  {
+    "timestamp": "2026-07-07T11:52:54.686Z",
+    "context": "Bid submission for 260707QXFG",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1964:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260707QXFG",
+    "bidType": "HIGH",
+    "bidPrice": 116930,
+    "quoteId": "d48d60f5-4641-44b6-a6f5-32962e1baad8"
+  },
+  {
+    "timestamp": "2026-07-07T11:52:55.020Z",
+    "context": "Bid submission for 260707QXFG",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1964:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260707QXFG",
+    "bidType": "HIGH",
+    "bidPrice": 116930,
+    "quoteId": "d48d60f5-4641-44b6-a6f5-32962e1baad8"
+  },
+  {
+    "timestamp": "2026-07-07T11:52:55.510Z",
+    "context": "Bid submission for 260707QXFG",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1964:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260707QXFG",
+    "bidType": "HIGH",
+    "bidPrice": 116930,
+    "quoteId": "d48d60f5-4641-44b6-a6f5-32962e1baad8"
+  },
+  {
+    "timestamp": "2026-07-07T11:52:55.983Z",
+    "context": "Bid submission for 260707QXFG",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1964:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260707QXFG",
+    "bidType": "HIGH",
+    "bidPrice": 116930,
+    "quoteId": "d48d60f5-4641-44b6-a6f5-32962e1baad8"
+  },
+  {
+    "timestamp": "2026-07-07T11:52:56.400Z",
+    "context": "Bid submission for 260707QXFG",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1964:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260707QXFG",
+    "bidType": "HIGH",
+    "bidPrice": 116930,
+    "quoteId": "d48d60f5-4641-44b6-a6f5-32962e1baad8"
+  },
+  {
+    "timestamp": "2026-07-07T11:52:56.932Z",
+    "context": "Bid submission for 260707QXFG",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1964:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260707QXFG",
+    "bidType": "HIGH",
+    "bidPrice": 116930,
+    "quoteId": "d48d60f5-4641-44b6-a6f5-32962e1baad8"
+  },
+  {
+    "timestamp": "2026-07-07T11:52:57.688Z",
+    "context": "Bid submission for 260707QXFG",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1964:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260707QXFG",
+    "bidType": "HIGH",
+    "bidPrice": 116930,
+    "quoteId": "d48d60f5-4641-44b6-a6f5-32962e1baad8"
+  },
+  {
+    "timestamp": "2026-07-07T11:52:58.066Z",
+    "context": "Bid submission for 260707QXFG",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1964:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260707QXFG",
+    "bidType": "HIGH",
+    "bidPrice": 116930,
+    "quoteId": "d48d60f5-4641-44b6-a6f5-32962e1baad8"
+  },
+  {
+    "timestamp": "2026-07-07T11:52:58.606Z",
+    "context": "Bid submission for 260707QXFG",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1964:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260707QXFG",
+    "bidType": "HIGH",
+    "bidPrice": 116930,
+    "quoteId": "d48d60f5-4641-44b6-a6f5-32962e1baad8"
+  },
+  {
+    "timestamp": "2026-07-07T11:52:59.434Z",
+    "context": "Bid submission for 260707QXFG",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1964:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260707QXFG",
+    "bidType": "HIGH",
+    "bidPrice": 116930,
+    "quoteId": "d48d60f5-4641-44b6-a6f5-32962e1baad8"
+  },
+  {
+    "timestamp": "2026-07-07T11:52:59.803Z",
+    "context": "Bid submission for 260707QXFG",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid (/var/www/autopilot/server.js:1964:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260707QXFG",
+    "bidType": "HIGH",
+    "bidPrice": 116930,
+    "quoteId": "d48d60f5-4641-44b6-a6f5-32962e1baad8"
+  },
+  {
+    "timestamp": "2026-07-07T11:53:00.281Z",
+    "context": "Bid submission for 260707QXFG",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid (/var/www/autopilot/server.js:1964:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260707QXFG",
+    "bidType": "HIGH",
+    "bidPrice": 116930,
+    "quoteId": "d48d60f5-4641-44b6-a6f5-32962e1baad8"
+  },
+  {
+    "timestamp": "2026-07-07T11:53:01.076Z",
+    "context": "Bid submission for 260707QXFG",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid (/var/www/autopilot/server.js:1964:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260707QXFG",
+    "bidType": "HIGH",
+    "bidPrice": 116930,
+    "quoteId": "d48d60f5-4641-44b6-a6f5-32962e1baad8"
+  }
+]

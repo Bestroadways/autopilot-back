@@ -1,0 +1,172 @@
+[
+  {
+    "timestamp": "2026-03-13T06:56:49.587Z",
+    "context": "Fetching bidding data for 260313PUIR",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1921:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-03-13T06:56:49.789Z",
+    "context": "Fetching bidding data for 260313PUIR",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1921:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-03-13T06:56:49.998Z",
+    "context": "Fetching bidding data for 260313PUIR",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1921:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-03-13T06:56:50.197Z",
+    "context": "Fetching bidding data for 260313PUIR",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1921:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-03-13T06:56:50.406Z",
+    "context": "Fetching bidding data for 260313PUIR",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1921:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-03-13T06:56:50.609Z",
+    "context": "Fetching bidding data for 260313PUIR",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1921:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-03-13T06:56:50.808Z",
+    "context": "Fetching bidding data for 260313PUIR",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1921:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-03-13T06:56:51.013Z",
+    "context": "Fetching bidding data for 260313PUIR",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1921:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-03-13T06:56:51.226Z",
+    "context": "Fetching bidding data for 260313PUIR",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1921:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-03-13T06:56:51.430Z",
+    "context": "Fetching bidding data for 260313PUIR",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1921:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-03-13T06:56:51.643Z",
+    "context": "Fetching bidding data for 260313PUIR",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1921:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-03-13T06:56:51.839Z",
+    "context": "Fetching bidding data for 260313PUIR",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1921:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-03-13T06:56:52.042Z",
+    "context": "Fetching bidding data for 260313PUIR",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1921:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-03-13T06:56:52.257Z",
+    "context": "Fetching bidding data for 260313PUIR",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1921:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-03-13T06:56:52.458Z",
+    "context": "Fetching bidding data for 260313PUIR",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1921:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-03-13T06:56:52.659Z",
+    "context": "Fetching bidding data for 260313PUIR",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1921:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-03-13T06:56:52.870Z",
+    "context": "Fetching bidding data for 260313PUIR",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1921:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  }
+]

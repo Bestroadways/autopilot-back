@@ -1,0 +1,96 @@
+{
+  "globalAuthToken": "eyJhbGciOiJFUzI1NiJ9.eyJ1c2VyX2lkIjoiYWE1OGJjNjctYjY4OS00OGY5LWJjMjgtYzNlODFkOGJiMDIwIiwidW5pcV90b2tlbiI6IjNlOWNhNWFmLTJjYmMtNDQ0Ni1hNzRlLTQ2M2NmNTAwMmI0YiIsInRva2VuX3R5cGUiOiJ3ZWIiLCJjbGllbnRfaWQiOiJiNmEzYWRkNi1lNzhiLTRlZGMtYTUwYy1mYjA0MTczNWFlZTAiLCJleHAiOjE3OTE2MTQ5NDN9.2J56G-xM4mScl1veKiHNnuyW4K0b8CjEDb3wgG-grCcGKmQblsggQlFD9jgcb_y8VMvWrs9WixNEccdlDlkxVw",
+  "nPn5oHSdTDoDuOf0h3a34HtbkAWcFckY": {
+    "email": "developyourbrains@gmail.com"
+  },
+  "kBnJSQQOW9xGOGzwIj9MP82WdAylqnOm": {
+    "email": "developyourbrains@gmail.com"
+  },
+  "ki0gaSwF5f_sem-pqV6udu6Z62h6YXKP": {
+    "email": "developyourbrains@gmail.com"
+  },
+  "pricePercents": {
+    "high": 12.6,
+    "medium": 10.8,
+    "low": 8.1
+  },
+  "emailConfig": {
+    "senderEmail": "suyashh.gupta@gmail.com",
+    "senderPassword": "cghezniyeyybbqxb",
+    "recipientEmail": "sg@bestroadways.com",
+    "dailyReportTime": "21:01",
+    "enableDailyReports": false
+  },
+  "whatsappConfig": {
+    "apiKey": "key_18pgKxjX6M",
+    "senderNumber": "+912242777777",
+    "templateName": "hello_world",
+    "enableWhatsApp": false
+  },
+  "locations": [
+    {
+      "id": "chikhli",
+      "sourceLocation": "Survey No. 1934, NH-48, Near Darshan Hotel, Village # Degam, Taluka # Chikhli, Degam-396530, Gujarat",
+      "plantName": "Chikhli Plant",
+      "concernedPerson": "Ravinder Sharma",
+      "mobile": "+91 95949 64681",
+      "email": "vapi@bestroadways.com",
+      "firstMessage": "Dear Ravinder, \nA new inquiry (OA No. <>)has come.\nEnquiry Date and Time- \nBid Closing Date and Time - \nLoading from - Chikhli Plant\nDelivery to - <Delivery Address>\nType of Vehicle - <>\nQuantity of Vehicle - <>\nEnter your best and lowest market rate by clicking on this link and help us win this indent.",
+      "winMessage": "Dear Ravinder, we have won the order against OA No <>\nFrom -  <Loading Address>\nTo - <Unloading Address>\nMarket Rate given by you- <>\nOur added margin - <%>\nFinal Rate - <Rs>\nNo of Vehicles - <>\nTalk to the Plant Manager and arrange for sending the vehicles accordingly on time.\nDelay Penalty Applicable Rs 1500 after 24 hours.",
+      "loseMessage": "Dear Ravinder, we have lost the order against OA No <>\nFrom -  <Loading Address>\nTo - <Unloading Address>\nMarket Rate given by you- <>\nOur added margin - <%>\nNo of Submissions- \nFinal Rate - <Rs>\nOur Final Ranking - \nNo of Vehicles - <>\nPlease check why the rate given by you was so high and make sure that you give more competitive rates from next time."
+    },
+    {
+      "id": "tumb",
+      "sourceLocation": "Survey No. 38/1,Village-Tumb, Taluka- Umbergaon, Tumb-396150, Gujarat",
+      "plantName": "Tumb Plant",
+      "concernedPerson": "Ravinder Sharma",
+      "mobile": "+91 95949 64681",
+      "email": "vapi@bestroadways.com",
+      "firstMessage": "Dear Ravinder, \nA new inquiry (OA No. <>)has come.\nEnquiry Date and Time- \nBid Closing Date and Time - \nLoading from - Tumb Plant\nDelivery to - <Delivery Address>\nType of Vehicle - <>\nQuantity of Vehicle - <>\nEnter your best and lowest market rate by clicking on this link and help us win this indent.",
+      "winMessage": "Dear Ravinder, we have won the order against OA No <>\nFrom -  <Loading Address>\nTo - <Unloading Address>\nMarket Rate given by you- <>\nOur added margin - <%>\nFinal Rate - <Rs>\nNo of Vehicles - <>\nTalk to the Plant Manager and arrange for sending the vehicles accordingly on time.\nDelay Penalty Applicable Rs 1500 after 24 hours.",
+      "loseMessage": "Dear Ravinder, we have lost the order against OA No <>\nFrom -  <Loading Address>\nTo - <Unloading Address>\nMarket Rate given by you- <>\nOur added margin - <%>\nNo of Submissions- \nFinal Rate - <Rs>\nOur Final Ranking - \nNo of Vehicles - <>\nPlease check why the rate given by you was so high and make sure that you give more competitive rates from next time."
+    },
+    {
+      "id": "noida",
+      "sourceLocation": "3C/1, Ecotech 2, Udyog Vihar Road, Gautam Buddha Nagar, Udyog Vihar, Greater Noida-201306, Uttar Pradesh",
+      "plantName": "Noida Plant",
+      "concernedPerson": "Sushil Poonia",
+      "mobile": "+91 78383 23217",
+      "email": "noida@bestroadways.com",
+      "firstMessage": "Dear Sushil, \nA new inquiry (OA No. <>)has come.\nEnquiry Date and Time- \nBid Closing Date and Time - \nLoading from - Noida Plant\nDelivery to - <Delivery Address>\nType of Vehicle - <>\nQuantity of Vehicle - <>\nEnter your best and lowest market rate by clicking on this link and help us win this indent.",
+      "winMessage": "Dear Sushil, we have won the order against OA No <>\nFrom -  <Loading Address>\nTo - <Unloading Address>\nMarket Rate given by you- <>\nOur added margin - <%>\nFinal Rate - <Rs>\nNo of Vehicles - <>\nTalk to the Plant Manager and arrange for sending the vehicles accordingly on time.\nDelay Penalty Applicable Rs 1500 after 24 hours.",
+      "loseMessage": "Dear Sushil, we have lost the order against OA No <>\nFrom -  <Loading Address>\nTo - <Unloading Address>\nMarket Rate given by you- <>\nOur added margin - <%>\nNo of Submissions- \nFinal Rate - <Rs>\nOur Final Ranking - \nNo of Vehicles - <>\nPlease check why the rate given by you was so high and make sure that you give more competitive rates from next time."
+    },
+    {
+      "id": "nandigram",
+      "sourceLocation": "Unit 2B, Survey no. 267, NH-8, Nr Reliance Petrol Pump, Nandigram,-396105, Gujarat",
+      "plantName": "Nandigram Plant",
+      "concernedPerson": "Ravinder Sharma",
+      "mobile": "+91 95949 64681",
+      "email": "vapi@bestroadways.com",
+      "firstMessage": "Dear Ravinder, \nA new inquiry (OA No. <>)has come.\nEnquiry Date and Time- \nBid Closing Date and Time - \nLoading from - Nandigram Plant\nDelivery to - <Delivery Address>\nType of Vehicle - <>\nQuantity of Vehicle - <>\nEnter your best and lowest market rate by clicking on this link and help us win this indent.",
+      "winMessage": "Dear Ravinder, we have won the order against OA No <>\nFrom -  <Loading Address>\nTo - <Unloading Address>\nMarket Rate given by you- <>\nOur added margin - <%>\nFinal Rate - <Rs>\nNo of Vehicles - <>\nTalk to the Plant Manager and arrange for sending the vehicles accordingly on time.\nDelay Penalty Applicable Rs 1500 after 24 hours.",
+      "loseMessage": "Dear Ravinder, we have lost the order against OA No <>\nFrom -  <Loading Address>\nTo - <Unloading Address>\nMarket Rate given by you- <>\nOur added margin - <%>\nNo of Submissions- \nFinal Rate - <Rs>\nOur Final Ranking - \nNo of Vehicles - <>\nPlease check why the rate given by you was so high and make sure that you give more competitive rates from next time."
+    },
+    {
+      "id": "samakhiyali",
+      "sourceLocation": "Survey No.644, Orpat Industrial Estate, Near Surajbar Bridge, Orpat Nagar, 8-A National Highway, Vandhia, Samakhiyali, Bhachau, Kutch - 370150",
+      "plantName": "Samakhiyali Plant",
+      "concernedPerson": "Ravinder Sharma",
+      "mobile": "+91 95949 64681",
+      "email": "vapi@bestroadways.com",
+      "firstMessage": "Dear Ravinder, \nA new inquiry (OA No. <>)has come.\nEnquiry Date and Time- \nBid Closing Date and Time - \nLoading from - Nandigram Plant\nDelivery to - <Delivery Address>\nType of Vehicle - <>\nQuantity of Vehicle - <>\nEnter your best and lowest market rate by clicking on this link and help us win this indent.",
+      "winMessage": "Dear Ravinder, we have won the order against OA No <>\nFrom -  <Loading Address>\nTo - <Unloading Address>\nMarket Rate given by you- <>\nOur added margin - <%>\nFinal Rate - <Rs>\nNo of Vehicles - <>\nTalk to the Plant Manager and arrange for sending the vehicles accordingly on time.\nDelay Penalty Applicable Rs 1500 after 24 hours.",
+      "loseMessage": "Dear Ravinder, we have lost the order against OA No <>\nFrom -  <Loading Address>\nTo - <Unloading Address>\nMarket Rate given by you- <>\nOur added margin - <%>\nNo of Submissions- \nFinal Rate - <Rs>\nOur Final Ranking - \nNo of Vehicles - <>\nPlease check why the rate given by you was so high and make sure that you give more competitive rates from next time."
+    }
+  ],
+  "vMJhuc4DDr5ETSet17To5yshzp_dUwq7": {
+    "email": "eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiMjQ4NGMxZGQtNzBjZi00NDFjLTg2NzQtNTExZmZjZWNiODQ3IiwidW5pcV90b2tlbiI6IjYwY2FkMTBlLTIxOTYtNDQ0My1hMGUyLThiZGYyN2FiYmI1NSIsInRva2VuX3R5cGUiOiJ3ZWIiLCJjbGllbnRfaWQiOiJiNmEzYWRkNi1lNzhiLTRlZGMtYTUwYy1mYjA0MTczNWFlZTAiLCJleHAiOjE3NjU0NDYyOTd9.peN0zbOarVn-3jqlaGl-Q0Gw-A2clcqlvFW4Gju4Fuw"
+  },
+  "64xkJn-VAhGLR1Y-6srzsV7gTyVKQR1r": {
+    "email": "eyJhbGciOiJFUzI1NiJ9.eyJ1c2VyX2lkIjoiODdlY2FjYTEtNzlkNi00MDAxLTg0YzYtZDQzM2NjNzdlMjMyIiwidW5pcV90b2tlbiI6ImU3YzExNTJkLTU5YjQtNDUwYy1hNGFmLTlmYjBiNzc1ODBkMSIsInRva2VuX3R5cGUiOiJ3ZWIiLCJjbGllbnRfaWQiOiJiNmEzYWRkNi1lNzhiLTRlZGMtYTUwYy1mYjA0MTczNWFlZTAiLCJleHAiOjE3Nzk0MjU5NTF9.Jy88LISTk1KCLPX9_8kyuD8xRHjgN3FNMX99OZtX1uToJrMfKIF7-TEGFhCRmjKZO82YLF-uDONTBYaDUtqTQw"
+  },
+  "hWeUE1BVt8R_Q_K7SSJLk5l1myYf_cGU": {
+    "email": "sg@bestroadways.com"
+  }
+}

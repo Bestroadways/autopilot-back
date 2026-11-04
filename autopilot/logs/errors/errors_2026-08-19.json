@@ -1,0 +1,15 @@
+[
+  {
+    "timestamp": "2026-08-19T06:59:55.890Z",
+    "context": "Bid submission for 260819A5D1",
+    "error": {
+      "message": "timeout of 5000ms exceeded",
+      "stack": "AxiosError: timeout of 5000ms exceeded\n    at RedirectableRequest.handleRequestTimeout (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3265:16)\n    at RedirectableRequest.emit (node:events:517:28)\n    at Timeout.<anonymous> (/var/www/autopilot/node_modules/follow-redirects/index.js:221:12)\n    at listOnTimeout (node:internal/timers:569:17)\n    at process.processTimers (node:internal/timers:512:7)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at async submitBid (/var/www/autopilot/server.js:1837:24)\n    at async submitBidWithRetry (/var/www/autopilot/server.js:1776:19)\n    at async Timeout.checkAndBid (/var/www/autopilot/server.js:1964:11)",
+      "code": "ECONNABORTED"
+    },
+    "enquiryKey": "260819A5D1",
+    "bidType": "HIGH",
+    "bidPrice": 84450,
+    "quoteId": "118b8a6f-41cb-4cb5-b97a-db956a9a8582"
+  }
+]

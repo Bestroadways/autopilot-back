@@ -1,0 +1,898 @@
+[
+  {
+    "timestamp": "2026-02-16T12:43:41.940Z",
+    "context": "Bid submission for 2602162SWH",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "2602162SWH",
+    "bidType": "HIGH",
+    "bidPrice": 84384,
+    "quoteId": "fc23b104-6772-46e8-bff8-4222a595b455"
+  },
+  {
+    "timestamp": "2026-02-16T12:43:42.238Z",
+    "context": "Bid submission for 2602162SWH",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "2602162SWH",
+    "bidType": "HIGH",
+    "bidPrice": 84384,
+    "quoteId": "fc23b104-6772-46e8-bff8-4222a595b455"
+  },
+  {
+    "timestamp": "2026-02-16T12:43:42.531Z",
+    "context": "Bid submission for 2602162SWH",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "2602162SWH",
+    "bidType": "HIGH",
+    "bidPrice": 84384,
+    "quoteId": "fc23b104-6772-46e8-bff8-4222a595b455"
+  },
+  {
+    "timestamp": "2026-02-16T12:43:42.915Z",
+    "context": "Bid submission for 2602162SWH",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "2602162SWH",
+    "bidType": "HIGH",
+    "bidPrice": 84384,
+    "quoteId": "fc23b104-6772-46e8-bff8-4222a595b455"
+  },
+  {
+    "timestamp": "2026-02-16T12:43:43.258Z",
+    "context": "Bid submission for 2602162SWH",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "2602162SWH",
+    "bidType": "HIGH",
+    "bidPrice": 84384,
+    "quoteId": "fc23b104-6772-46e8-bff8-4222a595b455"
+  },
+  {
+    "timestamp": "2026-02-16T12:43:43.531Z",
+    "context": "Bid submission for 2602162SWH",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "2602162SWH",
+    "bidType": "HIGH",
+    "bidPrice": 84384,
+    "quoteId": "fc23b104-6772-46e8-bff8-4222a595b455"
+  },
+  {
+    "timestamp": "2026-02-16T12:43:43.736Z",
+    "context": "Bid submission for 2602162SWH",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "2602162SWH",
+    "bidType": "HIGH",
+    "bidPrice": 84384,
+    "quoteId": "fc23b104-6772-46e8-bff8-4222a595b455"
+  },
+  {
+    "timestamp": "2026-02-16T12:43:44.050Z",
+    "context": "Bid submission for 2602162SWH",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "2602162SWH",
+    "bidType": "HIGH",
+    "bidPrice": 84384,
+    "quoteId": "fc23b104-6772-46e8-bff8-4222a595b455"
+  },
+  {
+    "timestamp": "2026-02-16T12:43:44.345Z",
+    "context": "Bid submission for 2602162SWH",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "2602162SWH",
+    "bidType": "HIGH",
+    "bidPrice": 84384,
+    "quoteId": "fc23b104-6772-46e8-bff8-4222a595b455"
+  },
+  {
+    "timestamp": "2026-02-16T12:43:44.521Z",
+    "context": "Bid submission for 2602162SWH",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "2602162SWH",
+    "bidType": "MEDIUM",
+    "bidPrice": 83736,
+    "quoteId": "fc23b104-6772-46e8-bff8-4222a595b455"
+  },
+  {
+    "timestamp": "2026-02-16T12:43:44.967Z",
+    "context": "Bid submission for 2602162SWH",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "2602162SWH",
+    "bidType": "MEDIUM",
+    "bidPrice": 83736,
+    "quoteId": "fc23b104-6772-46e8-bff8-4222a595b455"
+  },
+  {
+    "timestamp": "2026-02-16T12:43:45.335Z",
+    "context": "Bid submission for 2602162SWH",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "2602162SWH",
+    "bidType": "MEDIUM",
+    "bidPrice": 83736,
+    "quoteId": "fc23b104-6772-46e8-bff8-4222a595b455"
+  },
+  {
+    "timestamp": "2026-02-16T12:43:45.455Z",
+    "context": "Bid submission for 2602162SWH",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "2602162SWH",
+    "bidType": "MEDIUM",
+    "bidPrice": 83736,
+    "quoteId": "fc23b104-6772-46e8-bff8-4222a595b455"
+  },
+  {
+    "timestamp": "2026-02-16T12:43:45.741Z",
+    "context": "Fetching bidding data for 2602162SWH",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1961:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-02-16T12:43:45.750Z",
+    "context": "Bid submission for 2602162SWH",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "2602162SWH",
+    "bidType": "MEDIUM",
+    "bidPrice": 83736,
+    "quoteId": "fc23b104-6772-46e8-bff8-4222a595b455"
+  },
+  {
+    "timestamp": "2026-02-16T12:43:45.753Z",
+    "context": "Fetching bidding data for 2602162SWH",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1975:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-02-16T12:43:45.892Z",
+    "context": "Fetching bidding data for 2602162SWH",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1921:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-02-16T12:43:46.096Z",
+    "context": "Fetching bidding data for 2602162SWH",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1921:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-02-16T12:43:46.125Z",
+    "context": "Bid submission for 2602162SWH",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "2602162SWH",
+    "bidType": "MEDIUM",
+    "bidPrice": 83736,
+    "quoteId": "fc23b104-6772-46e8-bff8-4222a595b455"
+  },
+  {
+    "timestamp": "2026-02-16T12:43:46.132Z",
+    "context": "Fetching bidding data for 2602162SWH",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1975:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-02-16T12:43:46.305Z",
+    "context": "Fetching bidding data for 2602162SWH",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1921:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-02-16T12:43:46.513Z",
+    "context": "Fetching bidding data for 2602162SWH",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1921:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-02-16T12:43:46.718Z",
+    "context": "Fetching bidding data for 2602162SWH",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1921:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-02-16T12:43:46.919Z",
+    "context": "Fetching bidding data for 2602162SWH",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1921:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-02-16T12:43:46.969Z",
+    "context": "Bid submission for 2602162SWH",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "2602162SWH",
+    "bidType": "HIGH",
+    "bidPrice": 84384,
+    "quoteId": "fc23b104-6772-46e8-bff8-4222a595b455"
+  },
+  {
+    "timestamp": "2026-02-16T12:43:47.131Z",
+    "context": "Fetching bidding data for 2602162SWH",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1921:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-02-16T12:43:47.218Z",
+    "context": "Bid submission for 2602162SWH",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "2602162SWH",
+    "bidType": "HIGH",
+    "bidPrice": 84384,
+    "quoteId": "fc23b104-6772-46e8-bff8-4222a595b455"
+  },
+  {
+    "timestamp": "2026-02-16T12:43:47.338Z",
+    "context": "Fetching bidding data for 2602162SWH",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1921:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-02-16T12:43:47.454Z",
+    "context": "Bid submission for 2602162SWH",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "2602162SWH",
+    "bidType": "HIGH",
+    "bidPrice": 84384,
+    "quoteId": "fc23b104-6772-46e8-bff8-4222a595b455"
+  },
+  {
+    "timestamp": "2026-02-16T12:43:47.460Z",
+    "context": "Fetching bidding data for 2602162SWH",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1961:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-02-16T12:43:47.519Z",
+    "context": "Bid submission for 2602162SWH",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "2602162SWH",
+    "bidType": "MEDIUM",
+    "bidPrice": 83736,
+    "quoteId": "fc23b104-6772-46e8-bff8-4222a595b455"
+  },
+  {
+    "timestamp": "2026-02-16T12:43:47.543Z",
+    "context": "Fetching bidding data for 2602162SWH",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1921:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-02-16T12:43:47.751Z",
+    "context": "Fetching bidding data for 2602162SWH",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1921:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-02-16T12:43:47.756Z",
+    "context": "Bid submission for 2602162SWH",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "2602162SWH",
+    "bidType": "MEDIUM",
+    "bidPrice": 83736,
+    "quoteId": "fc23b104-6772-46e8-bff8-4222a595b455"
+  },
+  {
+    "timestamp": "2026-02-16T12:43:47.957Z",
+    "context": "Fetching bidding data for 2602162SWH",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1921:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-02-16T12:43:47.991Z",
+    "context": "Bid submission for 2602162SWH",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "2602162SWH",
+    "bidType": "MEDIUM",
+    "bidPrice": 83736,
+    "quoteId": "fc23b104-6772-46e8-bff8-4222a595b455"
+  },
+  {
+    "timestamp": "2026-02-16T12:43:47.997Z",
+    "context": "Fetching bidding data for 2602162SWH",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1975:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-02-16T12:43:48.164Z",
+    "context": "Fetching bidding data for 2602162SWH",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1921:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-02-16T12:43:48.369Z",
+    "context": "Fetching bidding data for 2602162SWH",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1921:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-02-16T12:43:48.575Z",
+    "context": "Fetching bidding data for 2602162SWH",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1921:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-02-16T12:43:48.780Z",
+    "context": "Fetching bidding data for 2602162SWH",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1921:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-02-16T12:43:48.987Z",
+    "context": "Fetching bidding data for 2602162SWH",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1921:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-02-16T12:43:49.192Z",
+    "context": "Fetching bidding data for 2602162SWH",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1921:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-02-16T12:43:49.397Z",
+    "context": "Fetching bidding data for 2602162SWH",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1921:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-02-16T12:43:49.605Z",
+    "context": "Fetching bidding data for 2602162SWH",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1921:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-02-16T12:43:49.811Z",
+    "context": "Fetching bidding data for 2602162SWH",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1921:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-02-16T12:43:50.017Z",
+    "context": "Fetching bidding data for 2602162SWH",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1921:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-02-16T12:43:50.223Z",
+    "context": "Fetching bidding data for 2602162SWH",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1921:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-02-16T12:43:50.427Z",
+    "context": "Fetching bidding data for 2602162SWH",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1921:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-02-16T12:43:50.633Z",
+    "context": "Fetching bidding data for 2602162SWH",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1921:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-02-16T12:43:50.840Z",
+    "context": "Fetching bidding data for 2602162SWH",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1921:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-02-16T12:43:51.049Z",
+    "context": "Fetching bidding data for 2602162SWH",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1921:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-02-16T12:43:51.254Z",
+    "context": "Fetching bidding data for 2602162SWH",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1921:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-02-16T12:43:51.458Z",
+    "context": "Fetching bidding data for 2602162SWH",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1921:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-02-16T12:43:51.664Z",
+    "context": "Fetching bidding data for 2602162SWH",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1921:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-02-16T12:43:51.873Z",
+    "context": "Fetching bidding data for 2602162SWH",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1921:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-02-16T12:43:52.079Z",
+    "context": "Fetching bidding data for 2602162SWH",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1921:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-02-16T12:43:52.284Z",
+    "context": "Fetching bidding data for 2602162SWH",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1921:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-02-16T12:43:52.490Z",
+    "context": "Fetching bidding data for 2602162SWH",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1921:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-02-16T12:43:52.694Z",
+    "context": "Fetching bidding data for 2602162SWH",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1921:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-02-16T12:43:52.901Z",
+    "context": "Fetching bidding data for 2602162SWH",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1921:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-02-16T12:43:53.107Z",
+    "context": "Fetching bidding data for 2602162SWH",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1921:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-02-16T12:43:53.312Z",
+    "context": "Fetching bidding data for 2602162SWH",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1921:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-02-16T12:43:53.517Z",
+    "context": "Fetching bidding data for 2602162SWH",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1921:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-02-16T12:43:53.723Z",
+    "context": "Fetching bidding data for 2602162SWH",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1921:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-02-16T12:43:53.930Z",
+    "context": "Fetching bidding data for 2602162SWH",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1921:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-02-16T12:43:54.135Z",
+    "context": "Fetching bidding data for 2602162SWH",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1921:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-02-16T12:43:54.341Z",
+    "context": "Fetching bidding data for 2602162SWH",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1921:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-02-16T12:43:54.547Z",
+    "context": "Fetching bidding data for 2602162SWH",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1921:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-02-16T12:43:54.753Z",
+    "context": "Fetching bidding data for 2602162SWH",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1921:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-02-16T12:43:54.959Z",
+    "context": "Fetching bidding data for 2602162SWH",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1921:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-02-16T12:43:55.165Z",
+    "context": "Fetching bidding data for 2602162SWH",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1921:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-02-16T12:43:55.372Z",
+    "context": "Fetching bidding data for 2602162SWH",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1921:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-02-16T12:43:55.581Z",
+    "context": "Fetching bidding data for 2602162SWH",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1921:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-02-16T12:43:55.782Z",
+    "context": "Fetching bidding data for 2602162SWH",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1921:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-02-16T12:43:55.988Z",
+    "context": "Fetching bidding data for 2602162SWH",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1921:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  },
+  {
+    "timestamp": "2026-02-16T12:43:56.195Z",
+    "context": "Fetching bidding data for 2602162SWH",
+    "error": {
+      "message": "Request failed with status code 429",
+      "stack": "AxiosError: Request failed with status code 429\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1921:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": ""
+    }
+  }
+]

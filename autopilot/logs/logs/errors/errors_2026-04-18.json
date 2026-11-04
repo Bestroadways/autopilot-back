@@ -1,0 +1,399 @@
+[
+  {
+    "timestamp": "2026-04-18T09:24:53.256Z",
+    "context": "Bid submission for 260418Z5CM",
+    "error": {
+      "message": "timeout of 5000ms exceeded",
+      "stack": "AxiosError: timeout of 5000ms exceeded\n    at RedirectableRequest.handleRequestTimeout (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3265:16)\n    at RedirectableRequest.emit (node:events:518:28)\n    at Timeout.<anonymous> (D:\\LIVE_iis\\spot.bidding\\node_modules\\follow-redirects\\index.js:221:12)\n    at listOnTimeout (node:internal/timers:588:17)\n    at process.processTimers (node:internal/timers:523:7)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at runNextTicks (node:internal/process/task_queues:65:5)\n    at listOnTimeout (node:internal/timers:549:9)\n    at process.processTimers (node:internal/timers:523:7)\n    at async submitBid (D:\\LIVE_iis\\spot.bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\spot.bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1958:11)",
+      "code": "ECONNABORTED"
+    },
+    "enquiryKey": "260418Z5CM",
+    "bidType": "HIGH",
+    "bidPrice": 85316,
+    "quoteId": "d98edcb6-4f48-4952-9e97-6cb2f88fdb48"
+  },
+  {
+    "timestamp": "2026-04-18T13:23:39.323Z",
+    "context": "Bid submission for 260418PARQ",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\spot.bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\spot.bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260418PARQ",
+    "bidType": "HIGH",
+    "bidPrice": 103044,
+    "quoteId": "07d9167e-ec10-4039-8b83-9a6a487ba1de"
+  },
+  {
+    "timestamp": "2026-04-18T13:23:39.656Z",
+    "context": "Bid submission for 260418PARQ",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\spot.bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\spot.bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260418PARQ",
+    "bidType": "HIGH",
+    "bidPrice": 103044,
+    "quoteId": "07d9167e-ec10-4039-8b83-9a6a487ba1de"
+  },
+  {
+    "timestamp": "2026-04-18T13:23:40.024Z",
+    "context": "Bid submission for 260418PARQ",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\spot.bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\spot.bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260418PARQ",
+    "bidType": "HIGH",
+    "bidPrice": 103044,
+    "quoteId": "07d9167e-ec10-4039-8b83-9a6a487ba1de"
+  },
+  {
+    "timestamp": "2026-04-18T13:23:40.635Z",
+    "context": "Bid submission for 260418PARQ",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\spot.bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\spot.bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260418PARQ",
+    "bidType": "HIGH",
+    "bidPrice": 103044,
+    "quoteId": "07d9167e-ec10-4039-8b83-9a6a487ba1de"
+  },
+  {
+    "timestamp": "2026-04-18T13:23:41.129Z",
+    "context": "Bid submission for 260418PARQ",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\spot.bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\spot.bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260418PARQ",
+    "bidType": "HIGH",
+    "bidPrice": 103044,
+    "quoteId": "07d9167e-ec10-4039-8b83-9a6a487ba1de"
+  },
+  {
+    "timestamp": "2026-04-18T13:23:41.421Z",
+    "context": "Bid submission for 260418PARQ",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\spot.bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\spot.bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260418PARQ",
+    "bidType": "HIGH",
+    "bidPrice": 103044,
+    "quoteId": "07d9167e-ec10-4039-8b83-9a6a487ba1de"
+  },
+  {
+    "timestamp": "2026-04-18T13:23:41.599Z",
+    "context": "Bid submission for 260418PARQ",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\spot.bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\spot.bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260418PARQ",
+    "bidType": "HIGH",
+    "bidPrice": 103044,
+    "quoteId": "07d9167e-ec10-4039-8b83-9a6a487ba1de"
+  },
+  {
+    "timestamp": "2026-04-18T13:23:41.927Z",
+    "context": "Bid submission for 260418PARQ",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\spot.bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\spot.bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260418PARQ",
+    "bidType": "HIGH",
+    "bidPrice": 103044,
+    "quoteId": "07d9167e-ec10-4039-8b83-9a6a487ba1de"
+  },
+  {
+    "timestamp": "2026-04-18T13:23:42.298Z",
+    "context": "Bid submission for 260418PARQ",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\spot.bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\spot.bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260418PARQ",
+    "bidType": "HIGH",
+    "bidPrice": 103044,
+    "quoteId": "07d9167e-ec10-4039-8b83-9a6a487ba1de"
+  },
+  {
+    "timestamp": "2026-04-18T13:23:43.400Z",
+    "context": "Bid submission for 260418PARQ",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\spot.bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\spot.bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260418PARQ",
+    "bidType": "HIGH",
+    "bidPrice": 103044,
+    "quoteId": "07d9167e-ec10-4039-8b83-9a6a487ba1de"
+  },
+  {
+    "timestamp": "2026-04-18T13:23:43.782Z",
+    "context": "Bid submission for 260418PARQ",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\spot.bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\spot.bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260418PARQ",
+    "bidType": "HIGH",
+    "bidPrice": 103044,
+    "quoteId": "07d9167e-ec10-4039-8b83-9a6a487ba1de"
+  },
+  {
+    "timestamp": "2026-04-18T13:23:44.207Z",
+    "context": "Bid submission for 260418PARQ",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\spot.bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\spot.bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260418PARQ",
+    "bidType": "HIGH",
+    "bidPrice": 103044,
+    "quoteId": "07d9167e-ec10-4039-8b83-9a6a487ba1de"
+  },
+  {
+    "timestamp": "2026-04-18T13:23:44.501Z",
+    "context": "Bid submission for 260418PARQ",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\spot.bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\spot.bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260418PARQ",
+    "bidType": "HIGH",
+    "bidPrice": 103044,
+    "quoteId": "07d9167e-ec10-4039-8b83-9a6a487ba1de"
+  },
+  {
+    "timestamp": "2026-04-18T13:23:44.925Z",
+    "context": "Bid submission for 260418PARQ",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\spot.bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\spot.bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260418PARQ",
+    "bidType": "HIGH",
+    "bidPrice": 103044,
+    "quoteId": "07d9167e-ec10-4039-8b83-9a6a487ba1de"
+  },
+  {
+    "timestamp": "2026-04-18T13:23:45.239Z",
+    "context": "Bid submission for 260418PARQ",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\spot.bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\spot.bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260418PARQ",
+    "bidType": "HIGH",
+    "bidPrice": 103044,
+    "quoteId": "07d9167e-ec10-4039-8b83-9a6a487ba1de"
+  },
+  {
+    "timestamp": "2026-04-18T13:23:45.740Z",
+    "context": "Bid submission for 260418PARQ",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\spot.bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\spot.bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260418PARQ",
+    "bidType": "HIGH",
+    "bidPrice": 103044,
+    "quoteId": "07d9167e-ec10-4039-8b83-9a6a487ba1de"
+  },
+  {
+    "timestamp": "2026-04-18T13:23:46.143Z",
+    "context": "Bid submission for 260418PARQ",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\spot.bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\spot.bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260418PARQ",
+    "bidType": "HIGH",
+    "bidPrice": 103044,
+    "quoteId": "07d9167e-ec10-4039-8b83-9a6a487ba1de"
+  },
+  {
+    "timestamp": "2026-04-18T13:23:46.483Z",
+    "context": "Bid submission for 260418PARQ",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\spot.bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\spot.bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260418PARQ",
+    "bidType": "HIGH",
+    "bidPrice": 103044,
+    "quoteId": "07d9167e-ec10-4039-8b83-9a6a487ba1de"
+  },
+  {
+    "timestamp": "2026-04-18T13:23:46.712Z",
+    "context": "Bid submission for 260418PARQ",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\spot.bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\spot.bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260418PARQ",
+    "bidType": "HIGH",
+    "bidPrice": 103044,
+    "quoteId": "07d9167e-ec10-4039-8b83-9a6a487ba1de"
+  },
+  {
+    "timestamp": "2026-04-18T13:23:47.074Z",
+    "context": "Bid submission for 260418PARQ",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\spot.bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\spot.bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260418PARQ",
+    "bidType": "HIGH",
+    "bidPrice": 103044,
+    "quoteId": "07d9167e-ec10-4039-8b83-9a6a487ba1de"
+  },
+  {
+    "timestamp": "2026-04-18T13:23:47.422Z",
+    "context": "Bid submission for 260418PARQ",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\spot.bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\spot.bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260418PARQ",
+    "bidType": "HIGH",
+    "bidPrice": 103044,
+    "quoteId": "07d9167e-ec10-4039-8b83-9a6a487ba1de"
+  },
+  {
+    "timestamp": "2026-04-18T13:23:47.547Z",
+    "context": "Bid submission for 260418PARQ",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\spot.bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\spot.bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260418PARQ",
+    "bidType": "HIGH",
+    "bidPrice": 103044,
+    "quoteId": "07d9167e-ec10-4039-8b83-9a6a487ba1de"
+  },
+  {
+    "timestamp": "2026-04-18T13:23:47.867Z",
+    "context": "Bid submission for 260418PARQ",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\spot.bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\spot.bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260418PARQ",
+    "bidType": "HIGH",
+    "bidPrice": 103044,
+    "quoteId": "07d9167e-ec10-4039-8b83-9a6a487ba1de"
+  },
+  {
+    "timestamp": "2026-04-18T13:23:48.207Z",
+    "context": "Bid submission for 260418PARQ",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\spot.bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\spot.bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid (D:\\LIVE_iis\\spot.bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "You've increased the quote price. Please add a remark explaining the change to continue"
+      }
+    },
+    "enquiryKey": "260418PARQ",
+    "bidType": "HIGH",
+    "bidPrice": 103044,
+    "quoteId": "07d9167e-ec10-4039-8b83-9a6a487ba1de"
+  }
+]

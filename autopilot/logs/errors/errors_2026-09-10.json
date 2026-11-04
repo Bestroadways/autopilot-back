@@ -1,0 +1,1364 @@
+[
+  {
+    "timestamp": "2026-09-10T02:52:02.747Z",
+    "context": "Fetching bidding data for 26090956JN",
+    "error": {
+      "message": "Request failed with status code 504",
+      "stack": "AxiosError: Request failed with status code 504\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_RESPONSE",
+      "response": "<html>\r\n<head><title>504 Gateway Time-out</title></head>\r\n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n"
+    }
+  },
+  {
+    "timestamp": "2026-09-10T03:00:04.462Z",
+    "context": "Fetching bidding data for 260909WB2V",
+    "error": {
+      "message": "Request failed with status code 504",
+      "stack": "AxiosError: Request failed with status code 504\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_RESPONSE",
+      "response": "<html>\r\n<head><title>504 Gateway Time-out</title></head>\r\n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n"
+    }
+  },
+  {
+    "timestamp": "2026-09-10T03:03:34.467Z",
+    "context": "Fetching bidding data for 260909WB2V",
+    "error": {
+      "message": "Request failed with status code 504",
+      "stack": "AxiosError: Request failed with status code 504\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_RESPONSE",
+      "response": "<html>\r\n<head><title>504 Gateway Time-out</title></head>\r\n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n"
+    }
+  },
+  {
+    "timestamp": "2026-09-10T03:05:34.466Z",
+    "context": "Fetching bidding data for 260909WB2V",
+    "error": {
+      "message": "Request failed with status code 504",
+      "stack": "AxiosError: Request failed with status code 504\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_RESPONSE",
+      "response": "<html>\r\n<head><title>504 Gateway Time-out</title></head>\r\n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n"
+    }
+  },
+  {
+    "timestamp": "2026-09-10T03:05:37.379Z",
+    "context": "Fetching bidding data for 2609099SRL",
+    "error": {
+      "message": "Request failed with status code 504",
+      "stack": "AxiosError: Request failed with status code 504\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_RESPONSE",
+      "response": "<html>\r\n<head><title>504 Gateway Time-out</title></head>\r\n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n"
+    }
+  },
+  {
+    "timestamp": "2026-09-10T03:21:20.661Z",
+    "context": "Fetching bidding data for 260909FV8I",
+    "error": {
+      "message": "Request failed with status code 504",
+      "stack": "AxiosError: Request failed with status code 504\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_RESPONSE",
+      "response": "<html>\r\n<head><title>504 Gateway Time-out</title></head>\r\n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n"
+    }
+  },
+  {
+    "timestamp": "2026-09-10T03:36:47.270Z",
+    "context": "Fetching bidding data for 260909F5PS",
+    "error": {
+      "message": "Request failed with status code 504",
+      "stack": "AxiosError: Request failed with status code 504\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_RESPONSE",
+      "response": "<html>\r\n<head><title>504 Gateway Time-out</title></head>\r\n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n"
+    }
+  },
+  {
+    "timestamp": "2026-09-10T03:39:17.279Z",
+    "context": "Fetching bidding data for 260909F5PS",
+    "error": {
+      "message": "Request failed with status code 504",
+      "stack": "AxiosError: Request failed with status code 504\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_RESPONSE",
+      "response": "upstream request timeout"
+    }
+  },
+  {
+    "timestamp": "2026-09-10T03:44:50.702Z",
+    "context": "Fetching bidding data for 260909FV8I",
+    "error": {
+      "message": "Request failed with status code 504",
+      "stack": "AxiosError: Request failed with status code 504\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_RESPONSE",
+      "response": "<html>\r\n<head><title>504 Gateway Time-out</title></head>\r\n<body>\r\n<center><h1>504 Gateway Time-out</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n<!-- a padding to disable MSIE and Chrome friendly error page -->\r\n"
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:31:07.575Z",
+    "context": "Fetching bidding data for 2609099SRL",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:31:17.430Z",
+    "context": "Fetching bidding data for 260909F5PS",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:31:20.825Z",
+    "context": "Fetching bidding data for 260909FV8I",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:31:37.537Z",
+    "context": "Fetching bidding data for 2609099SRL",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:31:47.384Z",
+    "context": "Fetching bidding data for 260909F5PS",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:31:50.805Z",
+    "context": "Fetching bidding data for 260909FV8I",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:32:07.566Z",
+    "context": "Fetching bidding data for 2609099SRL",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:32:17.408Z",
+    "context": "Fetching bidding data for 260909F5PS",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:32:20.851Z",
+    "context": "Fetching bidding data for 260909FV8I",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:32:37.557Z",
+    "context": "Fetching bidding data for 2609099SRL",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:32:47.448Z",
+    "context": "Fetching bidding data for 260909F5PS",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:32:50.827Z",
+    "context": "Fetching bidding data for 260909FV8I",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:33:07.547Z",
+    "context": "Fetching bidding data for 2609099SRL",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:33:17.432Z",
+    "context": "Fetching bidding data for 260909F5PS",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:33:20.812Z",
+    "context": "Fetching bidding data for 260909FV8I",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:33:37.554Z",
+    "context": "Fetching bidding data for 2609099SRL",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:33:47.405Z",
+    "context": "Fetching bidding data for 260909F5PS",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:33:50.800Z",
+    "context": "Fetching bidding data for 260909FV8I",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:34:07.555Z",
+    "context": "Fetching bidding data for 2609099SRL",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:34:17.396Z",
+    "context": "Fetching bidding data for 260909F5PS",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:34:20.807Z",
+    "context": "Fetching bidding data for 260909FV8I",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:34:37.554Z",
+    "context": "Fetching bidding data for 2609099SRL",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:34:47.400Z",
+    "context": "Fetching bidding data for 260909F5PS",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:34:50.828Z",
+    "context": "Fetching bidding data for 260909FV8I",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:35:07.571Z",
+    "context": "Fetching bidding data for 2609099SRL",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:35:17.414Z",
+    "context": "Fetching bidding data for 260909F5PS",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:35:20.810Z",
+    "context": "Fetching bidding data for 260909FV8I",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:35:37.577Z",
+    "context": "Fetching bidding data for 2609099SRL",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:35:47.404Z",
+    "context": "Fetching bidding data for 260909F5PS",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:35:50.820Z",
+    "context": "Fetching bidding data for 260909FV8I",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:36:07.544Z",
+    "context": "Fetching bidding data for 2609099SRL",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:36:20.865Z",
+    "context": "Fetching bidding data for 260909FV8I",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:36:39.231Z",
+    "context": "Fetching bidding data for 2609099SRL",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:36:51.723Z",
+    "context": "Fetching bidding data for 260909FV8I",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:37:07.665Z",
+    "context": "Fetching bidding data for 2609099SRL",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:37:20.885Z",
+    "context": "Fetching bidding data for 260909FV8I",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:37:37.571Z",
+    "context": "Fetching bidding data for 2609099SRL",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:37:50.846Z",
+    "context": "Fetching bidding data for 260909FV8I",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:38:07.623Z",
+    "context": "Fetching bidding data for 2609099SRL",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:38:20.838Z",
+    "context": "Fetching bidding data for 260909FV8I",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:38:37.595Z",
+    "context": "Fetching bidding data for 2609099SRL",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:38:50.817Z",
+    "context": "Fetching bidding data for 260909FV8I",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:39:07.622Z",
+    "context": "Fetching bidding data for 2609099SRL",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:39:20.863Z",
+    "context": "Fetching bidding data for 260909FV8I",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:39:37.594Z",
+    "context": "Fetching bidding data for 2609099SRL",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:39:50.897Z",
+    "context": "Fetching bidding data for 260909FV8I",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:40:07.567Z",
+    "context": "Fetching bidding data for 2609099SRL",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:40:33.543Z",
+    "context": "Fetching bidding data for 260909FV8I",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:40:37.636Z",
+    "context": "Fetching bidding data for 2609099SRL",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:40:50.841Z",
+    "context": "Fetching bidding data for 260909FV8I",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:41:07.570Z",
+    "context": "Fetching bidding data for 2609099SRL",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:41:20.882Z",
+    "context": "Fetching bidding data for 260909FV8I",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:41:37.583Z",
+    "context": "Fetching bidding data for 2609099SRL",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:41:52.171Z",
+    "context": "Fetching bidding data for 260909FV8I",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:42:07.590Z",
+    "context": "Fetching bidding data for 2609099SRL",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:42:20.847Z",
+    "context": "Fetching bidding data for 260909FV8I",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:42:37.645Z",
+    "context": "Fetching bidding data for 2609099SRL",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:42:50.940Z",
+    "context": "Fetching bidding data for 260909FV8I",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:43:07.590Z",
+    "context": "Fetching bidding data for 2609099SRL",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:43:20.985Z",
+    "context": "Fetching bidding data for 260909FV8I",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:43:37.657Z",
+    "context": "Fetching bidding data for 2609099SRL",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:43:50.836Z",
+    "context": "Fetching bidding data for 260909FV8I",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:44:07.557Z",
+    "context": "Fetching bidding data for 2609099SRL",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:44:20.887Z",
+    "context": "Fetching bidding data for 260909FV8I",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:44:37.686Z",
+    "context": "Fetching bidding data for 2609099SRL",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:44:50.826Z",
+    "context": "Fetching bidding data for 260909FV8I",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:45:07.610Z",
+    "context": "Fetching bidding data for 2609099SRL",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:45:20.880Z",
+    "context": "Fetching bidding data for 260909FV8I",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:45:38.533Z",
+    "context": "Fetching bidding data for 2609099SRL",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:45:51.016Z",
+    "context": "Fetching bidding data for 260909FV8I",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:46:21.322Z",
+    "context": "Fetching bidding data for 260909FV8I",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:46:50.830Z",
+    "context": "Fetching bidding data for 260909FV8I",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:47:20.854Z",
+    "context": "Fetching bidding data for 260909FV8I",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:47:51.299Z",
+    "context": "Fetching bidding data for 260909FV8I",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:48:21.055Z",
+    "context": "Fetching bidding data for 260909FV8I",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:48:50.837Z",
+    "context": "Fetching bidding data for 260909FV8I",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:49:20.981Z",
+    "context": "Fetching bidding data for 260909FV8I",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:49:51.055Z",
+    "context": "Fetching bidding data for 260909FV8I",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:50:21.015Z",
+    "context": "Fetching bidding data for 260909FV8I",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:50:51.325Z",
+    "context": "Fetching bidding data for 260909FV8I",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:51:20.854Z",
+    "context": "Fetching bidding data for 260909FV8I",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:51:50.982Z",
+    "context": "Fetching bidding data for 260909FV8I",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:52:20.858Z",
+    "context": "Fetching bidding data for 260909FV8I",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:52:50.843Z",
+    "context": "Fetching bidding data for 260909FV8I",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:53:20.850Z",
+    "context": "Fetching bidding data for 260909FV8I",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:53:53.562Z",
+    "context": "Fetching bidding data for 260909FV8I",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:54:20.839Z",
+    "context": "Fetching bidding data for 260909FV8I",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:54:50.926Z",
+    "context": "Fetching bidding data for 260909FV8I",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:55:20.933Z",
+    "context": "Fetching bidding data for 260909FV8I",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:55:50.845Z",
+    "context": "Fetching bidding data for 260909FV8I",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:56:21.021Z",
+    "context": "Fetching bidding data for 260909FV8I",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:56:50.983Z",
+    "context": "Fetching bidding data for 260909FV8I",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:57:21.168Z",
+    "context": "Fetching bidding data for 260909FV8I",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:57:51.129Z",
+    "context": "Fetching bidding data for 260909FV8I",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:58:20.845Z",
+    "context": "Fetching bidding data for 260909FV8I",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:58:53.225Z",
+    "context": "Fetching bidding data for 260909FV8I",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:59:21.040Z",
+    "context": "Fetching bidding data for 260909FV8I",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T04:59:51.139Z",
+    "context": "Fetching bidding data for 260909FV8I",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T05:00:32.398Z",
+    "context": "Fetching bidding data for 260909FV8I",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T05:00:50.850Z",
+    "context": "Fetching bidding data for 260909FV8I",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T05:01:20.855Z",
+    "context": "Fetching bidding data for 260909FV8I",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T05:01:51.413Z",
+    "context": "Fetching bidding data for 260909FV8I",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T05:02:21.675Z",
+    "context": "Fetching bidding data for 260909FV8I",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T05:02:50.908Z",
+    "context": "Fetching bidding data for 260909FV8I",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T05:03:20.887Z",
+    "context": "Fetching bidding data for 260909FV8I",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-10T05:03:50.877Z",
+    "context": "Fetching bidding data for 260909FV8I",
+    "error": {
+      "message": "Request failed with status code 401",
+      "stack": "AxiosError: Request failed with status code 401\n    at settle (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:529:35)\n    at endReadableNT (node:internal/streams/readable:1400:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (/var/www/autopilot/node_modules/axios/dist/node/axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async fetchBiddingData (/var/www/autopilot/server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (/var/www/autopilot/server.js:1927:25)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "401 Unauthorized"
+      }
+    }
+  }
+]

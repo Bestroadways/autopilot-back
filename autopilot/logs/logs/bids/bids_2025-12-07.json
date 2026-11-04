@@ -1,0 +1,39 @@
+[
+  {
+    "timestamp": "2025-12-07T05:18:42.546Z",
+    "enquiryKey": "251206L31Y",
+    "bidType": "PUBLIC_SUBMISSION",
+    "bidPrice": 34000,
+    "timeToClosingMs": null,
+    "timeToClosingSec": 0,
+    "currentRank": null,
+    "success": true,
+    "responseTimeMs": 0,
+    "calculatedBids": {
+      "high": 36669,
+      "medium": 36142,
+      "low": 35744,
+      "marketValue": 34000
+    },
+    "percentages": {
+      "high": 7.85,
+      "medium": 6.3,
+      "low": 5.13
+    }
+  },
+  {
+    "timestamp": "2025-12-07T05:29:49.113Z",
+    "enquiryKey": "251206L31Y",
+    "bidType": "HIGH",
+    "bidPrice": 36669,
+    "timeToClosingMs": 9916.5,
+    "timeToClosingSec": 9,
+    "currentRank": 1,
+    "success": true,
+    "responseTimeMs": 2427,
+    "revisionsLeft": 3,
+    "bidsSubmitted": 1,
+    "startedBy": "public-submission",
+    "userFullName": "Public Submission"
+  }
+]

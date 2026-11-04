@@ -1,0 +1,1058 @@
+[
+  {
+    "timestamp": "2026-02-06T11:25:43.837Z",
+    "context": "Bid submission for 2602069CHW",
+    "error": {
+      "message": "Request failed with status code 404",
+      "stack": "AxiosError: Request failed with status code 404\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at Unzip.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at Unzip.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Couldn't find Quote with 'id'=43079751-e258-40ca-8c94-034e9e779dc7 [WHERE \"enquiry_dispatch_quotes\".\"deleted\" = $1]"
+      }
+    },
+    "enquiryKey": "2602069CHW",
+    "bidType": "HIGH",
+    "bidPrice": 222680,
+    "quoteId": "43079751-e258-40ca-8c94-034e9e779dc7"
+  },
+  {
+    "timestamp": "2026-02-06T11:25:44.191Z",
+    "context": "Bid submission for 2602069CHW",
+    "error": {
+      "message": "Request failed with status code 404",
+      "stack": "AxiosError: Request failed with status code 404\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at Unzip.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at Unzip.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Couldn't find Quote with 'id'=43079751-e258-40ca-8c94-034e9e779dc7 [WHERE \"enquiry_dispatch_quotes\".\"deleted\" = $1]"
+      }
+    },
+    "enquiryKey": "2602069CHW",
+    "bidType": "HIGH",
+    "bidPrice": 222680,
+    "quoteId": "43079751-e258-40ca-8c94-034e9e779dc7"
+  },
+  {
+    "timestamp": "2026-02-06T11:25:45.526Z",
+    "context": "Bid submission for 2602069CHW",
+    "error": {
+      "message": "Request failed with status code 404",
+      "stack": "AxiosError: Request failed with status code 404\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at Unzip.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at Unzip.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Couldn't find Quote with 'id'=43079751-e258-40ca-8c94-034e9e779dc7 [WHERE \"enquiry_dispatch_quotes\".\"deleted\" = $1]"
+      }
+    },
+    "enquiryKey": "2602069CHW",
+    "bidType": "HIGH",
+    "bidPrice": 222680,
+    "quoteId": "43079751-e258-40ca-8c94-034e9e779dc7"
+  },
+  {
+    "timestamp": "2026-02-06T11:25:45.701Z",
+    "context": "Bid submission for 2602069CHW",
+    "error": {
+      "message": "Request failed with status code 404",
+      "stack": "AxiosError: Request failed with status code 404\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at Unzip.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at Unzip.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Couldn't find Quote with 'id'=43079751-e258-40ca-8c94-034e9e779dc7 [WHERE \"enquiry_dispatch_quotes\".\"deleted\" = $1]"
+      }
+    },
+    "enquiryKey": "2602069CHW",
+    "bidType": "HIGH",
+    "bidPrice": 222680,
+    "quoteId": "43079751-e258-40ca-8c94-034e9e779dc7"
+  },
+  {
+    "timestamp": "2026-02-06T11:25:45.995Z",
+    "context": "Bid submission for 2602069CHW",
+    "error": {
+      "message": "Request failed with status code 404",
+      "stack": "AxiosError: Request failed with status code 404\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at Unzip.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at Unzip.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Couldn't find Quote with 'id'=43079751-e258-40ca-8c94-034e9e779dc7 [WHERE \"enquiry_dispatch_quotes\".\"deleted\" = $1]"
+      }
+    },
+    "enquiryKey": "2602069CHW",
+    "bidType": "HIGH",
+    "bidPrice": 222680,
+    "quoteId": "43079751-e258-40ca-8c94-034e9e779dc7"
+  },
+  {
+    "timestamp": "2026-02-06T11:25:46.288Z",
+    "context": "Bid submission for 2602069CHW",
+    "error": {
+      "message": "Request failed with status code 404",
+      "stack": "AxiosError: Request failed with status code 404\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at Unzip.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at Unzip.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Couldn't find Quote with 'id'=43079751-e258-40ca-8c94-034e9e779dc7 [WHERE \"enquiry_dispatch_quotes\".\"deleted\" = $1]"
+      }
+    },
+    "enquiryKey": "2602069CHW",
+    "bidType": "HIGH",
+    "bidPrice": 222680,
+    "quoteId": "43079751-e258-40ca-8c94-034e9e779dc7"
+  },
+  {
+    "timestamp": "2026-02-06T11:25:46.330Z",
+    "context": "Bid submission for 2602069CHW",
+    "error": {
+      "message": "Request failed with status code 404",
+      "stack": "AxiosError: Request failed with status code 404\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at Unzip.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at Unzip.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Couldn't find Quote with 'id'=43079751-e258-40ca-8c94-034e9e779dc7 [WHERE \"enquiry_dispatch_quotes\".\"deleted\" = $1]"
+      }
+    },
+    "enquiryKey": "2602069CHW",
+    "bidType": "MEDIUM",
+    "bidPrice": 220970,
+    "quoteId": "43079751-e258-40ca-8c94-034e9e779dc7"
+  },
+  {
+    "timestamp": "2026-02-06T11:25:46.602Z",
+    "context": "Bid submission for 2602069CHW",
+    "error": {
+      "message": "Request failed with status code 404",
+      "stack": "AxiosError: Request failed with status code 404\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at Unzip.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at Unzip.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Couldn't find Quote with 'id'=43079751-e258-40ca-8c94-034e9e779dc7 [WHERE \"enquiry_dispatch_quotes\".\"deleted\" = $1]"
+      }
+    },
+    "enquiryKey": "2602069CHW",
+    "bidType": "MEDIUM",
+    "bidPrice": 220970,
+    "quoteId": "43079751-e258-40ca-8c94-034e9e779dc7"
+  },
+  {
+    "timestamp": "2026-02-06T11:25:46.918Z",
+    "context": "Bid submission for 2602069CHW",
+    "error": {
+      "message": "Request failed with status code 404",
+      "stack": "AxiosError: Request failed with status code 404\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at Unzip.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at Unzip.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Couldn't find Quote with 'id'=43079751-e258-40ca-8c94-034e9e779dc7 [WHERE \"enquiry_dispatch_quotes\".\"deleted\" = $1]"
+      }
+    },
+    "enquiryKey": "2602069CHW",
+    "bidType": "MEDIUM",
+    "bidPrice": 220970,
+    "quoteId": "43079751-e258-40ca-8c94-034e9e779dc7"
+  },
+  {
+    "timestamp": "2026-02-06T11:25:47.119Z",
+    "context": "Bid submission for 2602069CHW",
+    "error": {
+      "message": "Request failed with status code 404",
+      "stack": "AxiosError: Request failed with status code 404\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at Unzip.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at Unzip.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Couldn't find Quote with 'id'=43079751-e258-40ca-8c94-034e9e779dc7 [WHERE \"enquiry_dispatch_quotes\".\"deleted\" = $1]"
+      }
+    },
+    "enquiryKey": "2602069CHW",
+    "bidType": "MEDIUM",
+    "bidPrice": 220970,
+    "quoteId": "43079751-e258-40ca-8c94-034e9e779dc7"
+  },
+  {
+    "timestamp": "2026-02-06T11:25:47.403Z",
+    "context": "Bid submission for 2602069CHW",
+    "error": {
+      "message": "Request failed with status code 404",
+      "stack": "AxiosError: Request failed with status code 404\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at Unzip.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at Unzip.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Couldn't find Quote with 'id'=43079751-e258-40ca-8c94-034e9e779dc7 [WHERE \"enquiry_dispatch_quotes\".\"deleted\" = $1]"
+      }
+    },
+    "enquiryKey": "2602069CHW",
+    "bidType": "MEDIUM",
+    "bidPrice": 220970,
+    "quoteId": "43079751-e258-40ca-8c94-034e9e779dc7"
+  },
+  {
+    "timestamp": "2026-02-06T11:25:47.741Z",
+    "context": "Bid submission for 2602069CHW",
+    "error": {
+      "message": "Request failed with status code 404",
+      "stack": "AxiosError: Request failed with status code 404\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at Unzip.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at Unzip.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Couldn't find Quote with 'id'=43079751-e258-40ca-8c94-034e9e779dc7 [WHERE \"enquiry_dispatch_quotes\".\"deleted\" = $1]"
+      }
+    },
+    "enquiryKey": "2602069CHW",
+    "bidType": "MEDIUM",
+    "bidPrice": 220970,
+    "quoteId": "43079751-e258-40ca-8c94-034e9e779dc7"
+  },
+  {
+    "timestamp": "2026-02-06T11:25:47.801Z",
+    "context": "Bid submission for 2602069CHW",
+    "error": {
+      "message": "Request failed with status code 404",
+      "stack": "AxiosError: Request failed with status code 404\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at Unzip.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at Unzip.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Couldn't find Quote with 'id'=43079751-e258-40ca-8c94-034e9e779dc7 [WHERE \"enquiry_dispatch_quotes\".\"deleted\" = $1]"
+      }
+    },
+    "enquiryKey": "2602069CHW",
+    "bidType": "HIGH",
+    "bidPrice": 222680,
+    "quoteId": "43079751-e258-40ca-8c94-034e9e779dc7"
+  },
+  {
+    "timestamp": "2026-02-06T11:25:48.099Z",
+    "context": "Bid submission for 2602069CHW",
+    "error": {
+      "message": "Request failed with status code 404",
+      "stack": "AxiosError: Request failed with status code 404\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at Unzip.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at Unzip.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Couldn't find Quote with 'id'=43079751-e258-40ca-8c94-034e9e779dc7 [WHERE \"enquiry_dispatch_quotes\".\"deleted\" = $1]"
+      }
+    },
+    "enquiryKey": "2602069CHW",
+    "bidType": "HIGH",
+    "bidPrice": 222680,
+    "quoteId": "43079751-e258-40ca-8c94-034e9e779dc7"
+  },
+  {
+    "timestamp": "2026-02-06T11:25:48.411Z",
+    "context": "Bid submission for 2602069CHW",
+    "error": {
+      "message": "Request failed with status code 404",
+      "stack": "AxiosError: Request failed with status code 404\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at Unzip.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at Unzip.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Couldn't find Quote with 'id'=43079751-e258-40ca-8c94-034e9e779dc7 [WHERE \"enquiry_dispatch_quotes\".\"deleted\" = $1]"
+      }
+    },
+    "enquiryKey": "2602069CHW",
+    "bidType": "HIGH",
+    "bidPrice": 222680,
+    "quoteId": "43079751-e258-40ca-8c94-034e9e779dc7"
+  },
+  {
+    "timestamp": "2026-02-06T11:25:48.520Z",
+    "context": "Bid submission for 2602069CHW",
+    "error": {
+      "message": "Request failed with status code 404",
+      "stack": "AxiosError: Request failed with status code 404\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at Unzip.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at Unzip.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Couldn't find Quote with 'id'=43079751-e258-40ca-8c94-034e9e779dc7 [WHERE \"enquiry_dispatch_quotes\".\"deleted\" = $1]"
+      }
+    },
+    "enquiryKey": "2602069CHW",
+    "bidType": "MEDIUM",
+    "bidPrice": 220970,
+    "quoteId": "43079751-e258-40ca-8c94-034e9e779dc7"
+  },
+  {
+    "timestamp": "2026-02-06T11:25:48.800Z",
+    "context": "Bid submission for 2602069CHW",
+    "error": {
+      "message": "Request failed with status code 404",
+      "stack": "AxiosError: Request failed with status code 404\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at Unzip.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at Unzip.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Couldn't find Quote with 'id'=43079751-e258-40ca-8c94-034e9e779dc7 [WHERE \"enquiry_dispatch_quotes\".\"deleted\" = $1]"
+      }
+    },
+    "enquiryKey": "2602069CHW",
+    "bidType": "MEDIUM",
+    "bidPrice": 220970,
+    "quoteId": "43079751-e258-40ca-8c94-034e9e779dc7"
+  },
+  {
+    "timestamp": "2026-02-06T11:25:49.100Z",
+    "context": "Bid submission for 2602069CHW",
+    "error": {
+      "message": "Request failed with status code 404",
+      "stack": "AxiosError: Request failed with status code 404\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at Unzip.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at Unzip.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Couldn't find Quote with 'id'=43079751-e258-40ca-8c94-034e9e779dc7 [WHERE \"enquiry_dispatch_quotes\".\"deleted\" = $1]"
+      }
+    },
+    "enquiryKey": "2602069CHW",
+    "bidType": "MEDIUM",
+    "bidPrice": 220970,
+    "quoteId": "43079751-e258-40ca-8c94-034e9e779dc7"
+  },
+  {
+    "timestamp": "2026-02-06T11:25:49.194Z",
+    "context": "Bid submission for 2602069CHW",
+    "error": {
+      "message": "Request failed with status code 404",
+      "stack": "AxiosError: Request failed with status code 404\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at Unzip.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at Unzip.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Couldn't find Quote with 'id'=43079751-e258-40ca-8c94-034e9e779dc7 [WHERE \"enquiry_dispatch_quotes\".\"deleted\" = $1]"
+      }
+    },
+    "enquiryKey": "2602069CHW",
+    "bidType": "HIGH",
+    "bidPrice": 222680,
+    "quoteId": "43079751-e258-40ca-8c94-034e9e779dc7"
+  },
+  {
+    "timestamp": "2026-02-06T11:25:49.431Z",
+    "context": "Bid submission for 2602069CHW",
+    "error": {
+      "message": "Request failed with status code 404",
+      "stack": "AxiosError: Request failed with status code 404\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at Unzip.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at Unzip.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Couldn't find Quote with 'id'=43079751-e258-40ca-8c94-034e9e779dc7 [WHERE \"enquiry_dispatch_quotes\".\"deleted\" = $1]"
+      }
+    },
+    "enquiryKey": "2602069CHW",
+    "bidType": "HIGH",
+    "bidPrice": 222680,
+    "quoteId": "43079751-e258-40ca-8c94-034e9e779dc7"
+  },
+  {
+    "timestamp": "2026-02-06T11:25:49.843Z",
+    "context": "Bid submission for 2602069CHW",
+    "error": {
+      "message": "Request failed with status code 404",
+      "stack": "AxiosError: Request failed with status code 404\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at Unzip.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at Unzip.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Couldn't find Quote with 'id'=43079751-e258-40ca-8c94-034e9e779dc7 [WHERE \"enquiry_dispatch_quotes\".\"deleted\" = $1]"
+      }
+    },
+    "enquiryKey": "2602069CHW",
+    "bidType": "HIGH",
+    "bidPrice": 222680,
+    "quoteId": "43079751-e258-40ca-8c94-034e9e779dc7"
+  },
+  {
+    "timestamp": "2026-02-06T11:25:50.012Z",
+    "context": "Bid submission for 2602069CHW",
+    "error": {
+      "message": "Request failed with status code 404",
+      "stack": "AxiosError: Request failed with status code 404\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at Unzip.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at Unzip.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Couldn't find Quote with 'id'=43079751-e258-40ca-8c94-034e9e779dc7 [WHERE \"enquiry_dispatch_quotes\".\"deleted\" = $1]"
+      }
+    },
+    "enquiryKey": "2602069CHW",
+    "bidType": "HIGH",
+    "bidPrice": 222680,
+    "quoteId": "43079751-e258-40ca-8c94-034e9e779dc7"
+  },
+  {
+    "timestamp": "2026-02-06T11:25:50.350Z",
+    "context": "Bid submission for 2602069CHW",
+    "error": {
+      "message": "Request failed with status code 404",
+      "stack": "AxiosError: Request failed with status code 404\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at Unzip.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at Unzip.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Couldn't find Quote with 'id'=43079751-e258-40ca-8c94-034e9e779dc7 [WHERE \"enquiry_dispatch_quotes\".\"deleted\" = $1]"
+      }
+    },
+    "enquiryKey": "2602069CHW",
+    "bidType": "HIGH",
+    "bidPrice": 222680,
+    "quoteId": "43079751-e258-40ca-8c94-034e9e779dc7"
+  },
+  {
+    "timestamp": "2026-02-06T11:25:50.697Z",
+    "context": "Bid submission for 2602069CHW",
+    "error": {
+      "message": "Request failed with status code 404",
+      "stack": "AxiosError: Request failed with status code 404\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at Unzip.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at Unzip.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Couldn't find Quote with 'id'=43079751-e258-40ca-8c94-034e9e779dc7 [WHERE \"enquiry_dispatch_quotes\".\"deleted\" = $1]"
+      }
+    },
+    "enquiryKey": "2602069CHW",
+    "bidType": "HIGH",
+    "bidPrice": 222680,
+    "quoteId": "43079751-e258-40ca-8c94-034e9e779dc7"
+  },
+  {
+    "timestamp": "2026-02-06T11:25:50.901Z",
+    "context": "Bid submission for 2602069CHW",
+    "error": {
+      "message": "Request failed with status code 404",
+      "stack": "AxiosError: Request failed with status code 404\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at Unzip.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at Unzip.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Couldn't find Quote with 'id'=43079751-e258-40ca-8c94-034e9e779dc7 [WHERE \"enquiry_dispatch_quotes\".\"deleted\" = $1]"
+      }
+    },
+    "enquiryKey": "2602069CHW",
+    "bidType": "MEDIUM",
+    "bidPrice": 220970,
+    "quoteId": "43079751-e258-40ca-8c94-034e9e779dc7"
+  },
+  {
+    "timestamp": "2026-02-06T11:25:51.153Z",
+    "context": "Bid submission for 2602069CHW",
+    "error": {
+      "message": "Request failed with status code 404",
+      "stack": "AxiosError: Request failed with status code 404\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at Unzip.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at Unzip.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Couldn't find Quote with 'id'=43079751-e258-40ca-8c94-034e9e779dc7 [WHERE \"enquiry_dispatch_quotes\".\"deleted\" = $1]"
+      }
+    },
+    "enquiryKey": "2602069CHW",
+    "bidType": "MEDIUM",
+    "bidPrice": 220970,
+    "quoteId": "43079751-e258-40ca-8c94-034e9e779dc7"
+  },
+  {
+    "timestamp": "2026-02-06T11:25:51.419Z",
+    "context": "Bid submission for 2602069CHW",
+    "error": {
+      "message": "Request failed with status code 404",
+      "stack": "AxiosError: Request failed with status code 404\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at Unzip.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at Unzip.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Couldn't find Quote with 'id'=43079751-e258-40ca-8c94-034e9e779dc7 [WHERE \"enquiry_dispatch_quotes\".\"deleted\" = $1]"
+      }
+    },
+    "enquiryKey": "2602069CHW",
+    "bidType": "MEDIUM",
+    "bidPrice": 220970,
+    "quoteId": "43079751-e258-40ca-8c94-034e9e779dc7"
+  },
+  {
+    "timestamp": "2026-02-06T11:25:51.798Z",
+    "context": "Bid submission for 2602069CHW",
+    "error": {
+      "message": "Request failed with status code 404",
+      "stack": "AxiosError: Request failed with status code 404\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at Unzip.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at Unzip.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Couldn't find Quote with 'id'=43079751-e258-40ca-8c94-034e9e779dc7 [WHERE \"enquiry_dispatch_quotes\".\"deleted\" = $1]"
+      }
+    },
+    "enquiryKey": "2602069CHW",
+    "bidType": "HIGH",
+    "bidPrice": 222680,
+    "quoteId": "43079751-e258-40ca-8c94-034e9e779dc7"
+  },
+  {
+    "timestamp": "2026-02-06T11:25:52.214Z",
+    "context": "Bid submission for 2602069CHW",
+    "error": {
+      "message": "Request failed with status code 404",
+      "stack": "AxiosError: Request failed with status code 404\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at Unzip.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at Unzip.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Couldn't find Quote with 'id'=43079751-e258-40ca-8c94-034e9e779dc7 [WHERE \"enquiry_dispatch_quotes\".\"deleted\" = $1]"
+      }
+    },
+    "enquiryKey": "2602069CHW",
+    "bidType": "HIGH",
+    "bidPrice": 222680,
+    "quoteId": "43079751-e258-40ca-8c94-034e9e779dc7"
+  },
+  {
+    "timestamp": "2026-02-06T11:25:52.528Z",
+    "context": "Bid submission for 2602069CHW",
+    "error": {
+      "message": "Request failed with status code 404",
+      "stack": "AxiosError: Request failed with status code 404\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at Unzip.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at Unzip.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Couldn't find Quote with 'id'=43079751-e258-40ca-8c94-034e9e779dc7 [WHERE \"enquiry_dispatch_quotes\".\"deleted\" = $1]"
+      }
+    },
+    "enquiryKey": "2602069CHW",
+    "bidType": "HIGH",
+    "bidPrice": 222680,
+    "quoteId": "43079751-e258-40ca-8c94-034e9e779dc7"
+  },
+  {
+    "timestamp": "2026-02-06T11:25:52.704Z",
+    "context": "Bid submission for 2602069CHW",
+    "error": {
+      "message": "Request failed with status code 404",
+      "stack": "AxiosError: Request failed with status code 404\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at Unzip.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at Unzip.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Couldn't find Quote with 'id'=43079751-e258-40ca-8c94-034e9e779dc7 [WHERE \"enquiry_dispatch_quotes\".\"deleted\" = $1]"
+      }
+    },
+    "enquiryKey": "2602069CHW",
+    "bidType": "HIGH",
+    "bidPrice": 222680,
+    "quoteId": "43079751-e258-40ca-8c94-034e9e779dc7"
+  },
+  {
+    "timestamp": "2026-02-06T11:25:53.012Z",
+    "context": "Bid submission for 2602069CHW",
+    "error": {
+      "message": "Request failed with status code 404",
+      "stack": "AxiosError: Request failed with status code 404\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at Unzip.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at Unzip.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Couldn't find Quote with 'id'=43079751-e258-40ca-8c94-034e9e779dc7 [WHERE \"enquiry_dispatch_quotes\".\"deleted\" = $1]"
+      }
+    },
+    "enquiryKey": "2602069CHW",
+    "bidType": "HIGH",
+    "bidPrice": 222680,
+    "quoteId": "43079751-e258-40ca-8c94-034e9e779dc7"
+  },
+  {
+    "timestamp": "2026-02-06T11:25:53.350Z",
+    "context": "Bid submission for 2602069CHW",
+    "error": {
+      "message": "Request failed with status code 404",
+      "stack": "AxiosError: Request failed with status code 404\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at Unzip.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at Unzip.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Couldn't find Quote with 'id'=43079751-e258-40ca-8c94-034e9e779dc7 [WHERE \"enquiry_dispatch_quotes\".\"deleted\" = $1]"
+      }
+    },
+    "enquiryKey": "2602069CHW",
+    "bidType": "HIGH",
+    "bidPrice": 222680,
+    "quoteId": "43079751-e258-40ca-8c94-034e9e779dc7"
+  },
+  {
+    "timestamp": "2026-02-06T11:25:53.496Z",
+    "context": "Bid submission for 2602069CHW",
+    "error": {
+      "message": "Request failed with status code 404",
+      "stack": "AxiosError: Request failed with status code 404\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at Unzip.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at Unzip.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid (D:\\LIVE_iis\\bidding\\server.js:1984:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Couldn't find Quote with 'id'=43079751-e258-40ca-8c94-034e9e779dc7 [WHERE \"enquiry_dispatch_quotes\".\"deleted\" = $1]"
+      }
+    },
+    "enquiryKey": "2602069CHW",
+    "bidType": "LOW",
+    "bidPrice": 219070,
+    "quoteId": "43079751-e258-40ca-8c94-034e9e779dc7"
+  },
+  {
+    "timestamp": "2026-02-06T11:25:53.837Z",
+    "context": "Bid submission for 2602069CHW",
+    "error": {
+      "message": "Request failed with status code 404",
+      "stack": "AxiosError: Request failed with status code 404\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at Unzip.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at Unzip.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid (D:\\LIVE_iis\\bidding\\server.js:1984:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Couldn't find Quote with 'id'=43079751-e258-40ca-8c94-034e9e779dc7 [WHERE \"enquiry_dispatch_quotes\".\"deleted\" = $1]"
+      }
+    },
+    "enquiryKey": "2602069CHW",
+    "bidType": "LOW",
+    "bidPrice": 219070,
+    "quoteId": "43079751-e258-40ca-8c94-034e9e779dc7"
+  },
+  {
+    "timestamp": "2026-02-06T11:25:54.208Z",
+    "context": "Bid submission for 2602069CHW",
+    "error": {
+      "message": "Request failed with status code 404",
+      "stack": "AxiosError: Request failed with status code 404\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at Unzip.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at Unzip.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid (D:\\LIVE_iis\\bidding\\server.js:1984:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Couldn't find Quote with 'id'=43079751-e258-40ca-8c94-034e9e779dc7 [WHERE \"enquiry_dispatch_quotes\".\"deleted\" = $1]"
+      }
+    },
+    "enquiryKey": "2602069CHW",
+    "bidType": "LOW",
+    "bidPrice": 219070,
+    "quoteId": "43079751-e258-40ca-8c94-034e9e779dc7"
+  },
+  {
+    "timestamp": "2026-02-06T12:52:47.710Z",
+    "context": "Bid submission for 260206J5HK",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Cannot Submit Quote either the enquiry is closed or you have reached maximum revision limit"
+      }
+    },
+    "enquiryKey": "260206J5HK",
+    "bidType": "HIGH",
+    "bidPrice": 56256,
+    "quoteId": "ab3c5431-038e-4285-b4e4-1d5e7b64ad6a"
+  },
+  {
+    "timestamp": "2026-02-06T12:52:48.006Z",
+    "context": "Bid submission for 260206J5HK",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Cannot Submit Quote either the enquiry is closed or you have reached maximum revision limit"
+      }
+    },
+    "enquiryKey": "260206J5HK",
+    "bidType": "HIGH",
+    "bidPrice": 56256,
+    "quoteId": "ab3c5431-038e-4285-b4e4-1d5e7b64ad6a"
+  },
+  {
+    "timestamp": "2026-02-06T12:52:49.681Z",
+    "context": "Bid submission for 260206J5HK",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Cannot Submit Quote either the enquiry is closed or you have reached maximum revision limit"
+      }
+    },
+    "enquiryKey": "260206J5HK",
+    "bidType": "HIGH",
+    "bidPrice": 56256,
+    "quoteId": "ab3c5431-038e-4285-b4e4-1d5e7b64ad6a"
+  },
+  {
+    "timestamp": "2026-02-06T12:52:49.891Z",
+    "context": "Bid submission for 260206J5HK",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Cannot Submit Quote either the enquiry is closed or you have reached maximum revision limit"
+      }
+    },
+    "enquiryKey": "260206J5HK",
+    "bidType": "HIGH",
+    "bidPrice": 56256,
+    "quoteId": "ab3c5431-038e-4285-b4e4-1d5e7b64ad6a"
+  },
+  {
+    "timestamp": "2026-02-06T12:52:50.155Z",
+    "context": "Bid submission for 260206J5HK",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Cannot Submit Quote either the enquiry is closed or you have reached maximum revision limit"
+      }
+    },
+    "enquiryKey": "260206J5HK",
+    "bidType": "HIGH",
+    "bidPrice": 56256,
+    "quoteId": "ab3c5431-038e-4285-b4e4-1d5e7b64ad6a"
+  },
+  {
+    "timestamp": "2026-02-06T12:52:50.483Z",
+    "context": "Bid submission for 260206J5HK",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Cannot Submit Quote either the enquiry is closed or you have reached maximum revision limit"
+      }
+    },
+    "enquiryKey": "260206J5HK",
+    "bidType": "HIGH",
+    "bidPrice": 56256,
+    "quoteId": "ab3c5431-038e-4285-b4e4-1d5e7b64ad6a"
+  },
+  {
+    "timestamp": "2026-02-06T12:52:50.661Z",
+    "context": "Bid submission for 260206J5HK",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Cannot Submit Quote either the enquiry is closed or you have reached maximum revision limit"
+      }
+    },
+    "enquiryKey": "260206J5HK",
+    "bidType": "MEDIUM",
+    "bidPrice": 55824,
+    "quoteId": "ab3c5431-038e-4285-b4e4-1d5e7b64ad6a"
+  },
+  {
+    "timestamp": "2026-02-06T12:52:50.930Z",
+    "context": "Bid submission for 260206J5HK",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Cannot Submit Quote either the enquiry is closed or you have reached maximum revision limit"
+      }
+    },
+    "enquiryKey": "260206J5HK",
+    "bidType": "MEDIUM",
+    "bidPrice": 55824,
+    "quoteId": "ab3c5431-038e-4285-b4e4-1d5e7b64ad6a"
+  },
+  {
+    "timestamp": "2026-02-06T12:52:51.228Z",
+    "context": "Bid submission for 260206J5HK",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Cannot Submit Quote either the enquiry is closed or you have reached maximum revision limit"
+      }
+    },
+    "enquiryKey": "260206J5HK",
+    "bidType": "MEDIUM",
+    "bidPrice": 55824,
+    "quoteId": "ab3c5431-038e-4285-b4e4-1d5e7b64ad6a"
+  },
+  {
+    "timestamp": "2026-02-06T12:52:51.357Z",
+    "context": "Bid submission for 260206J5HK",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Cannot Submit Quote either the enquiry is closed or you have reached maximum revision limit"
+      }
+    },
+    "enquiryKey": "260206J5HK",
+    "bidType": "MEDIUM",
+    "bidPrice": 55824,
+    "quoteId": "ab3c5431-038e-4285-b4e4-1d5e7b64ad6a"
+  },
+  {
+    "timestamp": "2026-02-06T12:52:51.617Z",
+    "context": "Bid submission for 260206J5HK",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Cannot Submit Quote either the enquiry is closed or you have reached maximum revision limit"
+      }
+    },
+    "enquiryKey": "260206J5HK",
+    "bidType": "MEDIUM",
+    "bidPrice": 55824,
+    "quoteId": "ab3c5431-038e-4285-b4e4-1d5e7b64ad6a"
+  },
+  {
+    "timestamp": "2026-02-06T12:52:51.873Z",
+    "context": "Bid submission for 260206J5HK",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Cannot Submit Quote either the enquiry is closed or you have reached maximum revision limit"
+      }
+    },
+    "enquiryKey": "260206J5HK",
+    "bidType": "MEDIUM",
+    "bidPrice": 55824,
+    "quoteId": "ab3c5431-038e-4285-b4e4-1d5e7b64ad6a"
+  },
+  {
+    "timestamp": "2026-02-06T12:52:52.171Z",
+    "context": "Bid submission for 260206J5HK",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Cannot Submit Quote either the enquiry is closed or you have reached maximum revision limit"
+      }
+    },
+    "enquiryKey": "260206J5HK",
+    "bidType": "HIGH",
+    "bidPrice": 56256,
+    "quoteId": "ab3c5431-038e-4285-b4e4-1d5e7b64ad6a"
+  },
+  {
+    "timestamp": "2026-02-06T12:52:52.421Z",
+    "context": "Bid submission for 260206J5HK",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Cannot Submit Quote either the enquiry is closed or you have reached maximum revision limit"
+      }
+    },
+    "enquiryKey": "260206J5HK",
+    "bidType": "HIGH",
+    "bidPrice": 56256,
+    "quoteId": "ab3c5431-038e-4285-b4e4-1d5e7b64ad6a"
+  },
+  {
+    "timestamp": "2026-02-06T12:52:52.705Z",
+    "context": "Bid submission for 260206J5HK",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Cannot Submit Quote either the enquiry is closed or you have reached maximum revision limit"
+      }
+    },
+    "enquiryKey": "260206J5HK",
+    "bidType": "HIGH",
+    "bidPrice": 56256,
+    "quoteId": "ab3c5431-038e-4285-b4e4-1d5e7b64ad6a"
+  },
+  {
+    "timestamp": "2026-02-06T12:52:52.821Z",
+    "context": "Bid submission for 260206J5HK",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Cannot Submit Quote either the enquiry is closed or you have reached maximum revision limit"
+      }
+    },
+    "enquiryKey": "260206J5HK",
+    "bidType": "MEDIUM",
+    "bidPrice": 55824,
+    "quoteId": "ab3c5431-038e-4285-b4e4-1d5e7b64ad6a"
+  },
+  {
+    "timestamp": "2026-02-06T12:52:53.079Z",
+    "context": "Bid submission for 260206J5HK",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Cannot Submit Quote either the enquiry is closed or you have reached maximum revision limit"
+      }
+    },
+    "enquiryKey": "260206J5HK",
+    "bidType": "MEDIUM",
+    "bidPrice": 55824,
+    "quoteId": "ab3c5431-038e-4285-b4e4-1d5e7b64ad6a"
+  },
+  {
+    "timestamp": "2026-02-06T12:52:53.344Z",
+    "context": "Bid submission for 260206J5HK",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Cannot Submit Quote either the enquiry is closed or you have reached maximum revision limit"
+      }
+    },
+    "enquiryKey": "260206J5HK",
+    "bidType": "MEDIUM",
+    "bidPrice": 55824,
+    "quoteId": "ab3c5431-038e-4285-b4e4-1d5e7b64ad6a"
+  },
+  {
+    "timestamp": "2026-02-06T12:52:53.574Z",
+    "context": "Bid submission for 260206J5HK",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Cannot Submit Quote either the enquiry is closed or you have reached maximum revision limit"
+      }
+    },
+    "enquiryKey": "260206J5HK",
+    "bidType": "HIGH",
+    "bidPrice": 56256,
+    "quoteId": "ab3c5431-038e-4285-b4e4-1d5e7b64ad6a"
+  },
+  {
+    "timestamp": "2026-02-06T12:52:54.480Z",
+    "context": "Bid submission for 260206J5HK",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Cannot Submit Quote either the enquiry is closed or you have reached maximum revision limit"
+      }
+    },
+    "enquiryKey": "260206J5HK",
+    "bidType": "HIGH",
+    "bidPrice": 56256,
+    "quoteId": "ab3c5431-038e-4285-b4e4-1d5e7b64ad6a"
+  },
+  {
+    "timestamp": "2026-02-06T12:52:54.748Z",
+    "context": "Bid submission for 260206J5HK",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Cannot Submit Quote either the enquiry is closed or you have reached maximum revision limit"
+      }
+    },
+    "enquiryKey": "260206J5HK",
+    "bidType": "HIGH",
+    "bidPrice": 56256,
+    "quoteId": "ab3c5431-038e-4285-b4e4-1d5e7b64ad6a"
+  },
+  {
+    "timestamp": "2026-02-06T12:52:54.890Z",
+    "context": "Bid submission for 260206J5HK",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Cannot Submit Quote either the enquiry is closed or you have reached maximum revision limit"
+      }
+    },
+    "enquiryKey": "260206J5HK",
+    "bidType": "MEDIUM",
+    "bidPrice": 55824,
+    "quoteId": "ab3c5431-038e-4285-b4e4-1d5e7b64ad6a"
+  },
+  {
+    "timestamp": "2026-02-06T12:52:55.188Z",
+    "context": "Bid submission for 260206J5HK",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Cannot Submit Quote either the enquiry is closed or you have reached maximum revision limit"
+      }
+    },
+    "enquiryKey": "260206J5HK",
+    "bidType": "MEDIUM",
+    "bidPrice": 55824,
+    "quoteId": "ab3c5431-038e-4285-b4e4-1d5e7b64ad6a"
+  },
+  {
+    "timestamp": "2026-02-06T12:52:55.484Z",
+    "context": "Bid submission for 260206J5HK",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Cannot Submit Quote either the enquiry is closed or you have reached maximum revision limit"
+      }
+    },
+    "enquiryKey": "260206J5HK",
+    "bidType": "MEDIUM",
+    "bidPrice": 55824,
+    "quoteId": "ab3c5431-038e-4285-b4e4-1d5e7b64ad6a"
+  },
+  {
+    "timestamp": "2026-02-06T12:52:55.669Z",
+    "context": "Bid submission for 260206J5HK",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Cannot Submit Quote either the enquiry is closed or you have reached maximum revision limit"
+      }
+    },
+    "enquiryKey": "260206J5HK",
+    "bidType": "HIGH",
+    "bidPrice": 56256,
+    "quoteId": "ab3c5431-038e-4285-b4e4-1d5e7b64ad6a"
+  },
+  {
+    "timestamp": "2026-02-06T12:52:55.983Z",
+    "context": "Bid submission for 260206J5HK",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Cannot Submit Quote either the enquiry is closed or you have reached maximum revision limit"
+      }
+    },
+    "enquiryKey": "260206J5HK",
+    "bidType": "HIGH",
+    "bidPrice": 56256,
+    "quoteId": "ab3c5431-038e-4285-b4e4-1d5e7b64ad6a"
+  },
+  {
+    "timestamp": "2026-02-06T12:52:56.436Z",
+    "context": "Bid submission for 260206J5HK",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid (D:\\LIVE_iis\\bidding\\server.js:1958:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Cannot Submit Quote either the enquiry is closed or you have reached maximum revision limit"
+      }
+    },
+    "enquiryKey": "260206J5HK",
+    "bidType": "HIGH",
+    "bidPrice": 56256,
+    "quoteId": "ab3c5431-038e-4285-b4e4-1d5e7b64ad6a"
+  },
+  {
+    "timestamp": "2026-02-06T12:52:57.794Z",
+    "context": "Bid submission for 260206J5HK",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid (D:\\LIVE_iis\\bidding\\server.js:1984:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Cannot Submit Quote either the enquiry is closed or you have reached maximum revision limit"
+      }
+    },
+    "enquiryKey": "260206J5HK",
+    "bidType": "LOW",
+    "bidPrice": 55344,
+    "quoteId": "ab3c5431-038e-4285-b4e4-1d5e7b64ad6a"
+  },
+  {
+    "timestamp": "2026-02-06T12:52:58.061Z",
+    "context": "Bid submission for 260206J5HK",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid (D:\\LIVE_iis\\bidding\\server.js:1984:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Cannot Submit Quote either the enquiry is closed or you have reached maximum revision limit"
+      }
+    },
+    "enquiryKey": "260206J5HK",
+    "bidType": "LOW",
+    "bidPrice": 55344,
+    "quoteId": "ab3c5431-038e-4285-b4e4-1d5e7b64ad6a"
+  },
+  {
+    "timestamp": "2026-02-06T12:52:58.328Z",
+    "context": "Bid submission for 260206J5HK",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid (D:\\LIVE_iis\\bidding\\server.js:1984:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Cannot Submit Quote either the enquiry is closed or you have reached maximum revision limit"
+      }
+    },
+    "enquiryKey": "260206J5HK",
+    "bidType": "LOW",
+    "bidPrice": 55344,
+    "quoteId": "ab3c5431-038e-4285-b4e4-1d5e7b64ad6a"
+  }
+]

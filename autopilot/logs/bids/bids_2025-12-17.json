@@ -1,0 +1,106 @@
+[
+  {
+    "timestamp": "2025-12-17T12:59:41.953Z",
+    "enquiryKey": "251217ZW21",
+    "bidType": "PUBLIC_SUBMISSION",
+    "bidPrice": 75000,
+    "timeToClosingMs": null,
+    "timeToClosingSec": 0,
+    "currentRank": null,
+    "success": true,
+    "responseTimeMs": 0,
+    "calculatedBids": {
+      "high": 80888,
+      "medium": 79725,
+      "low": 78847,
+      "marketValue": 75000
+    },
+    "percentages": {
+      "high": 7.85,
+      "medium": 6.3,
+      "low": 5.13
+    }
+  },
+  {
+    "timestamp": "2025-12-17T13:07:51.939Z",
+    "enquiryKey": "2512173AHK",
+    "bidType": "PUBLIC_SUBMISSION",
+    "bidPrice": 123000,
+    "timeToClosingMs": null,
+    "timeToClosingSec": 0,
+    "currentRank": null,
+    "success": true,
+    "responseTimeMs": 0,
+    "calculatedBids": {
+      "high": 132656,
+      "medium": 130749,
+      "low": 129310,
+      "marketValue": 123000
+    },
+    "percentages": {
+      "high": 7.85,
+      "medium": 6.3,
+      "low": 5.13
+    }
+  },
+  {
+    "timestamp": "2025-12-17T13:31:46.872Z",
+    "enquiryKey": "2512173AHK",
+    "bidType": "HIGH",
+    "bidPrice": 132656,
+    "timeToClosingMs": 9780,
+    "timeToClosingSec": 9,
+    "currentRank": 3,
+    "success": true,
+    "responseTimeMs": 663,
+    "revisionsLeft": 2,
+    "bidsSubmitted": 1,
+    "startedBy": "public-submission",
+    "userFullName": "Public Submission"
+  },
+  {
+    "timestamp": "2025-12-17T13:31:48.773Z",
+    "enquiryKey": "2512173AHK",
+    "bidType": "MEDIUM",
+    "bidPrice": 130749,
+    "timeToClosingMs": 7924,
+    "timeToClosingSec": 7,
+    "currentRank": 3,
+    "success": true,
+    "responseTimeMs": 708,
+    "revisionsLeft": 1,
+    "bidsSubmitted": 2,
+    "startedBy": "public-submission",
+    "userFullName": "Public Submission"
+  },
+  {
+    "timestamp": "2025-12-17T13:31:55.062Z",
+    "enquiryKey": "2512173AHK",
+    "bidType": "LOW",
+    "bidPrice": 129310,
+    "timeToClosingMs": 1909,
+    "timeToClosingSec": 1,
+    "currentRank": 3,
+    "success": true,
+    "responseTimeMs": 982,
+    "revisionsLeft": 0,
+    "bidsSubmitted": 3,
+    "startedBy": "public-submission",
+    "userFullName": "Public Submission"
+  },
+  {
+    "timestamp": "2025-12-17T14:10:49.144Z",
+    "enquiryKey": "251217ZW21",
+    "bidType": "HIGH",
+    "bidPrice": 80888,
+    "timeToClosingMs": 9821,
+    "timeToClosingSec": 9,
+    "currentRank": 1,
+    "success": true,
+    "responseTimeMs": 2942,
+    "revisionsLeft": 3,
+    "bidsSubmitted": 1,
+    "startedBy": "public-submission",
+    "userFullName": "Public Submission"
+  }
+]

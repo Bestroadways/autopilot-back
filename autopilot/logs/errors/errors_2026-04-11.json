@@ -1,0 +1,485 @@
+[
+  {
+    "timestamp": "2026-04-11T09:42:49.257Z",
+    "context": "Fetching bidding data for 26041135SM",
+    "error": {
+      "message": "socket hang up",
+      "stack": "Error: socket hang up\n    at AxiosError.from (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:899:14)\n    at RedirectableRequest.handleRequestError (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3228:25)\n    at RedirectableRequest.emit (node:events:518:28)\n    at eventHandlers.<computed> (D:\\LIVE_iis\\spot.bidding\\node_modules\\follow-redirects\\index.js:49:24)\n    at ClientRequest.emit (node:events:518:28)\n    at emitErrorEvent (node:_http_client:104:11)\n    at TLSSocket.socketCloseListener (node:_http_client:491:7)\n    at TLSSocket.emit (node:events:530:35)\n    at node:net:346:12\n    at TCP.done (node:_tls_wrap:650:7)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at async fetchBiddingData (D:\\LIVE_iis\\spot.bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1921:25)",
+      "code": "ECONNRESET"
+    }
+  },
+  {
+    "timestamp": "2026-04-11T10:24:59.772Z",
+    "context": "Fetching bidding data for 260411DGLT",
+    "error": {
+      "message": "socket hang up",
+      "stack": "Error: socket hang up\n    at AxiosError.from (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:899:14)\n    at RedirectableRequest.handleRequestError (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3228:25)\n    at RedirectableRequest.emit (node:events:518:28)\n    at eventHandlers.<computed> (D:\\LIVE_iis\\spot.bidding\\node_modules\\follow-redirects\\index.js:49:24)\n    at ClientRequest.emit (node:events:518:28)\n    at emitErrorEvent (node:_http_client:104:11)\n    at TLSSocket.socketCloseListener (node:_http_client:491:7)\n    at TLSSocket.emit (node:events:530:35)\n    at node:net:346:12\n    at TCP.done (node:_tls_wrap:650:7)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at async fetchBiddingData (D:\\LIVE_iis\\spot.bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid (D:\\LIVE_iis\\spot.bidding\\server.js:1921:25)",
+      "code": "ECONNRESET"
+    }
+  },
+  {
+    "timestamp": "2026-04-11T10:45:02.028Z",
+    "context": "Fetching bidding data for 260411DGLT",
+    "error": {
+      "message": "socket hang up",
+      "stack": "Error: socket hang up\n    at AxiosError.from (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:899:14)\n    at RedirectableRequest.handleRequestError (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3228:25)\n    at RedirectableRequest.emit (node:events:518:28)\n    at eventHandlers.<computed> (D:\\LIVE_iis\\spot.bidding\\node_modules\\follow-redirects\\index.js:49:24)\n    at ClientRequest.emit (node:events:518:28)\n    at emitErrorEvent (node:_http_client:104:11)\n    at TLSSocket.socketCloseListener (node:_http_client:491:7)\n    at TLSSocket.emit (node:events:530:35)\n    at node:net:346:12\n    at TCP.done (node:_tls_wrap:650:7)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at async fetchBiddingData (D:\\LIVE_iis\\spot.bidding\\server.js:1627:24)\n    at async Timeout._onTimeout (D:\\LIVE_iis\\spot.bidding\\server.js:2030:33)",
+      "code": "ECONNRESET"
+    }
+  },
+  {
+    "timestamp": "2026-04-11T10:51:37.104Z",
+    "context": "Fetching bidding data for 2604113V85",
+    "error": {
+      "message": "connect ETIMEDOUT 35.244.17.137:443",
+      "stack": "Error: connect ETIMEDOUT 35.244.17.137:443\n    at AxiosError.from (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:899:14)\n    at RedirectableRequest.handleRequestError (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3228:25)\n    at RedirectableRequest.emit (node:events:518:28)\n    at eventHandlers.<computed> (D:\\LIVE_iis\\spot.bidding\\node_modules\\follow-redirects\\index.js:49:24)\n    at ClientRequest.emit (node:events:518:28)\n    at emitErrorEvent (node:_http_client:104:11)\n    at TLSSocket.socketErrorListener (node:_http_client:518:5)\n    at TLSSocket.emit (node:events:518:28)\n    at emitErrorNT (node:internal/streams/destroy:170:8)\n    at emitErrorCloseNT (node:internal/streams/destroy:129:3)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\spot.bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1921:25)",
+      "code": "ETIMEDOUT"
+    }
+  },
+  {
+    "timestamp": "2026-04-11T10:51:38.131Z",
+    "context": "Fetching bidding data for 2604115SPR",
+    "error": {
+      "message": "getaddrinfo ENOTFOUND enquiry.gocomet.com",
+      "stack": "Error: getaddrinfo ENOTFOUND enquiry.gocomet.com\n    at AxiosError.from (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:899:14)\n    at RedirectableRequest.handleRequestError (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3228:25)\n    at RedirectableRequest.emit (node:events:518:28)\n    at eventHandlers.<computed> (D:\\LIVE_iis\\spot.bidding\\node_modules\\follow-redirects\\index.js:49:24)\n    at ClientRequest.emit (node:events:518:28)\n    at emitErrorEvent (node:_http_client:104:11)\n    at TLSSocket.socketErrorListener (node:_http_client:518:5)\n    at TLSSocket.emit (node:events:518:28)\n    at emitErrorNT (node:internal/streams/destroy:170:8)\n    at emitErrorCloseNT (node:internal/streams/destroy:129:3)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\spot.bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1921:25)",
+      "code": "ENOTFOUND"
+    }
+  },
+  {
+    "timestamp": "2026-04-11T10:51:38.779Z",
+    "context": "Fetching bidding data for 260411ZCN6",
+    "error": {
+      "message": "connect ETIMEDOUT 35.244.17.137:443",
+      "stack": "Error: connect ETIMEDOUT 35.244.17.137:443\n    at AxiosError.from (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:899:14)\n    at RedirectableRequest.handleRequestError (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3228:25)\n    at RedirectableRequest.emit (node:events:518:28)\n    at eventHandlers.<computed> (D:\\LIVE_iis\\spot.bidding\\node_modules\\follow-redirects\\index.js:49:24)\n    at ClientRequest.emit (node:events:518:28)\n    at emitErrorEvent (node:_http_client:104:11)\n    at TLSSocket.socketErrorListener (node:_http_client:518:5)\n    at TLSSocket.emit (node:events:518:28)\n    at emitErrorNT (node:internal/streams/destroy:170:8)\n    at emitErrorCloseNT (node:internal/streams/destroy:129:3)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\spot.bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1921:25)",
+      "code": "ETIMEDOUT"
+    }
+  },
+  {
+    "timestamp": "2026-04-11T10:51:46.079Z",
+    "context": "Fetching bidding data for 2604113V85",
+    "error": {
+      "message": "getaddrinfo ENOTFOUND enquiry.gocomet.com",
+      "stack": "Error: getaddrinfo ENOTFOUND enquiry.gocomet.com\n    at AxiosError.from (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:899:14)\n    at RedirectableRequest.handleRequestError (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3228:25)\n    at RedirectableRequest.emit (node:events:518:28)\n    at eventHandlers.<computed> (D:\\LIVE_iis\\spot.bidding\\node_modules\\follow-redirects\\index.js:49:24)\n    at ClientRequest.emit (node:events:518:28)\n    at emitErrorEvent (node:_http_client:104:11)\n    at TLSSocket.socketErrorListener (node:_http_client:518:5)\n    at TLSSocket.emit (node:events:518:28)\n    at emitErrorNT (node:internal/streams/destroy:170:8)\n    at emitErrorCloseNT (node:internal/streams/destroy:129:3)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\spot.bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1921:25)",
+      "code": "ENOTFOUND"
+    }
+  },
+  {
+    "timestamp": "2026-04-11T10:51:47.735Z",
+    "context": "Fetching bidding data for 260411ZCN6",
+    "error": {
+      "message": "getaddrinfo ENOTFOUND enquiry.gocomet.com",
+      "stack": "Error: getaddrinfo ENOTFOUND enquiry.gocomet.com\n    at AxiosError.from (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:899:14)\n    at RedirectableRequest.handleRequestError (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3228:25)\n    at RedirectableRequest.emit (node:events:518:28)\n    at eventHandlers.<computed> (D:\\LIVE_iis\\spot.bidding\\node_modules\\follow-redirects\\index.js:49:24)\n    at ClientRequest.emit (node:events:518:28)\n    at emitErrorEvent (node:_http_client:104:11)\n    at TLSSocket.socketErrorListener (node:_http_client:518:5)\n    at TLSSocket.emit (node:events:518:28)\n    at emitErrorNT (node:internal/streams/destroy:170:8)\n    at emitErrorCloseNT (node:internal/streams/destroy:129:3)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\spot.bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1921:25)",
+      "code": "ENOTFOUND"
+    }
+  },
+  {
+    "timestamp": "2026-04-11T10:51:57.051Z",
+    "context": "Fetching bidding data for 2604115SPR",
+    "error": {
+      "message": "getaddrinfo ENOTFOUND enquiry.gocomet.com",
+      "stack": "Error: getaddrinfo ENOTFOUND enquiry.gocomet.com\n    at AxiosError.from (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:899:14)\n    at RedirectableRequest.handleRequestError (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3228:25)\n    at RedirectableRequest.emit (node:events:518:28)\n    at eventHandlers.<computed> (D:\\LIVE_iis\\spot.bidding\\node_modules\\follow-redirects\\index.js:49:24)\n    at ClientRequest.emit (node:events:518:28)\n    at emitErrorEvent (node:_http_client:104:11)\n    at TLSSocket.socketErrorListener (node:_http_client:518:5)\n    at TLSSocket.emit (node:events:518:28)\n    at emitErrorNT (node:internal/streams/destroy:170:8)\n    at emitErrorCloseNT (node:internal/streams/destroy:129:3)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\spot.bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1921:25)",
+      "code": "ENOTFOUND"
+    }
+  },
+  {
+    "timestamp": "2026-04-11T10:52:16.080Z",
+    "context": "Fetching bidding data for 2604113V85",
+    "error": {
+      "message": "getaddrinfo ENOTFOUND enquiry.gocomet.com",
+      "stack": "Error: getaddrinfo ENOTFOUND enquiry.gocomet.com\n    at AxiosError.from (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:899:14)\n    at RedirectableRequest.handleRequestError (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3228:25)\n    at RedirectableRequest.emit (node:events:518:28)\n    at eventHandlers.<computed> (D:\\LIVE_iis\\spot.bidding\\node_modules\\follow-redirects\\index.js:49:24)\n    at ClientRequest.emit (node:events:518:28)\n    at emitErrorEvent (node:_http_client:104:11)\n    at TLSSocket.socketErrorListener (node:_http_client:518:5)\n    at TLSSocket.emit (node:events:518:28)\n    at emitErrorNT (node:internal/streams/destroy:170:8)\n    at emitErrorCloseNT (node:internal/streams/destroy:129:3)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\spot.bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1921:25)",
+      "code": "ENOTFOUND"
+    }
+  },
+  {
+    "timestamp": "2026-04-11T10:52:17.756Z",
+    "context": "Fetching bidding data for 260411ZCN6",
+    "error": {
+      "message": "getaddrinfo ENOTFOUND enquiry.gocomet.com",
+      "stack": "Error: getaddrinfo ENOTFOUND enquiry.gocomet.com\n    at AxiosError.from (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:899:14)\n    at RedirectableRequest.handleRequestError (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3228:25)\n    at RedirectableRequest.emit (node:events:518:28)\n    at eventHandlers.<computed> (D:\\LIVE_iis\\spot.bidding\\node_modules\\follow-redirects\\index.js:49:24)\n    at ClientRequest.emit (node:events:518:28)\n    at emitErrorEvent (node:_http_client:104:11)\n    at TLSSocket.socketErrorListener (node:_http_client:518:5)\n    at TLSSocket.emit (node:events:518:28)\n    at emitErrorNT (node:internal/streams/destroy:170:8)\n    at emitErrorCloseNT (node:internal/streams/destroy:129:3)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\spot.bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1921:25)",
+      "code": "ENOTFOUND"
+    }
+  },
+  {
+    "timestamp": "2026-04-11T10:52:38.125Z",
+    "context": "Fetching bidding data for 2604115SPR",
+    "error": {
+      "message": "getaddrinfo ENOTFOUND enquiry.gocomet.com",
+      "stack": "Error: getaddrinfo ENOTFOUND enquiry.gocomet.com\n    at AxiosError.from (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:899:14)\n    at RedirectableRequest.handleRequestError (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3228:25)\n    at RedirectableRequest.emit (node:events:518:28)\n    at eventHandlers.<computed> (D:\\LIVE_iis\\spot.bidding\\node_modules\\follow-redirects\\index.js:49:24)\n    at ClientRequest.emit (node:events:518:28)\n    at emitErrorEvent (node:_http_client:104:11)\n    at TLSSocket.socketErrorListener (node:_http_client:518:5)\n    at TLSSocket.emit (node:events:518:28)\n    at emitErrorNT (node:internal/streams/destroy:170:8)\n    at emitErrorCloseNT (node:internal/streams/destroy:129:3)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\spot.bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1921:25)",
+      "code": "ENOTFOUND"
+    }
+  },
+  {
+    "timestamp": "2026-04-11T10:52:46.093Z",
+    "context": "Fetching bidding data for 2604113V85",
+    "error": {
+      "message": "getaddrinfo ENOTFOUND enquiry.gocomet.com",
+      "stack": "Error: getaddrinfo ENOTFOUND enquiry.gocomet.com\n    at AxiosError.from (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:899:14)\n    at RedirectableRequest.handleRequestError (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3228:25)\n    at RedirectableRequest.emit (node:events:518:28)\n    at eventHandlers.<computed> (D:\\LIVE_iis\\spot.bidding\\node_modules\\follow-redirects\\index.js:49:24)\n    at ClientRequest.emit (node:events:518:28)\n    at emitErrorEvent (node:_http_client:104:11)\n    at TLSSocket.socketErrorListener (node:_http_client:518:5)\n    at TLSSocket.emit (node:events:518:28)\n    at emitErrorNT (node:internal/streams/destroy:170:8)\n    at emitErrorCloseNT (node:internal/streams/destroy:129:3)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\spot.bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1921:25)",
+      "code": "ENOTFOUND"
+    }
+  },
+  {
+    "timestamp": "2026-04-11T10:52:47.764Z",
+    "context": "Fetching bidding data for 260411ZCN6",
+    "error": {
+      "message": "getaddrinfo ENOTFOUND enquiry.gocomet.com",
+      "stack": "Error: getaddrinfo ENOTFOUND enquiry.gocomet.com\n    at AxiosError.from (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:899:14)\n    at RedirectableRequest.handleRequestError (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3228:25)\n    at RedirectableRequest.emit (node:events:518:28)\n    at eventHandlers.<computed> (D:\\LIVE_iis\\spot.bidding\\node_modules\\follow-redirects\\index.js:49:24)\n    at ClientRequest.emit (node:events:518:28)\n    at emitErrorEvent (node:_http_client:104:11)\n    at TLSSocket.socketErrorListener (node:_http_client:518:5)\n    at TLSSocket.emit (node:events:518:28)\n    at emitErrorNT (node:internal/streams/destroy:170:8)\n    at emitErrorCloseNT (node:internal/streams/destroy:129:3)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\spot.bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1921:25)",
+      "code": "ENOTFOUND"
+    }
+  },
+  {
+    "timestamp": "2026-04-11T10:53:08.125Z",
+    "context": "Fetching bidding data for 2604115SPR",
+    "error": {
+      "message": "getaddrinfo ENOTFOUND enquiry.gocomet.com",
+      "stack": "Error: getaddrinfo ENOTFOUND enquiry.gocomet.com\n    at AxiosError.from (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:899:14)\n    at RedirectableRequest.handleRequestError (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3228:25)\n    at RedirectableRequest.emit (node:events:518:28)\n    at eventHandlers.<computed> (D:\\LIVE_iis\\spot.bidding\\node_modules\\follow-redirects\\index.js:49:24)\n    at ClientRequest.emit (node:events:518:28)\n    at emitErrorEvent (node:_http_client:104:11)\n    at TLSSocket.socketErrorListener (node:_http_client:518:5)\n    at TLSSocket.emit (node:events:518:28)\n    at emitErrorNT (node:internal/streams/destroy:170:8)\n    at emitErrorCloseNT (node:internal/streams/destroy:129:3)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\spot.bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1921:25)",
+      "code": "ENOTFOUND"
+    }
+  },
+  {
+    "timestamp": "2026-04-11T10:53:17.778Z",
+    "context": "Fetching bidding data for 260411ZCN6",
+    "error": {
+      "message": "getaddrinfo ENOTFOUND enquiry.gocomet.com",
+      "stack": "Error: getaddrinfo ENOTFOUND enquiry.gocomet.com\n    at AxiosError.from (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:899:14)\n    at RedirectableRequest.handleRequestError (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3228:25)\n    at RedirectableRequest.emit (node:events:518:28)\n    at eventHandlers.<computed> (D:\\LIVE_iis\\spot.bidding\\node_modules\\follow-redirects\\index.js:49:24)\n    at ClientRequest.emit (node:events:518:28)\n    at emitErrorEvent (node:_http_client:104:11)\n    at TLSSocket.socketErrorListener (node:_http_client:518:5)\n    at TLSSocket.emit (node:events:518:28)\n    at emitErrorNT (node:internal/streams/destroy:170:8)\n    at emitErrorCloseNT (node:internal/streams/destroy:129:3)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\spot.bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1921:25)",
+      "code": "ENOTFOUND"
+    }
+  },
+  {
+    "timestamp": "2026-04-11T10:53:27.074Z",
+    "context": "Fetching bidding data for 2604115SPR",
+    "error": {
+      "message": "getaddrinfo ENOTFOUND enquiry.gocomet.com",
+      "stack": "Error: getaddrinfo ENOTFOUND enquiry.gocomet.com\n    at AxiosError.from (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:899:14)\n    at RedirectableRequest.handleRequestError (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3228:25)\n    at RedirectableRequest.emit (node:events:518:28)\n    at eventHandlers.<computed> (D:\\LIVE_iis\\spot.bidding\\node_modules\\follow-redirects\\index.js:49:24)\n    at ClientRequest.emit (node:events:518:28)\n    at emitErrorEvent (node:_http_client:104:11)\n    at TLSSocket.socketErrorListener (node:_http_client:518:5)\n    at TLSSocket.emit (node:events:518:28)\n    at emitErrorNT (node:internal/streams/destroy:170:8)\n    at emitErrorCloseNT (node:internal/streams/destroy:129:3)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\spot.bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1921:25)",
+      "code": "ENOTFOUND"
+    }
+  },
+  {
+    "timestamp": "2026-04-11T10:53:27.159Z",
+    "context": "Fetching bidding data for 2604113V85",
+    "error": {
+      "message": "getaddrinfo ENOTFOUND enquiry.gocomet.com",
+      "stack": "Error: getaddrinfo ENOTFOUND enquiry.gocomet.com\n    at AxiosError.from (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:899:14)\n    at RedirectableRequest.handleRequestError (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3228:25)\n    at RedirectableRequest.emit (node:events:518:28)\n    at eventHandlers.<computed> (D:\\LIVE_iis\\spot.bidding\\node_modules\\follow-redirects\\index.js:49:24)\n    at ClientRequest.emit (node:events:518:28)\n    at emitErrorEvent (node:_http_client:104:11)\n    at TLSSocket.socketErrorListener (node:_http_client:518:5)\n    at TLSSocket.emit (node:events:518:28)\n    at emitErrorNT (node:internal/streams/destroy:170:8)\n    at emitErrorCloseNT (node:internal/streams/destroy:129:3)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\spot.bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1921:25)",
+      "code": "ENOTFOUND"
+    }
+  },
+  {
+    "timestamp": "2026-04-11T10:53:46.120Z",
+    "context": "Fetching bidding data for 2604113V85",
+    "error": {
+      "message": "getaddrinfo ENOTFOUND enquiry.gocomet.com",
+      "stack": "Error: getaddrinfo ENOTFOUND enquiry.gocomet.com\n    at AxiosError.from (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:899:14)\n    at RedirectableRequest.handleRequestError (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3228:25)\n    at RedirectableRequest.emit (node:events:518:28)\n    at eventHandlers.<computed> (D:\\LIVE_iis\\spot.bidding\\node_modules\\follow-redirects\\index.js:49:24)\n    at ClientRequest.emit (node:events:518:28)\n    at emitErrorEvent (node:_http_client:104:11)\n    at TLSSocket.socketErrorListener (node:_http_client:518:5)\n    at TLSSocket.emit (node:events:518:28)\n    at emitErrorNT (node:internal/streams/destroy:170:8)\n    at emitErrorCloseNT (node:internal/streams/destroy:129:3)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\spot.bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1921:25)",
+      "code": "ENOTFOUND"
+    }
+  },
+  {
+    "timestamp": "2026-04-11T10:53:47.779Z",
+    "context": "Fetching bidding data for 260411ZCN6",
+    "error": {
+      "message": "getaddrinfo ENOTFOUND enquiry.gocomet.com",
+      "stack": "Error: getaddrinfo ENOTFOUND enquiry.gocomet.com\n    at AxiosError.from (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:899:14)\n    at RedirectableRequest.handleRequestError (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3228:25)\n    at RedirectableRequest.emit (node:events:518:28)\n    at eventHandlers.<computed> (D:\\LIVE_iis\\spot.bidding\\node_modules\\follow-redirects\\index.js:49:24)\n    at ClientRequest.emit (node:events:518:28)\n    at emitErrorEvent (node:_http_client:104:11)\n    at TLSSocket.socketErrorListener (node:_http_client:518:5)\n    at TLSSocket.emit (node:events:518:28)\n    at emitErrorNT (node:internal/streams/destroy:170:8)\n    at emitErrorCloseNT (node:internal/streams/destroy:129:3)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\spot.bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1921:25)",
+      "code": "ENOTFOUND"
+    }
+  },
+  {
+    "timestamp": "2026-04-11T10:53:57.074Z",
+    "context": "Fetching bidding data for 2604115SPR",
+    "error": {
+      "message": "getaddrinfo ENOTFOUND enquiry.gocomet.com",
+      "stack": "Error: getaddrinfo ENOTFOUND enquiry.gocomet.com\n    at AxiosError.from (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:899:14)\n    at RedirectableRequest.handleRequestError (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3228:25)\n    at RedirectableRequest.emit (node:events:518:28)\n    at eventHandlers.<computed> (D:\\LIVE_iis\\spot.bidding\\node_modules\\follow-redirects\\index.js:49:24)\n    at ClientRequest.emit (node:events:518:28)\n    at emitErrorEvent (node:_http_client:104:11)\n    at TLSSocket.socketErrorListener (node:_http_client:518:5)\n    at TLSSocket.emit (node:events:518:28)\n    at emitErrorNT (node:internal/streams/destroy:170:8)\n    at emitErrorCloseNT (node:internal/streams/destroy:129:3)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\spot.bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1921:25)",
+      "code": "ENOTFOUND"
+    }
+  },
+  {
+    "timestamp": "2026-04-11T10:54:16.123Z",
+    "context": "Fetching bidding data for 2604113V85",
+    "error": {
+      "message": "getaddrinfo ENOTFOUND enquiry.gocomet.com",
+      "stack": "Error: getaddrinfo ENOTFOUND enquiry.gocomet.com\n    at AxiosError.from (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:899:14)\n    at RedirectableRequest.handleRequestError (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3228:25)\n    at RedirectableRequest.emit (node:events:518:28)\n    at eventHandlers.<computed> (D:\\LIVE_iis\\spot.bidding\\node_modules\\follow-redirects\\index.js:49:24)\n    at ClientRequest.emit (node:events:518:28)\n    at emitErrorEvent (node:_http_client:104:11)\n    at TLSSocket.socketErrorListener (node:_http_client:518:5)\n    at TLSSocket.emit (node:events:518:28)\n    at emitErrorNT (node:internal/streams/destroy:170:8)\n    at emitErrorCloseNT (node:internal/streams/destroy:129:3)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\spot.bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1921:25)",
+      "code": "ENOTFOUND"
+    }
+  },
+  {
+    "timestamp": "2026-04-11T10:54:17.795Z",
+    "context": "Fetching bidding data for 260411ZCN6",
+    "error": {
+      "message": "getaddrinfo ENOTFOUND enquiry.gocomet.com",
+      "stack": "Error: getaddrinfo ENOTFOUND enquiry.gocomet.com\n    at AxiosError.from (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:899:14)\n    at RedirectableRequest.handleRequestError (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3228:25)\n    at RedirectableRequest.emit (node:events:518:28)\n    at eventHandlers.<computed> (D:\\LIVE_iis\\spot.bidding\\node_modules\\follow-redirects\\index.js:49:24)\n    at ClientRequest.emit (node:events:518:28)\n    at emitErrorEvent (node:_http_client:104:11)\n    at TLSSocket.socketErrorListener (node:_http_client:518:5)\n    at TLSSocket.emit (node:events:518:28)\n    at emitErrorNT (node:internal/streams/destroy:170:8)\n    at emitErrorCloseNT (node:internal/streams/destroy:129:3)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\spot.bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1921:25)",
+      "code": "ENOTFOUND"
+    }
+  },
+  {
+    "timestamp": "2026-04-11T10:54:27.093Z",
+    "context": "Fetching bidding data for 2604115SPR",
+    "error": {
+      "message": "getaddrinfo ENOTFOUND enquiry.gocomet.com",
+      "stack": "Error: getaddrinfo ENOTFOUND enquiry.gocomet.com\n    at AxiosError.from (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:899:14)\n    at RedirectableRequest.handleRequestError (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3228:25)\n    at RedirectableRequest.emit (node:events:518:28)\n    at eventHandlers.<computed> (D:\\LIVE_iis\\spot.bidding\\node_modules\\follow-redirects\\index.js:49:24)\n    at ClientRequest.emit (node:events:518:28)\n    at emitErrorEvent (node:_http_client:104:11)\n    at TLSSocket.socketErrorListener (node:_http_client:518:5)\n    at TLSSocket.emit (node:events:518:28)\n    at emitErrorNT (node:internal/streams/destroy:170:8)\n    at emitErrorCloseNT (node:internal/streams/destroy:129:3)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\spot.bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1921:25)",
+      "code": "ENOTFOUND"
+    }
+  },
+  {
+    "timestamp": "2026-04-11T10:54:46.127Z",
+    "context": "Fetching bidding data for 2604113V85",
+    "error": {
+      "message": "getaddrinfo ENOTFOUND enquiry.gocomet.com",
+      "stack": "Error: getaddrinfo ENOTFOUND enquiry.gocomet.com\n    at AxiosError.from (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:899:14)\n    at RedirectableRequest.handleRequestError (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3228:25)\n    at RedirectableRequest.emit (node:events:518:28)\n    at eventHandlers.<computed> (D:\\LIVE_iis\\spot.bidding\\node_modules\\follow-redirects\\index.js:49:24)\n    at ClientRequest.emit (node:events:518:28)\n    at emitErrorEvent (node:_http_client:104:11)\n    at TLSSocket.socketErrorListener (node:_http_client:518:5)\n    at TLSSocket.emit (node:events:518:28)\n    at emitErrorNT (node:internal/streams/destroy:170:8)\n    at emitErrorCloseNT (node:internal/streams/destroy:129:3)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\spot.bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1921:25)",
+      "code": "ENOTFOUND"
+    }
+  },
+  {
+    "timestamp": "2026-04-11T10:54:47.804Z",
+    "context": "Fetching bidding data for 260411ZCN6",
+    "error": {
+      "message": "getaddrinfo ENOTFOUND enquiry.gocomet.com",
+      "stack": "Error: getaddrinfo ENOTFOUND enquiry.gocomet.com\n    at AxiosError.from (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:899:14)\n    at RedirectableRequest.handleRequestError (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3228:25)\n    at RedirectableRequest.emit (node:events:518:28)\n    at eventHandlers.<computed> (D:\\LIVE_iis\\spot.bidding\\node_modules\\follow-redirects\\index.js:49:24)\n    at ClientRequest.emit (node:events:518:28)\n    at emitErrorEvent (node:_http_client:104:11)\n    at TLSSocket.socketErrorListener (node:_http_client:518:5)\n    at TLSSocket.emit (node:events:518:28)\n    at emitErrorNT (node:internal/streams/destroy:170:8)\n    at emitErrorCloseNT (node:internal/streams/destroy:129:3)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\spot.bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1921:25)",
+      "code": "ENOTFOUND"
+    }
+  },
+  {
+    "timestamp": "2026-04-11T10:54:57.099Z",
+    "context": "Fetching bidding data for 2604115SPR",
+    "error": {
+      "message": "getaddrinfo ENOTFOUND enquiry.gocomet.com",
+      "stack": "Error: getaddrinfo ENOTFOUND enquiry.gocomet.com\n    at AxiosError.from (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:899:14)\n    at RedirectableRequest.handleRequestError (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3228:25)\n    at RedirectableRequest.emit (node:events:518:28)\n    at eventHandlers.<computed> (D:\\LIVE_iis\\spot.bidding\\node_modules\\follow-redirects\\index.js:49:24)\n    at ClientRequest.emit (node:events:518:28)\n    at emitErrorEvent (node:_http_client:104:11)\n    at TLSSocket.socketErrorListener (node:_http_client:518:5)\n    at TLSSocket.emit (node:events:518:28)\n    at emitErrorNT (node:internal/streams/destroy:170:8)\n    at emitErrorCloseNT (node:internal/streams/destroy:129:3)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\spot.bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1921:25)",
+      "code": "ENOTFOUND"
+    }
+  },
+  {
+    "timestamp": "2026-04-11T14:44:50.711Z",
+    "context": "Bid submission for 2604112TH5",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\spot.bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\spot.bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Quote can only be reduced by given Cost Reduction Rate"
+      }
+    },
+    "enquiryKey": "2604112TH5",
+    "bidType": "MEDIUM",
+    "bidPrice": 26800,
+    "quoteId": "8f378671-ba64-407d-ab91-5d5f2394e0f4"
+  },
+  {
+    "timestamp": "2026-04-11T14:44:51.133Z",
+    "context": "Bid submission for 2604112TH5",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\spot.bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\spot.bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Quote can only be reduced by given Cost Reduction Rate"
+      }
+    },
+    "enquiryKey": "2604112TH5",
+    "bidType": "MEDIUM",
+    "bidPrice": 26800,
+    "quoteId": "8f378671-ba64-407d-ab91-5d5f2394e0f4"
+  },
+  {
+    "timestamp": "2026-04-11T14:44:51.498Z",
+    "context": "Bid submission for 2604112TH5",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\spot.bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\spot.bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Quote can only be reduced by given Cost Reduction Rate"
+      }
+    },
+    "enquiryKey": "2604112TH5",
+    "bidType": "MEDIUM",
+    "bidPrice": 26800,
+    "quoteId": "8f378671-ba64-407d-ab91-5d5f2394e0f4"
+  },
+  {
+    "timestamp": "2026-04-11T14:44:51.723Z",
+    "context": "Bid submission for 2604112TH5",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\spot.bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\spot.bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Quote can only be reduced by given Cost Reduction Rate"
+      }
+    },
+    "enquiryKey": "2604112TH5",
+    "bidType": "MEDIUM",
+    "bidPrice": 26800,
+    "quoteId": "8f378671-ba64-407d-ab91-5d5f2394e0f4"
+  },
+  {
+    "timestamp": "2026-04-11T14:44:52.106Z",
+    "context": "Bid submission for 2604112TH5",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\spot.bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\spot.bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Quote can only be reduced by given Cost Reduction Rate"
+      }
+    },
+    "enquiryKey": "2604112TH5",
+    "bidType": "MEDIUM",
+    "bidPrice": 26800,
+    "quoteId": "8f378671-ba64-407d-ab91-5d5f2394e0f4"
+  },
+  {
+    "timestamp": "2026-04-11T14:44:52.506Z",
+    "context": "Bid submission for 2604112TH5",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\spot.bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\spot.bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Quote can only be reduced by given Cost Reduction Rate"
+      }
+    },
+    "enquiryKey": "2604112TH5",
+    "bidType": "MEDIUM",
+    "bidPrice": 26800,
+    "quoteId": "8f378671-ba64-407d-ab91-5d5f2394e0f4"
+  },
+  {
+    "timestamp": "2026-04-11T14:44:52.832Z",
+    "context": "Bid submission for 2604112TH5",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\spot.bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\spot.bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Quote can only be reduced by given Cost Reduction Rate"
+      }
+    },
+    "enquiryKey": "2604112TH5",
+    "bidType": "MEDIUM",
+    "bidPrice": 26800,
+    "quoteId": "8f378671-ba64-407d-ab91-5d5f2394e0f4"
+  },
+  {
+    "timestamp": "2026-04-11T14:44:53.204Z",
+    "context": "Bid submission for 2604112TH5",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\spot.bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\spot.bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Quote can only be reduced by given Cost Reduction Rate"
+      }
+    },
+    "enquiryKey": "2604112TH5",
+    "bidType": "MEDIUM",
+    "bidPrice": 26800,
+    "quoteId": "8f378671-ba64-407d-ab91-5d5f2394e0f4"
+  },
+  {
+    "timestamp": "2026-04-11T14:44:53.604Z",
+    "context": "Bid submission for 2604112TH5",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\spot.bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\spot.bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Quote can only be reduced by given Cost Reduction Rate"
+      }
+    },
+    "enquiryKey": "2604112TH5",
+    "bidType": "MEDIUM",
+    "bidPrice": 26800,
+    "quoteId": "8f378671-ba64-407d-ab91-5d5f2394e0f4"
+  },
+  {
+    "timestamp": "2026-04-11T14:44:53.960Z",
+    "context": "Bid submission for 2604112TH5",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\spot.bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\spot.bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Quote can only be reduced by given Cost Reduction Rate"
+      }
+    },
+    "enquiryKey": "2604112TH5",
+    "bidType": "MEDIUM",
+    "bidPrice": 26800,
+    "quoteId": "8f378671-ba64-407d-ab91-5d5f2394e0f4"
+  },
+  {
+    "timestamp": "2026-04-11T14:44:54.349Z",
+    "context": "Bid submission for 2604112TH5",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\spot.bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\spot.bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Quote can only be reduced by given Cost Reduction Rate"
+      }
+    },
+    "enquiryKey": "2604112TH5",
+    "bidType": "MEDIUM",
+    "bidPrice": 26800,
+    "quoteId": "8f378671-ba64-407d-ab91-5d5f2394e0f4"
+  },
+  {
+    "timestamp": "2026-04-11T14:44:54.755Z",
+    "context": "Bid submission for 2604112TH5",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\spot.bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\spot.bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Quote can only be reduced by given Cost Reduction Rate"
+      }
+    },
+    "enquiryKey": "2604112TH5",
+    "bidType": "MEDIUM",
+    "bidPrice": 26800,
+    "quoteId": "8f378671-ba64-407d-ab91-5d5f2394e0f4"
+  },
+  {
+    "timestamp": "2026-04-11T14:44:55.060Z",
+    "context": "Bid submission for 2604112TH5",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\spot.bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\spot.bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Quote can only be reduced by given Cost Reduction Rate"
+      }
+    },
+    "enquiryKey": "2604112TH5",
+    "bidType": "MEDIUM",
+    "bidPrice": 26800,
+    "quoteId": "8f378671-ba64-407d-ab91-5d5f2394e0f4"
+  },
+  {
+    "timestamp": "2026-04-11T14:44:55.531Z",
+    "context": "Bid submission for 2604112TH5",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\spot.bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\spot.bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\spot.bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Quote can only be reduced by given Cost Reduction Rate"
+      }
+    },
+    "enquiryKey": "2604112TH5",
+    "bidType": "MEDIUM",
+    "bidPrice": 26800,
+    "quoteId": "8f378671-ba64-407d-ab91-5d5f2394e0f4"
+  },
+  {
+    "timestamp": "2026-04-11T14:44:55.915Z",
+    "context": "Bid submission for 2604112TH5",
+    "error": {
+      "message": "Request failed with status code 422",
+      "stack": "AxiosError: Request failed with status code 422\n    at settle (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:2090:12)\n    at IncomingMessage.handleStreamEnd (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3207:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (D:\\LIVE_iis\\spot.bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async submitBid (D:\\LIVE_iis\\spot.bidding\\server.js:1831:24)\n    at async submitBidWithRetry (D:\\LIVE_iis\\spot.bidding\\server.js:1776:19)\n    at async Timeout.checkAndBid (D:\\LIVE_iis\\spot.bidding\\server.js:1972:11)",
+      "code": "ERR_BAD_REQUEST",
+      "response": {
+        "error": "Validation failed: Quote can only be reduced by given Cost Reduction Rate"
+      }
+    },
+    "enquiryKey": "2604112TH5",
+    "bidType": "MEDIUM",
+    "bidPrice": 26800,
+    "quoteId": "8f378671-ba64-407d-ab91-5d5f2394e0f4"
+  }
+]

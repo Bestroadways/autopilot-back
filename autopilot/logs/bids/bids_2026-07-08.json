@@ -1,0 +1,1323 @@
+[
+  {
+    "timestamp": "2026-07-08T06:49:06.163Z",
+    "enquiryKey": "260708QXIZ",
+    "bidType": "PUBLIC_SUBMISSION",
+    "bidPrice": 72000,
+    "timeToClosingMs": null,
+    "timeToClosingSec": 0,
+    "currentRank": null,
+    "success": true,
+    "responseTimeMs": 0,
+    "calculatedBids": {
+      "high": 76536,
+      "medium": 75240,
+      "low": 74592,
+      "marketValue": 72000
+    },
+    "percentages": {
+      "high": 6.3,
+      "medium": 4.5,
+      "low": 3.6
+    }
+  },
+  {
+    "timestamp": "2026-07-08T06:49:29.847Z",
+    "enquiryKey": "260708UUY1",
+    "bidType": "PUBLIC_SUBMISSION",
+    "bidPrice": 100000,
+    "timeToClosingMs": null,
+    "timeToClosingSec": 0,
+    "currentRank": null,
+    "success": true,
+    "responseTimeMs": 0,
+    "calculatedBids": {
+      "high": 106300,
+      "medium": 104500,
+      "low": 103600,
+      "marketValue": 100000
+    },
+    "percentages": {
+      "high": 6.3,
+      "medium": 4.5,
+      "low": 3.6
+    }
+  },
+  {
+    "timestamp": "2026-07-08T06:50:22.215Z",
+    "enquiryKey": "2607085CTP",
+    "bidType": "PUBLIC_SUBMISSION",
+    "bidPrice": 115000,
+    "timeToClosingMs": null,
+    "timeToClosingSec": 0,
+    "currentRank": null,
+    "success": true,
+    "responseTimeMs": 0,
+    "calculatedBids": {
+      "high": 122245,
+      "medium": 120175,
+      "low": 119140,
+      "marketValue": 115000
+    },
+    "percentages": {
+      "high": 6.3,
+      "medium": 4.5,
+      "low": 3.6
+    }
+  },
+  {
+    "timestamp": "2026-07-08T07:02:21.638Z",
+    "enquiryKey": "260708J117",
+    "bidType": "PUBLIC_SUBMISSION",
+    "bidPrice": 45000,
+    "timeToClosingMs": null,
+    "timeToClosingSec": 0,
+    "currentRank": null,
+    "success": true,
+    "responseTimeMs": 0,
+    "calculatedBids": {
+      "high": 47835,
+      "medium": 47025,
+      "low": 46620,
+      "marketValue": 45000
+    },
+    "percentages": {
+      "high": 6.3,
+      "medium": 4.5,
+      "low": 3.6
+    }
+  },
+  {
+    "timestamp": "2026-07-08T07:59:53.263Z",
+    "enquiryKey": "260708J117",
+    "bidType": "HIGH",
+    "bidPrice": 47835,
+    "timeToClosingMs": 9764.5,
+    "timeToClosingSec": 9,
+    "currentRank": 1,
+    "success": true,
+    "responseTimeMs": 2088,
+    "revisionsLeft": 2,
+    "bidsSubmitted": 1,
+    "startedBy": "public-submission",
+    "userFullName": "Public Submission"
+  },
+  {
+    "timestamp": "2026-07-08T08:19:52.033Z",
+    "enquiryKey": "260708UUY1",
+    "bidType": "HIGH",
+    "bidPrice": 106300,
+    "timeToClosingMs": 9573.5,
+    "timeToClosingSec": 9,
+    "currentRank": 4,
+    "success": true,
+    "responseTimeMs": 1526,
+    "revisionsLeft": 2,
+    "bidsSubmitted": 1,
+    "startedBy": "public-submission",
+    "userFullName": "Public Submission"
+  },
+  {
+    "timestamp": "2026-07-08T08:19:54.052Z",
+    "enquiryKey": "260708UUY1",
+    "bidType": "MEDIUM",
+    "bidPrice": 104500,
+    "timeToClosingMs": 7313.5,
+    "timeToClosingSec": 7,
+    "currentRank": 2,
+    "success": true,
+    "responseTimeMs": 1285,
+    "revisionsLeft": 1,
+    "bidsSubmitted": 2,
+    "startedBy": "public-submission",
+    "userFullName": "Public Submission"
+  },
+  {
+    "timestamp": "2026-07-08T08:19:59.210Z",
+    "enquiryKey": "260708UUY1",
+    "bidType": "LOW",
+    "bidPrice": 103600,
+    "timeToClosingMs": 1717.5,
+    "timeToClosingSec": 1,
+    "currentRank": 2,
+    "success": true,
+    "responseTimeMs": 847,
+    "revisionsLeft": 0,
+    "bidsSubmitted": 3,
+    "startedBy": "public-submission",
+    "userFullName": "Public Submission"
+  },
+  {
+    "timestamp": "2026-07-08T08:20:52.880Z",
+    "enquiryKey": "260708QXIZ",
+    "bidType": "HIGH",
+    "bidPrice": 76536,
+    "timeToClosingMs": 9367,
+    "timeToClosingSec": 9,
+    "currentRank": 1,
+    "success": true,
+    "responseTimeMs": 1825,
+    "revisionsLeft": 2,
+    "bidsSubmitted": 1,
+    "startedBy": "public-submission",
+    "userFullName": "Public Submission"
+  },
+  {
+    "timestamp": "2026-07-08T08:22:52.097Z",
+    "enquiryKey": "2607085CTP",
+    "bidType": "HIGH",
+    "bidPrice": 122245,
+    "timeToClosingMs": 9559,
+    "timeToClosingSec": 9,
+    "currentRank": 2,
+    "success": true,
+    "responseTimeMs": 1169,
+    "revisionsLeft": 2,
+    "bidsSubmitted": 1,
+    "startedBy": "public-submission",
+    "userFullName": "Public Submission"
+  },
+  {
+    "timestamp": "2026-07-08T08:22:53.978Z",
+    "enquiryKey": "2607085CTP",
+    "bidType": "MEDIUM",
+    "bidPrice": 120175,
+    "timeToClosingMs": 7749,
+    "timeToClosingSec": 7,
+    "currentRank": 1,
+    "success": true,
+    "responseTimeMs": 1240,
+    "revisionsLeft": 1,
+    "bidsSubmitted": 2,
+    "startedBy": "public-submission",
+    "userFullName": "Public Submission"
+  },
+  {
+    "timestamp": "2026-07-08T09:27:42.844Z",
+    "enquiryKey": "260708GRUZ",
+    "bidType": "PUBLIC_SUBMISSION",
+    "bidPrice": 27000,
+    "timeToClosingMs": null,
+    "timeToClosingSec": 0,
+    "currentRank": null,
+    "success": true,
+    "responseTimeMs": 0,
+    "calculatedBids": {
+      "high": 28701,
+      "medium": 28215,
+      "low": 27972,
+      "marketValue": 27000
+    },
+    "percentages": {
+      "high": 6.3,
+      "medium": 4.5,
+      "low": 3.6
+    }
+  },
+  {
+    "timestamp": "2026-07-08T09:28:40.127Z",
+    "enquiryKey": "260708R9QB",
+    "bidType": "PUBLIC_SUBMISSION",
+    "bidPrice": 32000,
+    "timeToClosingMs": null,
+    "timeToClosingSec": 0,
+    "currentRank": null,
+    "success": true,
+    "responseTimeMs": 0,
+    "calculatedBids": {
+      "high": 34016,
+      "medium": 33440,
+      "low": 33152,
+      "marketValue": 32000
+    },
+    "percentages": {
+      "high": 6.3,
+      "medium": 4.5,
+      "low": 3.6
+    }
+  },
+  {
+    "timestamp": "2026-07-08T09:29:23.422Z",
+    "enquiryKey": "260708CPMX",
+    "bidType": "PUBLIC_SUBMISSION",
+    "timeToClosingMs": null,
+    "timeToClosingSec": 0,
+    "currentRank": null,
+    "success": true,
+    "responseTimeMs": 0,
+    "calculatedBids": {
+      "cargo": [
+        {
+          "cargoIndex": "0",
+          "high": 116930,
+          "medium": 114950,
+          "low": 113960,
+          "marketValue": 110000
+        },
+        {
+          "cargoIndex": "1",
+          "high": 79725,
+          "medium": 78375,
+          "low": 77700,
+          "marketValue": 75000
+        }
+      ]
+    },
+    "percentages": {
+      "high": 6.3,
+      "medium": 4.5,
+      "low": 3.6
+    }
+  },
+  {
+    "timestamp": "2026-07-08T09:29:39.020Z",
+    "enquiryKey": "2607083W13",
+    "bidType": "PUBLIC_SUBMISSION",
+    "bidPrice": 45000,
+    "timeToClosingMs": null,
+    "timeToClosingSec": 0,
+    "currentRank": null,
+    "success": true,
+    "responseTimeMs": 0,
+    "calculatedBids": {
+      "high": 47835,
+      "medium": 47025,
+      "low": 46620,
+      "marketValue": 45000
+    },
+    "percentages": {
+      "high": 6.3,
+      "medium": 4.5,
+      "low": 3.6
+    }
+  },
+  {
+    "timestamp": "2026-07-08T09:50:47.692Z",
+    "enquiryKey": "2607086A93",
+    "bidType": "PUBLIC_SUBMISSION",
+    "bidPrice": 75000,
+    "timeToClosingMs": null,
+    "timeToClosingSec": 0,
+    "currentRank": null,
+    "success": true,
+    "responseTimeMs": 0,
+    "calculatedBids": {
+      "high": 79725,
+      "medium": 78375,
+      "low": 77700,
+      "marketValue": 75000
+    },
+    "percentages": {
+      "high": 6.3,
+      "medium": 4.5,
+      "low": 3.6
+    }
+  },
+  {
+    "timestamp": "2026-07-08T09:51:06.954Z",
+    "enquiryKey": "260708G1BS",
+    "bidType": "PUBLIC_SUBMISSION",
+    "bidPrice": 40000,
+    "timeToClosingMs": null,
+    "timeToClosingSec": 0,
+    "currentRank": null,
+    "success": true,
+    "responseTimeMs": 0,
+    "calculatedBids": {
+      "high": 42520,
+      "medium": 41800,
+      "low": 41440,
+      "marketValue": 40000
+    },
+    "percentages": {
+      "high": 6.3,
+      "medium": 4.5,
+      "low": 3.6
+    }
+  },
+  {
+    "timestamp": "2026-07-08T10:54:52.131Z",
+    "enquiryKey": "2607083W13",
+    "bidType": "HIGH",
+    "bidPrice": 47835,
+    "timeToClosingMs": 9396.5,
+    "timeToClosingSec": 9,
+    "currentRank": 5,
+    "success": true,
+    "responseTimeMs": 1011,
+    "revisionsLeft": 2,
+    "bidsSubmitted": 1,
+    "startedBy": "public-submission",
+    "userFullName": "Public Submission"
+  },
+  {
+    "timestamp": "2026-07-08T10:54:57.869Z",
+    "enquiryKey": "2607083W13",
+    "bidType": "MEDIUM",
+    "bidPrice": 47025,
+    "timeToClosingMs": 7673.5,
+    "timeToClosingSec": 7,
+    "currentRank": 5,
+    "success": false,
+    "responseTimeMs": 5026,
+    "error": "timeout of 5000ms exceeded",
+    "retryCount": 0,
+    "startedBy": "public-submission",
+    "userFullName": "Public Submission"
+  },
+  {
+    "timestamp": "2026-07-08T10:54:59.463Z",
+    "enquiryKey": "2607083W13",
+    "bidType": "MEDIUM",
+    "bidPrice": 47025,
+    "timeToClosingMs": 2545.5,
+    "timeToClosingSec": 2,
+    "currentRank": 5,
+    "success": true,
+    "responseTimeMs": 1492,
+    "revisionsLeft": 1,
+    "bidsSubmitted": 2,
+    "startedBy": "public-submission",
+    "userFullName": "Public Submission"
+  },
+  {
+    "timestamp": "2026-07-08T10:55:03.250Z",
+    "enquiryKey": "2607083W13",
+    "bidType": "LOW",
+    "bidPrice": 46620,
+    "timeToClosingMs": 1037.5,
+    "timeToClosingSec": 1,
+    "currentRank": 4,
+    "success": true,
+    "responseTimeMs": 3771,
+    "revisionsLeft": 0,
+    "bidsSubmitted": 3,
+    "startedBy": "public-submission",
+    "userFullName": "Public Submission"
+  },
+  {
+    "timestamp": "2026-07-08T10:55:51.132Z",
+    "enquiryKey": "260708CPMX",
+    "bidType": "HIGH",
+    "bidPrice": 116930,
+    "timeToClosingMs": 9765.5,
+    "timeToClosingSec": 9,
+    "currentRank": 1,
+    "success": true,
+    "responseTimeMs": 1066,
+    "revisionsLeft": 2,
+    "bidsSubmitted": 1,
+    "startedBy": "public-submission",
+    "userFullName": "Public Submission"
+  },
+  {
+    "timestamp": "2026-07-08T11:02:34.230Z",
+    "enquiryKey": "2607083W13",
+    "bidType": "PUBLIC_SUBMISSION",
+    "bidPrice": 40000,
+    "timeToClosingMs": null,
+    "timeToClosingSec": 0,
+    "currentRank": null,
+    "success": true,
+    "responseTimeMs": 0,
+    "calculatedBids": {
+      "high": 42520,
+      "medium": 41800,
+      "low": 41440,
+      "marketValue": 40000
+    },
+    "percentages": {
+      "high": 6.3,
+      "medium": 4.5,
+      "low": 3.6
+    }
+  },
+  {
+    "timestamp": "2026-07-08T11:03:26.010Z",
+    "enquiryKey": "260708Z2QU",
+    "bidType": "PUBLIC_SUBMISSION",
+    "bidPrice": 78000,
+    "timeToClosingMs": null,
+    "timeToClosingSec": 0,
+    "currentRank": null,
+    "success": true,
+    "responseTimeMs": 0,
+    "calculatedBids": {
+      "high": 82914,
+      "medium": 81510,
+      "low": 80808,
+      "marketValue": 78000
+    },
+    "percentages": {
+      "high": 6.3,
+      "medium": 4.5,
+      "low": 3.6
+    }
+  },
+  {
+    "timestamp": "2026-07-08T11:09:51.533Z",
+    "enquiryKey": "2607083W13",
+    "bidType": "HIGH",
+    "bidPrice": 42520,
+    "timeToClosingMs": 9554,
+    "timeToClosingSec": 9,
+    "currentRank": 4,
+    "success": true,
+    "responseTimeMs": 3594,
+    "revisionsLeft": 2,
+    "bidsSubmitted": 1,
+    "startedBy": "public-submission",
+    "userFullName": "Public Submission"
+  },
+  {
+    "timestamp": "2026-07-08T11:09:52.994Z",
+    "enquiryKey": "2607083W13",
+    "bidType": "MEDIUM",
+    "bidPrice": 41800,
+    "timeToClosingMs": 5880,
+    "timeToClosingSec": 5,
+    "currentRank": 3,
+    "success": true,
+    "responseTimeMs": 1381,
+    "revisionsLeft": 1,
+    "bidsSubmitted": 2,
+    "startedBy": "public-submission",
+    "userFullName": "Public Submission"
+  },
+  {
+    "timestamp": "2026-07-08T11:09:56.347Z",
+    "enquiryKey": "2607083W13",
+    "bidType": "LOW",
+    "bidPrice": 41440,
+    "timeToClosingMs": 1535,
+    "timeToClosingSec": 1,
+    "currentRank": 4,
+    "success": false,
+    "responseTimeMs": 389,
+    "error": "Request failed with status code 422",
+    "retryCount": 0,
+    "startedBy": "public-submission",
+    "userFullName": "Public Submission"
+  },
+  {
+    "timestamp": "2026-07-08T11:09:56.965Z",
+    "enquiryKey": "2607083W13",
+    "bidType": "LOW",
+    "bidPrice": 41440,
+    "timeToClosingMs": 1042,
+    "timeToClosingSec": 1,
+    "currentRank": 4,
+    "success": false,
+    "responseTimeMs": 514,
+    "error": "Request failed with status code 422",
+    "retryCount": 1,
+    "startedBy": "public-submission",
+    "userFullName": "Public Submission"
+  },
+  {
+    "timestamp": "2026-07-08T11:09:57.684Z",
+    "enquiryKey": "2607083W13",
+    "bidType": "LOW",
+    "bidPrice": 41440,
+    "timeToClosingMs": 426,
+    "timeToClosingSec": 0,
+    "currentRank": 4,
+    "success": false,
+    "responseTimeMs": 617,
+    "error": "Request failed with status code 422",
+    "retryCount": 2,
+    "startedBy": "public-submission",
+    "userFullName": "Public Submission"
+  },
+  {
+    "timestamp": "2026-07-08T11:10:51.250Z",
+    "enquiryKey": "260708GRUZ",
+    "bidType": "HIGH",
+    "bidPrice": 28701,
+    "timeToClosingMs": 9702.5,
+    "timeToClosingSec": 9,
+    "currentRank": 4,
+    "success": true,
+    "responseTimeMs": 868,
+    "revisionsLeft": 2,
+    "bidsSubmitted": 1,
+    "startedBy": "public-submission",
+    "userFullName": "Public Submission"
+  },
+  {
+    "timestamp": "2026-07-08T11:10:53.212Z",
+    "enquiryKey": "260708GRUZ",
+    "bidType": "MEDIUM",
+    "bidPrice": 28215,
+    "timeToClosingMs": 7734.5,
+    "timeToClosingSec": 7,
+    "currentRank": 4,
+    "success": true,
+    "responseTimeMs": 862,
+    "revisionsLeft": 1,
+    "bidsSubmitted": 2,
+    "startedBy": "public-submission",
+    "userFullName": "Public Submission"
+  },
+  {
+    "timestamp": "2026-07-08T11:10:59.748Z",
+    "enquiryKey": "260708GRUZ",
+    "bidType": "LOW",
+    "bidPrice": 27972,
+    "timeToClosingMs": 1679.5,
+    "timeToClosingSec": 1,
+    "currentRank": 4,
+    "success": true,
+    "responseTimeMs": 1343,
+    "revisionsLeft": 0,
+    "bidsSubmitted": 3,
+    "startedBy": "public-submission",
+    "userFullName": "Public Submission"
+  },
+  {
+    "timestamp": "2026-07-08T11:12:51.552Z",
+    "enquiryKey": "260708R9QB",
+    "bidType": "HIGH",
+    "bidPrice": 34016,
+    "timeToClosingMs": 9777,
+    "timeToClosingSec": 9,
+    "currentRank": 4,
+    "success": true,
+    "responseTimeMs": 921,
+    "revisionsLeft": 2,
+    "bidsSubmitted": 1,
+    "startedBy": "public-submission",
+    "userFullName": "Public Submission"
+  },
+  {
+    "timestamp": "2026-07-08T11:12:53.590Z",
+    "enquiryKey": "260708R9QB",
+    "bidType": "MEDIUM",
+    "bidPrice": 33440,
+    "timeToClosingMs": 7676,
+    "timeToClosingSec": 7,
+    "currentRank": 3,
+    "success": true,
+    "responseTimeMs": 858,
+    "revisionsLeft": 1,
+    "bidsSubmitted": 2,
+    "startedBy": "public-submission",
+    "userFullName": "Public Submission"
+  },
+  {
+    "timestamp": "2026-07-08T11:13:03.960Z",
+    "enquiryKey": "260708R9QB",
+    "bidType": "LOW",
+    "bidPrice": 33152,
+    "timeToClosingMs": 1703,
+    "timeToClosingSec": 1,
+    "currentRank": 3,
+    "success": false,
+    "responseTimeMs": 5255,
+    "error": "timeout of 5000ms exceeded",
+    "retryCount": 0,
+    "startedBy": "public-submission",
+    "userFullName": "Public Submission"
+  },
+  {
+    "timestamp": "2026-07-08T11:13:05.439Z",
+    "enquiryKey": "260708R9QB",
+    "bidType": "LOW",
+    "bidPrice": 33152,
+    "timeToClosingMs": -3657,
+    "timeToClosingSec": -4,
+    "currentRank": 3,
+    "success": true,
+    "responseTimeMs": 1374,
+    "revisionsLeft": 3,
+    "bidsSubmitted": 3,
+    "startedBy": "public-submission",
+    "userFullName": "Public Submission"
+  },
+  {
+    "timestamp": "2026-07-08T11:15:10.753Z",
+    "enquiryKey": "260708R9QB",
+    "bidType": "PUBLIC_SUBMISSION",
+    "bidPrice": 30000,
+    "timeToClosingMs": null,
+    "timeToClosingSec": 0,
+    "currentRank": null,
+    "success": true,
+    "responseTimeMs": 0,
+    "calculatedBids": {
+      "high": 31890,
+      "medium": 31350,
+      "low": 31080,
+      "marketValue": 30000
+    },
+    "percentages": {
+      "high": 6.3,
+      "medium": 4.5,
+      "low": 3.6
+    }
+  },
+  {
+    "timestamp": "2026-07-08T11:15:50.815Z",
+    "enquiryKey": "260708ASAS",
+    "bidType": "PUBLIC_SUBMISSION",
+    "bidPrice": 72000,
+    "timeToClosingMs": null,
+    "timeToClosingSec": 0,
+    "currentRank": null,
+    "success": true,
+    "responseTimeMs": 0,
+    "calculatedBids": {
+      "high": 76536,
+      "medium": 75240,
+      "low": 74592,
+      "marketValue": 72000
+    },
+    "percentages": {
+      "high": 6.3,
+      "medium": 4.5,
+      "low": 3.6
+    }
+  },
+  {
+    "timestamp": "2026-07-08T11:16:18.581Z",
+    "enquiryKey": "260708753K",
+    "bidType": "PUBLIC_SUBMISSION",
+    "bidPrice": 110000,
+    "timeToClosingMs": null,
+    "timeToClosingSec": 0,
+    "currentRank": null,
+    "success": true,
+    "responseTimeMs": 0,
+    "calculatedBids": {
+      "high": 116930,
+      "medium": 114950,
+      "low": 113960,
+      "marketValue": 110000
+    },
+    "percentages": {
+      "high": 6.3,
+      "medium": 4.5,
+      "low": 3.6
+    }
+  },
+  {
+    "timestamp": "2026-07-08T11:29:51.363Z",
+    "enquiryKey": "2607086A93",
+    "bidType": "HIGH",
+    "bidPrice": 79725,
+    "timeToClosingMs": 9589,
+    "timeToClosingSec": 9,
+    "currentRank": 1,
+    "success": true,
+    "responseTimeMs": 940,
+    "revisionsLeft": 2,
+    "bidsSubmitted": 1,
+    "startedBy": "public-submission",
+    "userFullName": "Public Submission"
+  },
+  {
+    "timestamp": "2026-07-08T11:35:39.082Z",
+    "enquiryKey": "260708UP6L",
+    "bidType": "PUBLIC_SUBMISSION",
+    "bidPrice": 27000,
+    "timeToClosingMs": null,
+    "timeToClosingSec": 0,
+    "currentRank": null,
+    "success": true,
+    "responseTimeMs": 0,
+    "calculatedBids": {
+      "high": 28701,
+      "medium": 28215,
+      "low": 27972,
+      "marketValue": 27000
+    },
+    "percentages": {
+      "high": 6.3,
+      "medium": 4.5,
+      "low": 3.6
+    }
+  },
+  {
+    "timestamp": "2026-07-08T11:44:55.691Z",
+    "enquiryKey": "260708G1BS",
+    "bidType": "HIGH",
+    "bidPrice": 42520,
+    "timeToClosingMs": 9486.5,
+    "timeToClosingSec": 9,
+    "currentRank": 2,
+    "success": false,
+    "responseTimeMs": 5011,
+    "error": "timeout of 5000ms exceeded",
+    "retryCount": 0,
+    "startedBy": "public-submission",
+    "userFullName": "Public Submission"
+  },
+  {
+    "timestamp": "2026-07-08T11:44:59.329Z",
+    "enquiryKey": "260708G1BS",
+    "bidType": "HIGH",
+    "bidPrice": 42520,
+    "timeToClosingMs": 4370.5,
+    "timeToClosingSec": 4,
+    "currentRank": 2,
+    "success": true,
+    "responseTimeMs": 3533,
+    "revisionsLeft": 3,
+    "bidsSubmitted": 1,
+    "startedBy": "public-submission",
+    "userFullName": "Public Submission"
+  },
+  {
+    "timestamp": "2026-07-08T11:45:03.940Z",
+    "enquiryKey": "260708G1BS",
+    "bidType": "MEDIUM",
+    "bidPrice": 41800,
+    "timeToClosingMs": 778.5,
+    "timeToClosingSec": 0,
+    "currentRank": 1,
+    "success": true,
+    "responseTimeMs": 4552,
+    "revisionsLeft": 3,
+    "bidsSubmitted": 2,
+    "startedBy": "public-submission",
+    "userFullName": "Public Submission"
+  },
+  {
+    "timestamp": "2026-07-08T12:12:51.968Z",
+    "enquiryKey": "260708PAGK",
+    "bidType": "PUBLIC_SUBMISSION",
+    "bidPrice": 52000,
+    "timeToClosingMs": null,
+    "timeToClosingSec": 0,
+    "currentRank": null,
+    "success": true,
+    "responseTimeMs": 0,
+    "calculatedBids": {
+      "high": 55276,
+      "medium": 54340,
+      "low": 53872,
+      "marketValue": 52000
+    },
+    "percentages": {
+      "high": 6.3,
+      "medium": 4.5,
+      "low": 3.6
+    }
+  },
+  {
+    "timestamp": "2026-07-08T12:13:48.014Z",
+    "enquiryKey": "2607083483",
+    "bidType": "PUBLIC_SUBMISSION",
+    "bidPrice": 75000,
+    "timeToClosingMs": null,
+    "timeToClosingSec": 0,
+    "currentRank": null,
+    "success": true,
+    "responseTimeMs": 0,
+    "calculatedBids": {
+      "high": 79725,
+      "medium": 78375,
+      "low": 77700,
+      "marketValue": 75000
+    },
+    "percentages": {
+      "high": 6.3,
+      "medium": 4.5,
+      "low": 3.6
+    }
+  },
+  {
+    "timestamp": "2026-07-08T12:14:20.941Z",
+    "enquiryKey": "260708FW19",
+    "bidType": "PUBLIC_SUBMISSION",
+    "bidPrice": 75000,
+    "timeToClosingMs": null,
+    "timeToClosingSec": 0,
+    "currentRank": null,
+    "success": true,
+    "responseTimeMs": 0,
+    "calculatedBids": {
+      "high": 79725,
+      "medium": 78375,
+      "low": 77700,
+      "marketValue": 75000
+    },
+    "percentages": {
+      "high": 6.3,
+      "medium": 4.5,
+      "low": 3.6
+    }
+  },
+  {
+    "timestamp": "2026-07-08T12:14:37.292Z",
+    "enquiryKey": "260708HCBB",
+    "bidType": "PUBLIC_SUBMISSION",
+    "bidPrice": 80000,
+    "timeToClosingMs": null,
+    "timeToClosingSec": 0,
+    "currentRank": null,
+    "success": true,
+    "responseTimeMs": 0,
+    "calculatedBids": {
+      "high": 85040,
+      "medium": 83600,
+      "low": 82880,
+      "marketValue": 80000
+    },
+    "percentages": {
+      "high": 6.3,
+      "medium": 4.5,
+      "low": 3.6
+    }
+  },
+  {
+    "timestamp": "2026-07-08T12:15:19.313Z",
+    "enquiryKey": "260708YTVK",
+    "bidType": "PUBLIC_SUBMISSION",
+    "bidPrice": 145000,
+    "timeToClosingMs": null,
+    "timeToClosingSec": 0,
+    "currentRank": null,
+    "success": true,
+    "responseTimeMs": 0,
+    "calculatedBids": {
+      "high": 154135,
+      "medium": 151525,
+      "low": 150220,
+      "marketValue": 145000
+    },
+    "percentages": {
+      "high": 6.3,
+      "medium": 4.5,
+      "low": 3.6
+    }
+  },
+  {
+    "timestamp": "2026-07-08T12:16:06.276Z",
+    "enquiryKey": "260708FDYQ",
+    "bidType": "PUBLIC_SUBMISSION",
+    "bidPrice": 125000,
+    "timeToClosingMs": null,
+    "timeToClosingSec": 0,
+    "currentRank": null,
+    "success": true,
+    "responseTimeMs": 0,
+    "calculatedBids": {
+      "high": 132875,
+      "medium": 130625,
+      "low": 129500,
+      "marketValue": 125000
+    },
+    "percentages": {
+      "high": 6.3,
+      "medium": 4.5,
+      "low": 3.6
+    }
+  },
+  {
+    "timestamp": "2026-07-08T12:20:38.821Z",
+    "enquiryKey": "26070891GI",
+    "bidType": "PUBLIC_SUBMISSION",
+    "bidPrice": 19000,
+    "timeToClosingMs": null,
+    "timeToClosingSec": 0,
+    "currentRank": null,
+    "success": true,
+    "responseTimeMs": 0,
+    "calculatedBids": {
+      "high": 20197,
+      "medium": 19855,
+      "low": 19684,
+      "marketValue": 19000
+    },
+    "percentages": {
+      "high": 6.3,
+      "medium": 4.5,
+      "low": 3.6
+    }
+  },
+  {
+    "timestamp": "2026-07-08T12:23:07.061Z",
+    "enquiryKey": "260708FW19",
+    "bidType": "PUBLIC_SUBMISSION",
+    "bidPrice": 63000,
+    "timeToClosingMs": null,
+    "timeToClosingSec": 0,
+    "currentRank": null,
+    "success": true,
+    "responseTimeMs": 0,
+    "calculatedBids": {
+      "high": 66969,
+      "medium": 65835,
+      "low": 65268,
+      "marketValue": 63000
+    },
+    "percentages": {
+      "high": 6.3,
+      "medium": 4.5,
+      "low": 3.6
+    }
+  },
+  {
+    "timestamp": "2026-07-08T12:23:43.075Z",
+    "enquiryKey": "2607083483",
+    "bidType": "PUBLIC_SUBMISSION",
+    "bidPrice": 66000,
+    "timeToClosingMs": null,
+    "timeToClosingSec": 0,
+    "currentRank": null,
+    "success": true,
+    "responseTimeMs": 0,
+    "calculatedBids": {
+      "high": 70158,
+      "medium": 68970,
+      "low": 68376,
+      "marketValue": 66000
+    },
+    "percentages": {
+      "high": 6.3,
+      "medium": 4.5,
+      "low": 3.6
+    }
+  },
+  {
+    "timestamp": "2026-07-08T12:48:35.503Z",
+    "enquiryKey": "260708XCTD",
+    "bidType": "PUBLIC_SUBMISSION",
+    "bidPrice": 70000,
+    "timeToClosingMs": null,
+    "timeToClosingSec": 0,
+    "currentRank": null,
+    "success": true,
+    "responseTimeMs": 0,
+    "calculatedBids": {
+      "high": 74410,
+      "medium": 73150,
+      "low": 72520,
+      "marketValue": 70000
+    },
+    "percentages": {
+      "high": 6.3,
+      "medium": 4.5,
+      "low": 3.6
+    }
+  },
+  {
+    "timestamp": "2026-07-08T12:54:44.305Z",
+    "enquiryKey": "260708A36V",
+    "bidType": "PUBLIC_SUBMISSION",
+    "timeToClosingMs": null,
+    "timeToClosingSec": 0,
+    "currentRank": null,
+    "success": true,
+    "responseTimeMs": 0,
+    "calculatedBids": {
+      "cargo": [
+        {
+          "cargoIndex": "0",
+          "high": 53150,
+          "medium": 52250,
+          "low": 51800,
+          "marketValue": 50000
+        },
+        {
+          "cargoIndex": "1",
+          "high": 85040,
+          "medium": 83600,
+          "low": 82880,
+          "marketValue": 80000
+        }
+      ]
+    },
+    "percentages": {
+      "high": 6.3,
+      "medium": 4.5,
+      "low": 3.6
+    }
+  },
+  {
+    "timestamp": "2026-07-08T12:58:51.420Z",
+    "enquiryKey": "260708Z2QU",
+    "bidType": "HIGH",
+    "bidPrice": 82914,
+    "timeToClosingMs": 9857.5,
+    "timeToClosingSec": 9,
+    "currentRank": 1,
+    "success": true,
+    "responseTimeMs": 1033,
+    "revisionsLeft": 2,
+    "bidsSubmitted": 1,
+    "startedBy": "public-submission",
+    "userFullName": "Public Submission"
+  },
+  {
+    "timestamp": "2026-07-08T13:02:51.152Z",
+    "enquiryKey": "260708753K",
+    "bidType": "HIGH",
+    "bidPrice": 116930,
+    "timeToClosingMs": 9668,
+    "timeToClosingSec": 9,
+    "currentRank": 2,
+    "success": true,
+    "responseTimeMs": 904,
+    "revisionsLeft": 2,
+    "bidsSubmitted": 1,
+    "startedBy": "public-submission",
+    "userFullName": "Public Submission"
+  },
+  {
+    "timestamp": "2026-07-08T13:02:53.091Z",
+    "enquiryKey": "260708753K",
+    "bidType": "MEDIUM",
+    "bidPrice": 114950,
+    "timeToClosingMs": 7872,
+    "timeToClosingSec": 7,
+    "currentRank": 1,
+    "success": true,
+    "responseTimeMs": 1047,
+    "revisionsLeft": 1,
+    "bidsSubmitted": 2,
+    "startedBy": "public-submission",
+    "userFullName": "Public Submission"
+  },
+  {
+    "timestamp": "2026-07-08T13:03:51.594Z",
+    "enquiryKey": "260708ASAS",
+    "bidType": "HIGH",
+    "bidPrice": 76536,
+    "timeToClosingMs": 9536.5,
+    "timeToClosingSec": 9,
+    "currentRank": 3,
+    "success": true,
+    "responseTimeMs": 812,
+    "revisionsLeft": 2,
+    "bidsSubmitted": 1,
+    "startedBy": "public-submission",
+    "userFullName": "Public Submission"
+  },
+  {
+    "timestamp": "2026-07-08T13:03:53.402Z",
+    "enquiryKey": "260708ASAS",
+    "bidType": "MEDIUM",
+    "bidPrice": 75240,
+    "timeToClosingMs": 7774.5,
+    "timeToClosingSec": 7,
+    "currentRank": 3,
+    "success": true,
+    "responseTimeMs": 858,
+    "revisionsLeft": 1,
+    "bidsSubmitted": 2,
+    "startedBy": "public-submission",
+    "userFullName": "Public Submission"
+  },
+  {
+    "timestamp": "2026-07-08T13:04:02.602Z",
+    "enquiryKey": "260708ASAS",
+    "bidType": "LOW",
+    "bidPrice": 74592,
+    "timeToClosingMs": 1637.5,
+    "timeToClosingSec": 1,
+    "currentRank": 2,
+    "success": true,
+    "responseTimeMs": 3921,
+    "revisionsLeft": 0,
+    "bidsSubmitted": 3,
+    "startedBy": "public-submission",
+    "userFullName": "Public Submission"
+  },
+  {
+    "timestamp": "2026-07-08T13:28:51.834Z",
+    "enquiryKey": "260708UP6L",
+    "bidType": "HIGH",
+    "bidPrice": 28701,
+    "timeToClosingMs": 9615,
+    "timeToClosingSec": 9,
+    "currentRank": 1,
+    "success": true,
+    "responseTimeMs": 1091,
+    "revisionsLeft": 2,
+    "bidsSubmitted": 1,
+    "startedBy": "public-submission",
+    "userFullName": "Public Submission"
+  },
+  {
+    "timestamp": "2026-07-08T13:59:53.717Z",
+    "enquiryKey": "260708XCTD",
+    "bidType": "HIGH",
+    "bidPrice": 74410,
+    "timeToClosingMs": 9816.5,
+    "timeToClosingSec": 9,
+    "currentRank": 1,
+    "success": true,
+    "responseTimeMs": 3775,
+    "revisionsLeft": 3,
+    "bidsSubmitted": 1,
+    "startedBy": "public-submission",
+    "userFullName": "Public Submission"
+  },
+  {
+    "timestamp": "2026-07-08T14:03:51.783Z",
+    "enquiryKey": "260708FW19",
+    "bidType": "HIGH",
+    "bidPrice": 66969,
+    "timeToClosingMs": 9627,
+    "timeToClosingSec": 9,
+    "currentRank": 3,
+    "success": true,
+    "responseTimeMs": 1041,
+    "revisionsLeft": 2,
+    "bidsSubmitted": 1,
+    "startedBy": "public-submission",
+    "userFullName": "Public Submission"
+  },
+  {
+    "timestamp": "2026-07-08T14:03:54.192Z",
+    "enquiryKey": "260708FW19",
+    "bidType": "MEDIUM",
+    "bidPrice": 65835,
+    "timeToClosingMs": 7619,
+    "timeToClosingSec": 7,
+    "currentRank": 1,
+    "success": true,
+    "responseTimeMs": 1442,
+    "revisionsLeft": 1,
+    "bidsSubmitted": 2,
+    "startedBy": "public-submission",
+    "userFullName": "Public Submission"
+  },
+  {
+    "timestamp": "2026-07-08T14:04:51.623Z",
+    "enquiryKey": "2607083483",
+    "bidType": "HIGH",
+    "bidPrice": 70158,
+    "timeToClosingMs": 9738.5,
+    "timeToClosingSec": 9,
+    "currentRank": 2,
+    "success": true,
+    "responseTimeMs": 1036,
+    "revisionsLeft": 2,
+    "bidsSubmitted": 1,
+    "startedBy": "public-submission",
+    "userFullName": "Public Submission"
+  },
+  {
+    "timestamp": "2026-07-08T14:04:54.652Z",
+    "enquiryKey": "2607083483",
+    "bidType": "MEDIUM",
+    "bidPrice": 68970,
+    "timeToClosingMs": 7755.5,
+    "timeToClosingSec": 7,
+    "currentRank": 1,
+    "success": true,
+    "responseTimeMs": 2082,
+    "revisionsLeft": 1,
+    "bidsSubmitted": 2,
+    "startedBy": "public-submission",
+    "userFullName": "Public Submission"
+  },
+  {
+    "timestamp": "2026-07-08T14:05:51.838Z",
+    "enquiryKey": "260708PAGK",
+    "bidType": "HIGH",
+    "bidPrice": 55276,
+    "timeToClosingMs": 9573,
+    "timeToClosingSec": 9,
+    "currentRank": 1,
+    "success": true,
+    "responseTimeMs": 1219,
+    "revisionsLeft": 2,
+    "bidsSubmitted": 1,
+    "startedBy": "public-submission",
+    "userFullName": "Public Submission"
+  },
+  {
+    "timestamp": "2026-07-08T14:06:51.641Z",
+    "enquiryKey": "260708FDYQ",
+    "bidType": "HIGH",
+    "bidPrice": 132875,
+    "timeToClosingMs": 9617.5,
+    "timeToClosingSec": 9,
+    "currentRank": 1,
+    "success": true,
+    "responseTimeMs": 1261,
+    "revisionsLeft": 2,
+    "bidsSubmitted": 1,
+    "startedBy": "public-submission",
+    "userFullName": "Public Submission"
+  },
+  {
+    "timestamp": "2026-07-08T14:07:52.040Z",
+    "enquiryKey": "260708YTVK",
+    "bidType": "HIGH",
+    "bidPrice": 154135,
+    "timeToClosingMs": 9760.5,
+    "timeToClosingSec": 9,
+    "currentRank": 1,
+    "success": true,
+    "responseTimeMs": 1243,
+    "revisionsLeft": 2,
+    "bidsSubmitted": 1,
+    "startedBy": "public-submission",
+    "userFullName": "Public Submission"
+  },
+  {
+    "timestamp": "2026-07-08T14:08:51.700Z",
+    "enquiryKey": "260708HCBB",
+    "bidType": "HIGH",
+    "bidPrice": 85040,
+    "timeToClosingMs": 9707,
+    "timeToClosingSec": 9,
+    "currentRank": 2,
+    "success": true,
+    "responseTimeMs": 828,
+    "revisionsLeft": 2,
+    "bidsSubmitted": 1,
+    "startedBy": "public-submission",
+    "userFullName": "Public Submission"
+  },
+  {
+    "timestamp": "2026-07-08T14:08:54.344Z",
+    "enquiryKey": "260708HCBB",
+    "bidType": "MEDIUM",
+    "bidPrice": 83600,
+    "timeToClosingMs": 7704,
+    "timeToClosingSec": 7,
+    "currentRank": 1,
+    "success": true,
+    "responseTimeMs": 1469,
+    "revisionsLeft": 1,
+    "bidsSubmitted": 2,
+    "startedBy": "public-submission",
+    "userFullName": "Public Submission"
+  },
+  {
+    "timestamp": "2026-07-08T14:10:51.246Z",
+    "enquiryKey": "26070891GI",
+    "bidType": "HIGH",
+    "bidPrice": 20197,
+    "timeToClosingMs": 9768,
+    "timeToClosingSec": 9,
+    "currentRank": 1,
+    "success": true,
+    "responseTimeMs": 901,
+    "revisionsLeft": 2,
+    "bidsSubmitted": 1,
+    "startedBy": "public-submission",
+    "userFullName": "Public Submission"
+  },
+  {
+    "timestamp": "2026-07-08T14:14:51.972Z",
+    "enquiryKey": "260708A36V",
+    "bidType": "HIGH",
+    "bidPrice": 53150,
+    "timeToClosingMs": 9684.5,
+    "timeToClosingSec": 9,
+    "currentRank": 1,
+    "success": true,
+    "responseTimeMs": 1099,
+    "revisionsLeft": 2,
+    "bidsSubmitted": 1,
+    "startedBy": "public-submission",
+    "userFullName": "Public Submission"
+  }
+]

@@ -1,0 +1,11 @@
+[
+  {
+    "timestamp": "2026-03-10T11:54:09.155Z",
+    "context": "Fetching bidding data for 2603105Y9B",
+    "error": {
+      "message": "getaddrinfo ENOTFOUND enquiry.gocomet.com",
+      "stack": "Error: getaddrinfo ENOTFOUND enquiry.gocomet.com\n    at AxiosError.from (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:899:14)\n    at RedirectableRequest.handleRequestError (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:3228:25)\n    at RedirectableRequest.emit (node:events:518:28)\n    at eventHandlers.<computed> (D:\\LIVE_iis\\bidding\\node_modules\\follow-redirects\\index.js:49:24)\n    at ClientRequest.emit (node:events:518:28)\n    at emitErrorEvent (node:_http_client:104:11)\n    at TLSSocket.socketErrorListener (node:_http_client:518:5)\n    at TLSSocket.emit (node:events:518:28)\n    at emitErrorNT (node:internal/streams/destroy:170:8)\n    at emitErrorCloseNT (node:internal/streams/destroy:129:3)\n    at Axios.request (D:\\LIVE_iis\\bidding\\node_modules\\axios\\dist\\node\\axios.cjs:4317:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async fetchBiddingData (D:\\LIVE_iis\\bidding\\server.js:1627:24)\n    at async Timeout.checkAndBid [as _onTimeout] (D:\\LIVE_iis\\bidding\\server.js:1921:25)",
+      "code": "ENOTFOUND"
+    }
+  }
+]

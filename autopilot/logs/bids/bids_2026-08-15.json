@@ -1,0 +1,24 @@
+[
+  {
+    "timestamp": "2026-08-15T05:46:55.348Z",
+    "enquiryKey": "260815SAVB",
+    "bidType": "PUBLIC_SUBMISSION",
+    "bidPrice": 125000,
+    "timeToClosingMs": null,
+    "timeToClosingSec": 0,
+    "currentRank": null,
+    "success": true,
+    "responseTimeMs": 0,
+    "calculatedBids": {
+      "high": 140750,
+      "medium": 138500,
+      "low": 135125,
+      "marketValue": 125000
+    },
+    "percentages": {
+      "high": 12.6,
+      "medium": 10.8,
+      "low": 8.1
+    }
+  }
+]

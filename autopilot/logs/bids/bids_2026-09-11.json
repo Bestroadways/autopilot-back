@@ -1,0 +1,381 @@
+[
+  {
+    "timestamp": "2026-09-11T07:12:40.426Z",
+    "enquiryKey": "260911AF6Z",
+    "bidType": "PUBLIC_SUBMISSION",
+    "bidPrice": 125000,
+    "timeToClosingMs": null,
+    "timeToClosingSec": 0,
+    "currentRank": null,
+    "success": true,
+    "responseTimeMs": 0,
+    "calculatedBids": {
+      "high": 140750,
+      "medium": 138500,
+      "low": 135125,
+      "marketValue": 125000
+    },
+    "percentages": {
+      "high": 12.6,
+      "medium": 10.8,
+      "low": 8.1
+    }
+  },
+  {
+    "timestamp": "2026-09-11T07:13:10.074Z",
+    "enquiryKey": "260911MSRQ",
+    "bidType": "PUBLIC_SUBMISSION",
+    "bidPrice": 72000,
+    "timeToClosingMs": null,
+    "timeToClosingSec": 0,
+    "currentRank": null,
+    "success": true,
+    "responseTimeMs": 0,
+    "calculatedBids": {
+      "high": 81072,
+      "medium": 79776,
+      "low": 77832,
+      "marketValue": 72000
+    },
+    "percentages": {
+      "high": 12.6,
+      "medium": 10.8,
+      "low": 8.1
+    }
+  },
+  {
+    "timestamp": "2026-09-11T07:13:46.412Z",
+    "enquiryKey": "260911R97Y",
+    "bidType": "PUBLIC_SUBMISSION",
+    "bidPrice": 250000,
+    "timeToClosingMs": null,
+    "timeToClosingSec": 0,
+    "currentRank": null,
+    "success": true,
+    "responseTimeMs": 0,
+    "calculatedBids": {
+      "high": 281500,
+      "medium": 277000,
+      "low": 270250,
+      "marketValue": 250000
+    },
+    "percentages": {
+      "high": 12.6,
+      "medium": 10.8,
+      "low": 8.1
+    }
+  },
+  {
+    "timestamp": "2026-09-11T09:06:50.788Z",
+    "enquiryKey": "260911MSRQ",
+    "bidType": "HIGH",
+    "bidPrice": 81072,
+    "timeToClosingMs": 9807.5,
+    "timeToClosingSec": 9,
+    "currentRank": 1,
+    "success": false,
+    "responseTimeMs": 303,
+    "error": "Request failed with status code 422",
+    "retryCount": 0,
+    "startedBy": "public-submission",
+    "userFullName": "Public Submission"
+  },
+  {
+    "timestamp": "2026-09-11T09:06:51.573Z",
+    "enquiryKey": "260911MSRQ",
+    "bidType": "HIGH",
+    "bidPrice": 81072,
+    "timeToClosingMs": 9401.5,
+    "timeToClosingSec": 9,
+    "currentRank": 1,
+    "success": false,
+    "responseTimeMs": 682,
+    "error": "Request failed with status code 422",
+    "retryCount": 1,
+    "startedBy": "public-submission",
+    "userFullName": "Public Submission"
+  },
+  {
+    "timestamp": "2026-09-11T09:06:52.157Z",
+    "enquiryKey": "260911MSRQ",
+    "bidType": "HIGH",
+    "bidPrice": 81072,
+    "timeToClosingMs": 8603.5,
+    "timeToClosingSec": 8,
+    "currentRank": 1,
+    "success": false,
+    "responseTimeMs": 468,
+    "error": "Request failed with status code 422",
+    "retryCount": 2,
+    "startedBy": "public-submission",
+    "userFullName": "Public Submission"
+  },
+  {
+    "timestamp": "2026-09-11T09:06:52.599Z",
+    "enquiryKey": "260911MSRQ",
+    "bidType": "HIGH",
+    "bidPrice": 81072,
+    "timeToClosingMs": 7954.5,
+    "timeToClosingSec": 7,
+    "currentRank": 1,
+    "success": false,
+    "responseTimeMs": 261,
+    "error": "Request failed with status code 422",
+    "retryCount": 0,
+    "startedBy": "public-submission",
+    "userFullName": "Public Submission"
+  },
+  {
+    "timestamp": "2026-09-11T09:06:53.871Z",
+    "enquiryKey": "260911MSRQ",
+    "bidType": "HIGH",
+    "bidPrice": 81072,
+    "timeToClosingMs": 7589.5,
+    "timeToClosingSec": 7,
+    "currentRank": 1,
+    "success": false,
+    "responseTimeMs": 1168,
+    "error": "Request failed with status code 422",
+    "retryCount": 1,
+    "startedBy": "public-submission",
+    "userFullName": "Public Submission"
+  },
+  {
+    "timestamp": "2026-09-11T09:06:54.638Z",
+    "enquiryKey": "260911MSRQ",
+    "bidType": "HIGH",
+    "bidPrice": 81072,
+    "timeToClosingMs": 6294.5,
+    "timeToClosingSec": 6,
+    "currentRank": 1,
+    "success": false,
+    "responseTimeMs": 640,
+    "error": "Request failed with status code 422",
+    "retryCount": 2,
+    "startedBy": "public-submission",
+    "userFullName": "Public Submission"
+  },
+  {
+    "timestamp": "2026-09-11T09:06:55.161Z",
+    "enquiryKey": "260911MSRQ",
+    "bidType": "HIGH",
+    "bidPrice": 81072,
+    "timeToClosingMs": 5343.5,
+    "timeToClosingSec": 5,
+    "currentRank": 1,
+    "success": false,
+    "responseTimeMs": 212,
+    "error": "Request failed with status code 422",
+    "retryCount": 0,
+    "startedBy": "public-submission",
+    "userFullName": "Public Submission"
+  },
+  {
+    "timestamp": "2026-09-11T09:06:56.103Z",
+    "enquiryKey": "260911MSRQ",
+    "bidType": "HIGH",
+    "bidPrice": 81072,
+    "timeToClosingMs": 5026.5,
+    "timeToClosingSec": 5,
+    "currentRank": 1,
+    "success": false,
+    "responseTimeMs": 837,
+    "error": "Request failed with status code 422",
+    "retryCount": 1,
+    "startedBy": "public-submission",
+    "userFullName": "Public Submission"
+  },
+  {
+    "timestamp": "2026-09-11T09:06:57.075Z",
+    "enquiryKey": "260911MSRQ",
+    "bidType": "HIGH",
+    "bidPrice": 81072,
+    "timeToClosingMs": 4083.5,
+    "timeToClosingSec": 4,
+    "currentRank": 1,
+    "success": false,
+    "responseTimeMs": 866,
+    "error": "Request failed with status code 422",
+    "retryCount": 2,
+    "startedBy": "public-submission",
+    "userFullName": "Public Submission"
+  },
+  {
+    "timestamp": "2026-09-11T09:06:57.502Z",
+    "enquiryKey": "260911MSRQ",
+    "bidType": "HIGH",
+    "bidPrice": 81072,
+    "timeToClosingMs": 3120.5,
+    "timeToClosingSec": 3,
+    "currentRank": 1,
+    "success": false,
+    "responseTimeMs": 330,
+    "error": "Request failed with status code 422",
+    "retryCount": 0,
+    "startedBy": "public-submission",
+    "userFullName": "Public Submission"
+  },
+  {
+    "timestamp": "2026-09-11T09:06:58.083Z",
+    "enquiryKey": "260911MSRQ",
+    "bidType": "HIGH",
+    "bidPrice": 81072,
+    "timeToClosingMs": 2675.5,
+    "timeToClosingSec": 2,
+    "currentRank": 1,
+    "success": false,
+    "responseTimeMs": 466,
+    "error": "Request failed with status code 422",
+    "retryCount": 1,
+    "startedBy": "public-submission",
+    "userFullName": "Public Submission"
+  },
+  {
+    "timestamp": "2026-09-11T09:06:58.790Z",
+    "enquiryKey": "260911MSRQ",
+    "bidType": "HIGH",
+    "bidPrice": 81072,
+    "timeToClosingMs": 2084.5,
+    "timeToClosingSec": 2,
+    "currentRank": 1,
+    "success": false,
+    "responseTimeMs": 582,
+    "error": "Request failed with status code 422",
+    "retryCount": 2,
+    "startedBy": "public-submission",
+    "userFullName": "Public Submission"
+  },
+  {
+    "timestamp": "2026-09-11T09:06:59.094Z",
+    "enquiryKey": "260911MSRQ",
+    "bidType": "HIGH",
+    "bidPrice": 81072,
+    "timeToClosingMs": 1457.5,
+    "timeToClosingSec": 1,
+    "currentRank": 1,
+    "success": false,
+    "responseTimeMs": 259,
+    "error": "Request failed with status code 422",
+    "retryCount": 0,
+    "startedBy": "public-submission",
+    "userFullName": "Public Submission"
+  },
+  {
+    "timestamp": "2026-09-11T09:06:59.804Z",
+    "enquiryKey": "260911MSRQ",
+    "bidType": "HIGH",
+    "bidPrice": 81072,
+    "timeToClosingMs": 1083.5,
+    "timeToClosingSec": 1,
+    "currentRank": 1,
+    "success": false,
+    "responseTimeMs": 595,
+    "error": "Request failed with status code 422",
+    "retryCount": 1,
+    "startedBy": "public-submission",
+    "userFullName": "Public Submission"
+  },
+  {
+    "timestamp": "2026-09-11T09:07:00.368Z",
+    "enquiryKey": "260911MSRQ",
+    "bidType": "HIGH",
+    "bidPrice": 81072,
+    "timeToClosingMs": 385.5,
+    "timeToClosingSec": 0,
+    "currentRank": 1,
+    "success": false,
+    "responseTimeMs": 461,
+    "error": "Request failed with status code 422",
+    "retryCount": 2,
+    "startedBy": "public-submission",
+    "userFullName": "Public Submission"
+  },
+  {
+    "timestamp": "2026-09-11T09:42:08.987Z",
+    "enquiryKey": "2609111Q4H",
+    "bidType": "PUBLIC_SUBMISSION",
+    "bidPrice": 53000,
+    "timeToClosingMs": null,
+    "timeToClosingSec": 0,
+    "currentRank": null,
+    "success": true,
+    "responseTimeMs": 0,
+    "calculatedBids": {
+      "high": 59678,
+      "medium": 58724,
+      "low": 57293,
+      "marketValue": 53000
+    },
+    "percentages": {
+      "high": 12.6,
+      "medium": 10.8,
+      "low": 8.1
+    }
+  },
+  {
+    "timestamp": "2026-09-11T10:15:01.500Z",
+    "enquiryKey": "2609114LQI",
+    "bidType": "PUBLIC_SUBMISSION",
+    "bidPrice": 78000,
+    "timeToClosingMs": null,
+    "timeToClosingSec": 0,
+    "currentRank": null,
+    "success": true,
+    "responseTimeMs": 0,
+    "calculatedBids": {
+      "high": 87828,
+      "medium": 86424,
+      "low": 84318,
+      "marketValue": 78000
+    },
+    "percentages": {
+      "high": 12.6,
+      "medium": 10.8,
+      "low": 8.1
+    }
+  },
+  {
+    "timestamp": "2026-09-11T11:43:44.543Z",
+    "enquiryKey": "260911I4JZ",
+    "bidType": "PUBLIC_SUBMISSION",
+    "bidPrice": 130000,
+    "timeToClosingMs": null,
+    "timeToClosingSec": 0,
+    "currentRank": null,
+    "success": true,
+    "responseTimeMs": 0,
+    "calculatedBids": {
+      "high": 146380,
+      "medium": 144040,
+      "low": 140530,
+      "marketValue": 130000
+    },
+    "percentages": {
+      "high": 12.6,
+      "medium": 10.8,
+      "low": 8.1
+    }
+  },
+  {
+    "timestamp": "2026-09-11T14:39:09.024Z",
+    "enquiryKey": "260911LKKR",
+    "bidType": "PUBLIC_SUBMISSION",
+    "bidPrice": 78000,
+    "timeToClosingMs": null,
+    "timeToClosingSec": 0,
+    "currentRank": null,
+    "success": true,
+    "responseTimeMs": 0,
+    "calculatedBids": {
+      "high": 87828,
+      "medium": 86424,
+      "low": 84318,
+      "marketValue": 78000
+    },
+    "percentages": {
+      "high": 12.6,
+      "medium": 10.8,
+      "low": 8.1
+    }
+  }
+]

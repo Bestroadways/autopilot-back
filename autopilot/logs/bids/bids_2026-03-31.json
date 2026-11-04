@@ -1,0 +1,173 @@
+[
+  {
+    "timestamp": "2026-03-31T07:32:36.187Z",
+    "enquiryKey": "260331BRTB",
+    "bidType": "PUBLIC_SUBMISSION",
+    "bidPrice": 58000,
+    "timeToClosingMs": null,
+    "timeToClosingSec": 0,
+    "currentRank": null,
+    "success": true,
+    "responseTimeMs": 0,
+    "calculatedBids": {
+      "high": 66352,
+      "medium": 65830,
+      "low": 65308,
+      "marketValue": 58000
+    },
+    "percentages": {
+      "high": 14.4,
+      "medium": 13.5,
+      "low": 12.6
+    }
+  },
+  {
+    "timestamp": "2026-03-31T07:57:48.414Z",
+    "enquiryKey": "260331BRTB",
+    "bidType": "HIGH",
+    "bidPrice": 66352,
+    "timeToClosingMs": 9623,
+    "timeToClosingSec": 9,
+    "currentRank": 4,
+    "success": true,
+    "responseTimeMs": 751,
+    "revisionsLeft": 2,
+    "bidsSubmitted": 1,
+    "startedBy": "public-submission",
+    "userFullName": "Public Submission"
+  },
+  {
+    "timestamp": "2026-03-31T07:57:50.142Z",
+    "enquiryKey": "260331BRTB",
+    "bidType": "MEDIUM",
+    "bidPrice": 65830,
+    "timeToClosingMs": 7827,
+    "timeToClosingSec": 7,
+    "currentRank": 4,
+    "success": true,
+    "responseTimeMs": 683,
+    "revisionsLeft": 1,
+    "bidsSubmitted": 2,
+    "startedBy": "public-submission",
+    "userFullName": "Public Submission"
+  },
+  {
+    "timestamp": "2026-03-31T07:57:56.632Z",
+    "enquiryKey": "260331BRTB",
+    "bidType": "LOW",
+    "bidPrice": 65308,
+    "timeToClosingMs": 1809,
+    "timeToClosingSec": 1,
+    "currentRank": 4,
+    "success": true,
+    "responseTimeMs": 1155,
+    "revisionsLeft": 0,
+    "bidsSubmitted": 3,
+    "startedBy": "public-submission",
+    "userFullName": "Public Submission"
+  },
+  {
+    "timestamp": "2026-03-31T10:01:38.439Z",
+    "enquiryKey": "260331LY2W",
+    "bidType": "PUBLIC_SUBMISSION",
+    "bidPrice": 76000,
+    "timeToClosingMs": null,
+    "timeToClosingSec": 0,
+    "currentRank": null,
+    "success": true,
+    "responseTimeMs": 0,
+    "calculatedBids": {
+      "high": 86944,
+      "medium": 86260,
+      "low": 85576,
+      "marketValue": 76000
+    },
+    "percentages": {
+      "high": 14.4,
+      "medium": 13.5,
+      "low": 12.6
+    }
+  },
+  {
+    "timestamp": "2026-03-31T10:02:58.837Z",
+    "enquiryKey": "260331I4CR",
+    "bidType": "PUBLIC_SUBMISSION",
+    "bidPrice": 135000,
+    "timeToClosingMs": null,
+    "timeToClosingSec": 0,
+    "currentRank": null,
+    "success": true,
+    "responseTimeMs": 0,
+    "calculatedBids": {
+      "high": 154440,
+      "medium": 153225,
+      "low": 152010,
+      "marketValue": 135000
+    },
+    "percentages": {
+      "high": 14.4,
+      "medium": 13.5,
+      "low": 12.6
+    }
+  },
+  {
+    "timestamp": "2026-03-31T10:33:48.785Z",
+    "enquiryKey": "260331LY2W",
+    "bidType": "HIGH",
+    "bidPrice": 86944,
+    "timeToClosingMs": 9703.5,
+    "timeToClosingSec": 9,
+    "currentRank": 1,
+    "success": true,
+    "responseTimeMs": 914,
+    "revisionsLeft": 2,
+    "bidsSubmitted": 1,
+    "startedBy": "public-submission",
+    "userFullName": "Public Submission"
+  },
+  {
+    "timestamp": "2026-03-31T10:34:47.760Z",
+    "enquiryKey": "260331I4CR",
+    "bidType": "HIGH",
+    "bidPrice": 154440,
+    "timeToClosingMs": 9738,
+    "timeToClosingSec": 9,
+    "currentRank": 4,
+    "success": true,
+    "responseTimeMs": 530,
+    "revisionsLeft": 2,
+    "bidsSubmitted": 1,
+    "startedBy": "public-submission",
+    "userFullName": "Public Submission"
+  },
+  {
+    "timestamp": "2026-03-31T10:34:50.457Z",
+    "enquiryKey": "260331I4CR",
+    "bidType": "MEDIUM",
+    "bidPrice": 153225,
+    "timeToClosingMs": 7737,
+    "timeToClosingSec": 7,
+    "currentRank": 4,
+    "success": true,
+    "responseTimeMs": 1226,
+    "revisionsLeft": 1,
+    "bidsSubmitted": 2,
+    "startedBy": "public-submission",
+    "userFullName": "Public Submission"
+  },
+  {
+    "timestamp": "2026-03-31T10:34:55.836Z",
+    "enquiryKey": "260331I4CR",
+    "bidType": "LOW",
+    "bidPrice": 152010,
+    "timeToClosingMs": 1944,
+    "timeToClosingSec": 1,
+    "currentRank": 4,
+    "success": true,
+    "responseTimeMs": 812,
+    "revisionsLeft": 0,
+    "bidsSubmitted": 3,
+    "startedBy": "public-submission",
+    "userFullName": "Public Submission"
+  }
+]

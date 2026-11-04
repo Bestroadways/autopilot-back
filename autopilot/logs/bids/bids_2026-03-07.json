@@ -1,0 +1,39 @@
+[
+  {
+    "timestamp": "2026-03-07T15:04:59.802Z",
+    "enquiryKey": "260307YKVB",
+    "bidType": "PUBLIC_SUBMISSION",
+    "bidPrice": 93000,
+    "timeToClosingMs": null,
+    "timeToClosingSec": 0,
+    "currentRank": null,
+    "success": true,
+    "responseTimeMs": 0,
+    "calculatedBids": {
+      "high": 106392,
+      "medium": 105555,
+      "low": 104718,
+      "marketValue": 93000
+    },
+    "percentages": {
+      "high": 14.4,
+      "medium": 13.5,
+      "low": 12.6
+    }
+  },
+  {
+    "timestamp": "2026-03-07T15:23:50.130Z",
+    "enquiryKey": "260307YKVB",
+    "bidType": "HIGH",
+    "bidPrice": 106392,
+    "timeToClosingMs": 9757,
+    "timeToClosingSec": 9,
+    "currentRank": 1,
+    "success": true,
+    "responseTimeMs": 3032,
+    "revisionsLeft": 3,
+    "bidsSubmitted": 1,
+    "startedBy": "public-submission",
+    "userFullName": "Public Submission"
+  }
+]

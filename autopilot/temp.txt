@@ -1,0 +1,833 @@
+Request URL
+https://enquiry.gocomet.com/api/v1/vendor/enquiries/spot?page=1&size=15&reset_filter=false&filter%5Bcreated_at%5D%5Bstart_date%5D=&filter%5Bcreated_at%5D%5Bend_date%5D=&filter%5Bconfirmed_at%5D%5Bstart_date%5D=&filter%5Bconfirmed_at%5D%5Bend_date%5D=&filter%5Bquote_valid_from%5D%5Bstart_date%5D=&filter%5Bquote_valid_from%5D%5Bend_date%5D=&filter%5Bmin_quote_valid_till%5D%5Bstart_date%5D=&filter%5Bmin_quote_valid_till%5D%5Bend_date%5D=&filter%5Bbid_close_time%5D%5Bstart_date%5D=&filter%5Bbid_close_time%5D%5Bend_date%5D=&filter%5Btag%5D=all&filter%5Bcompany_ids%5D%5B%5D=&filter%5Bcurrent_approver_ids%5D%5B%5D=&filter%5Buser_ids%5D%5B%5D=&filter%5Bcargo_types%5D%5B%5D=&filter%5Bcontainer_types%5D%5B%5D=&filter%5Bconsignee_group_ids%5D%5B%5D=&filter%5Bincoterms%5D%5B%5D=&filter%5Bshipment_types%5D%5B%5D=&filter%5Bmodes%5D%5B%5D=&filter%5Bpol_ids%5D%5B%5D=&filter%5Bpod_ids%5D%5B%5D=&filter%5Bshipper_group_ids%5D%5B%5D=&filter%5Bcustomer_group_ids%5D%5B%5D=&filter%5Bvendor_group_ids%5D%5B%5D=&filter%5Bclient_group_ids%5D%5B%5D=&filter%5Bquery%5D=&filter%5Bname%5D=&filter%5Bvendor_client_company_names%5D%5B%5D=&filter%5Borigin%5D=&filter%5Bdestination%5D=&filter%5Bservice_class%5D=&filter%5Boffice_type%5D=&filter%5Bhybrid_mode%5D=&filter%5Btruck_sizes%5D%5B%5D=&filter%5Bvendor_types%5D%5B%5D=&filter%5Bpol_country_names%5D%5B%5D=&filter%5Bpod_country_names%5D%5B%5D=&filter%5Bdistance%5D=&filter%5Benquiry_type%5D=spot
+Request Method
+GET
+Status Code
+200 OK
+Remote Address
+35.244.17.137:443
+Referrer Policy
+strict-origin-when-cross-origin
+access-control-allow-credentials
+true
+access-control-allow-headers
+DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,,If-Modified-Since,Cache-Control,Content-Type,Authorization,Schema,,X-Gocomet-Tech,Ops-Client-Schema,X-Csrf-Token
+access-control-allow-methods
+GET, POST, OPTIONS, PUT, PATCH, DELETE
+access-control-allow-origin
+https://app.gocomet.com
+cache-control
+max-age=0, private, must-revalidate
+content-encoding
+gzip
+content-type
+application/json
+date
+Sun, 17 Aug 2025 08:55:16 GMT
+etag
+W/"ba89d3ef8d87063ad3dd059d8c5a2264"
+strict-transport-security
+max-age=15724800; includeSubDomains
+vary
+Accept-Encoding
+x-content-type-options
+nosniff
+x-envoy-upstream-service-time
+371
+x-frame-options
+SAMEORIGIN
+x-ingress-name
+gocomet-app-public-timeout
+x-request-id
+08ac513e887ca3e6f9fc505705e5882e
+x-runtime
+0.369292
+x-xss-protection
+1; mode=block
+:authority
+enquiry.gocomet.com
+:method
+GET
+:path
+/api/v1/vendor/enquiries/spot?page=1&size=15&reset_filter=false&filter%5Bcreated_at%5D%5Bstart_date%5D=&filter%5Bcreated_at%5D%5Bend_date%5D=&filter%5Bconfirmed_at%5D%5Bstart_date%5D=&filter%5Bconfirmed_at%5D%5Bend_date%5D=&filter%5Bquote_valid_from%5D%5Bstart_date%5D=&filter%5Bquote_valid_from%5D%5Bend_date%5D=&filter%5Bmin_quote_valid_till%5D%5Bstart_date%5D=&filter%5Bmin_quote_valid_till%5D%5Bend_date%5D=&filter%5Bbid_close_time%5D%5Bstart_date%5D=&filter%5Bbid_close_time%5D%5Bend_date%5D=&filter%5Btag%5D=all&filter%5Bcompany_ids%5D%5B%5D=&filter%5Bcurrent_approver_ids%5D%5B%5D=&filter%5Buser_ids%5D%5B%5D=&filter%5Bcargo_types%5D%5B%5D=&filter%5Bcontainer_types%5D%5B%5D=&filter%5Bconsignee_group_ids%5D%5B%5D=&filter%5Bincoterms%5D%5B%5D=&filter%5Bshipment_types%5D%5B%5D=&filter%5Bmodes%5D%5B%5D=&filter%5Bpol_ids%5D%5B%5D=&filter%5Bpod_ids%5D%5B%5D=&filter%5Bshipper_group_ids%5D%5B%5D=&filter%5Bcustomer_group_ids%5D%5B%5D=&filter%5Bvendor_group_ids%5D%5B%5D=&filter%5Bclient_group_ids%5D%5B%5D=&filter%5Bquery%5D=&filter%5Bname%5D=&filter%5Bvendor_client_company_names%5D%5B%5D=&filter%5Borigin%5D=&filter%5Bdestination%5D=&filter%5Bservice_class%5D=&filter%5Boffice_type%5D=&filter%5Bhybrid_mode%5D=&filter%5Btruck_sizes%5D%5B%5D=&filter%5Bvendor_types%5D%5B%5D=&filter%5Bpol_country_names%5D%5B%5D=&filter%5Bpod_country_names%5D%5B%5D=&filter%5Bdistance%5D=&filter%5Benquiry_type%5D=spot
+:scheme
+https
+accept
+application/json
+accept-encoding
+gzip, deflate, br, zstd
+accept-language
+en-US,en;q=0.9
+authorization
+eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiODdlY2FjYTEtNzlkNi00MDAxLTg0YzYtZDQzM2NjNzdlMjMyIiwidW5pcV90b2tlbiI6ImI3NjA4ZTRiLThkNjEtNDJlNy1iNjg3LWZkMzUyYzc4NzNkZiIsInRva2VuX3R5cGUiOiJ3ZWIiLCJjbGllbnRfaWQiOiIxNTJiZjJjMi1hYWM0LTQ4NmEtODVhMS0yMjkyNDJlNDE1NzMiLCJleHAiOjE3NTc2NzE1MTZ9.THzTDo0ki5-FnGVcK_Eoy2AV-7TMI1znZ5LVoEsu7V8
+cache-control
+no-cache
+cookie
+_gcl_au=1.1.600502754.1753517104; stay_signed_in=true; _hjSessionUser_2425614=eyJpZCI6IjNhMmE5MmMzLWE3ZTktNTA5MS04NThmLTZmM2ZlZTEwM2JmOSIsImNyZWF0ZWQiOjE3NTM1NTMyMTI2OTEsImV4aXN0aW5nIjp0cnVlfQ==; _hjSessionUser_2746649=eyJpZCI6ImY0MTRjZmVjLTQ0MDMtNWUxYy1hMjUyLTk5YmVhNmYwYjZhMyIsImNyZWF0ZWQiOjE3NTM1MTcxMDQzMTcsImV4aXN0aW5nIjp0cnVlfQ==; _hjSessionUser_2520392=eyJpZCI6ImY3ZTQxYjgyLThmZGEtNWYwYS05NWYzLWFiN2ZmNjY3ZWNhYyIsImNyZWF0ZWQiOjE3NTQ0Njk5NDgzNTQsImV4aXN0aW5nIjpmYWxzZX0=; user=eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiODdlY2FjYTEtNzlkNi00MDAxLTg0YzYtZDQzM2NjNzdlMjMyIiwidW5pcV90b2tlbiI6ImI3NjA4ZTRiLThkNjEtNDJlNy1iNjg3LWZkMzUyYzc4NzNkZiIsInRva2VuX3R5cGUiOiJ3ZWIiLCJjbGllbnRfaWQiOiIxNTJiZjJjMi1hYWM0LTQ4NmEtODVhMS0yMjkyNDJlNDE1NzMiLCJleHAiOjE3NTc2NzE1MTZ9.THzTDo0ki5-FnGVcK_Eoy2AV-7TMI1znZ5LVoEsu7V8; schema_name=app; user_type=vendor; _gid=GA1.2.1668120121.1755420815; _hjSession_2425614=eyJpZCI6IjEwNmY1ODcyLTZjNWQtNDQ3MC05YTdlLTc0MTNiMjdjZDYyNyIsImMiOjE3NTU0MjA4MTU0MzUsInMiOjAsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjowLCJzcCI6MH0=; _csrf_token=e02a6210bf7230ca4181d0bc; _ga_D1FBP02315=GS2.1.s1755420814$o29$g1$t1755420820$j54$l0$h1611478887; mp_8d01ffee95c627743736f2eba248d364_mixpanel=%7B%22distinct_id%22%3A%2287ecaca1-79d6-4001-84c6-d433cc77e232%22%2C%22%24device_id%22%3A%224bc0c641-b629-47ce-929c-77b8db3e34fd%22%2C%22%24initial_referrer%22%3A%22%24direct%22%2C%22%24initial_referring_domain%22%3A%22%24direct%22%2C%22__mps%22%3A%7B%7D%2C%22__mpso%22%3A%7B%7D%2C%22__mpus%22%3A%7B%7D%2C%22__mpa%22%3A%7B%7D%2C%22__mpu%22%3A%7B%7D%2C%22__mpr%22%3A%5B%5D%2C%22__mpap%22%3A%5B%5D%2C%22%24user_id%22%3A%2287ecaca1-79d6-4001-84c6-d433cc77e232%22%7D; _ga=GA1.2.142649515.1753517104
+ops-client-schema
+app
+origin
+https://app.gocomet.com
+pragma
+no-cache
+priority
+u=1, i
+referer
+https://app.gocomet.com/
+schema
+app
+sec-ch-ua
+"Not;A=Brand";v="99", "Google Chrome";v="139", "Chromium";v="139"
+sec-ch-ua-mobile
+?0
+sec-ch-ua-platform
+"Windows"
+sec-fetch-dest
+empty
+sec-fetch-mode
+cors
+sec-fetch-site
+same-site
+user-agent
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36
+x-csrf-token
+e02a6210bf7230ca4181d0bc
+
+------------------------------------------------ Payload --------------------------------------------
+{
+    "total_page": 102,
+    "current_page": 1,
+    "total_count": null,
+    "filter": {
+        "created_at": {
+            "start_date": null,
+            "end_date": null
+        },
+        "confirmed_at": {
+            "start_date": null,
+            "end_date": null
+        },
+        "quote_valid_from": {
+            "start_date": null,
+            "end_date": null
+        },
+        "min_quote_valid_till": {
+            "start_date": null,
+            "end_date": null
+        },
+        "bid_close_time": {
+            "start_date": null,
+            "end_date": null
+        },
+        "tag": "all",
+        "company_ids": [],
+        "current_approver_ids": [],
+        "user_ids": [],
+        "cargo_types": [],
+        "container_types": [],
+        "consignee_group_ids": [],
+        "incoterms": [],
+        "shipment_types": [],
+        "modes": [],
+        "pol_ids": [],
+        "pod_ids": [],
+        "shipper_group_ids": [],
+        "customer_group_ids": [],
+        "vendor_group_ids": [],
+        "client_group_ids": [],
+        "query": "",
+        "name": "",
+        "vendor_client_company_names": [],
+        "origin": "",
+        "destination": "",
+        "service_class": "",
+        "office_type": "",
+        "hybrid_mode": "",
+        "truck_sizes": [],
+        "vendor_types": [],
+        "pol_country_names": [],
+        "pod_country_names": []
+    },
+    "enquiries": [
+        {
+            "id": "ff95a7e9-e84b-4e8e-8739-2cc68286a31d",
+            "name": "3252506291 ( E - TRADE )",
+            "enquiry_type": "Spot",
+            "mode": "FTL",
+            "shipment_type": "DOMESTIC",
+            "key": "250816BAXM",
+            "l1_quote_total_cost_display": null,
+            "cargo_type": {
+                "hazardous": false,
+                "envirotainer": false,
+                "refrigerated": false
+            },
+            "quantity": [
+                "1 x 19FT Truck"
+            ],
+            "created_at": "16/08/2025 10:58",
+            "origin": "PLOT NO. 334, GIDC ROAD NO.3, GIDC,SACHIN, SURAT-394230, Gujarat ",
+            "destination": "\"M/S ETRADE MARKETING PRIVATE LIMITED Amta Industrial Park, Amta, Mouza, Majukhetra bearing survey no.301,302,304,1004,, 1008,1009,1010,1011 and 297 India Islampur-711401, West Bengal\"",
+            "origin_zip_code": "394230",
+            "destination_zip_code": "711401",
+            "other_origins": [],
+            "other_origin_zip_codes": [],
+            "other_destinations": [],
+            "other_destination_zip_codes": [],
+            "bid_close_time": "16/08/2025 15:30",
+            "bid_open_time": null,
+            "min_quote_valid_till": null,
+            "bid_close_timestamp": "2025-08-16T15:30:00.000+05:30",
+            "enquiry_label": "Old",
+            "bidding_closed": true,
+            "bidding_closed_at": "16/08/2025 15:30",
+            "archived": false,
+            "bid_opening_in": null,
+            "show_consignment_details": false,
+            "client_company_name": "Waaree Energies Ltd.",
+            "status": "Lost",
+            "quotes_sent": 0,
+            "vendor_rank": null,
+            "shipper": null,
+            "consignee": null,
+            "is_negotiating": false,
+            "editing_enabled": false,
+            "show_cost_of_l1_quote": false
+        },
+        {
+            "id": "de68047d-147c-4b0b-97eb-b7a5f13424f0",
+            "name": "3252506646 (E - COM) ",
+            "enquiry_type": "Spot",
+            "mode": "FTL",
+            "shipment_type": "DOMESTIC",
+            "key": "250816PYZC",
+            "l1_quote_total_cost_display": null,
+            "cargo_type": {
+                "hazardous": false,
+                "envirotainer": false,
+                "refrigerated": false
+            },
+            "quantity": [
+                "1 x 20FTODC (LxWXH - 20'x8'x8'8\") 11 Ton Truck"
+            ],
+            "created_at": "16/08/2025 10:56",
+            "origin": "PLOT NO. 334, GIDC ROAD NO.3, GIDC,SACHIN, SURAT-394230, Gujarat ",
+            "destination": "\"M/S Bluesky Solar Pvt Ltd. Office no:- 4/5/7/8, Ratnabhushan apartment, artillery centre road, khole mala, nr. Maheshwari Bhava MOB:8055986209 Nasik-422101 State Code: Maharashtra\"",
+            "origin_zip_code": "394230",
+            "destination_zip_code": "422101",
+            "other_origins": [],
+            "other_origin_zip_codes": [],
+            "other_destinations": [],
+            "other_destination_zip_codes": [],
+            "bid_close_time": "16/08/2025 12:55",
+            "bid_open_time": null,
+            "min_quote_valid_till": null,
+            "bid_close_timestamp": "2025-08-16T12:55:00.000+05:30",
+            "enquiry_label": "Old",
+            "bidding_closed": true,
+            "bidding_closed_at": "16/08/2025 12:55",
+            "archived": false,
+            "bid_opening_in": null,
+            "show_consignment_details": false,
+            "client_company_name": "Waaree Energies Ltd.",
+            "status": "Lost",
+            "quotes_sent": 1,
+            "vendor_rank": 2,
+            "shipper": null,
+            "consignee": null,
+            "is_negotiating": false,
+            "editing_enabled": false,
+            "show_cost_of_l1_quote": false
+        },
+        {
+            "id": "4ebc05ed-278f-4c37-9a63-78d44e3e25dd",
+            "name": "3240107429-Lot-7",
+            "enquiry_type": "Spot",
+            "mode": "FTL",
+            "shipment_type": "DOMESTIC",
+            "key": "250814KYHR",
+            "l1_quote_total_cost_display": null,
+            "cargo_type": {
+                "hazardous": false,
+                "envirotainer": false,
+                "refrigerated": false
+            },
+            "quantity": [
+                "14 x 40FT (LxWXH - 40'x8'x9'6\") 25 Ton Truck"
+            ],
+            "created_at": "14/08/2025 21:01",
+            "origin": "3C/1, Ecotech 2, Udyog Vihar Road, Gautam Buddha Nagar, Udyog Vihar, Greater Noida-201306, Uttar Pradesh",
+            "destination": "SF No. 50/3, Ottapidaram, Mel Maniyachi, Thoothukudi-628303, Tamil Nadu",
+            "origin_zip_code": "201306",
+            "destination_zip_code": "628303",
+            "other_origins": [],
+            "other_origin_zip_codes": [],
+            "other_destinations": [],
+            "other_destination_zip_codes": [],
+            "bid_close_time": "15/08/2025 11:30",
+            "bid_open_time": null,
+            "min_quote_valid_till": null,
+            "bid_close_timestamp": "2025-08-15T11:30:00.000+05:30",
+            "enquiry_label": "Updated",
+            "bidding_closed": true,
+            "bidding_closed_at": "15/08/2025 11:30",
+            "archived": false,
+            "bid_opening_in": null,
+            "show_consignment_details": false,
+            "client_company_name": "Waaree Energies Ltd.",
+            "status": "Lost",
+            "quotes_sent": 1,
+            "vendor_rank": 3,
+            "shipper": null,
+            "consignee": null,
+            "is_negotiating": false,
+            "editing_enabled": false,
+            "show_cost_of_l1_quote": false
+        },
+        {
+            "id": "9c4bc3e5-be6d-4c86-8373-4045943a54a9",
+            "name": "3250102919",
+            "enquiry_type": "Spot",
+            "mode": "FTL",
+            "shipment_type": "DOMESTIC",
+            "key": "250814GYJ7",
+            "l1_quote_total_cost_display": null,
+            "cargo_type": {
+                "hazardous": false,
+                "envirotainer": false,
+                "refrigerated": false
+            },
+            "quantity": [
+                "1 x 19FT (LxWXH - 19'x7'x8'8\"') 7.5 Ton Truck"
+            ],
+            "created_at": "14/08/2025 21:05",
+            "origin": "Survey No. 38/1,Village-Tumb, Taluka- Umbergaon, Tumb-396150, Gujarat",
+            "destination": "0, PLOT NO 147 17 GIDC PH2, GIDC PH2, GIDC Narmada Nagar, GIDC Road, Bharuch-GIDC Road, Bharuch-392015, Gujarat",
+            "origin_zip_code": "396150",
+            "destination_zip_code": "392015",
+            "other_origins": [],
+            "other_origin_zip_codes": [],
+            "other_destinations": [],
+            "other_destination_zip_codes": [],
+            "bid_close_time": "15/08/2025 10:32",
+            "bid_open_time": null,
+            "min_quote_valid_till": null,
+            "bid_close_timestamp": "2025-08-15T10:32:00.000+05:30",
+            "enquiry_label": "Old",
+            "bidding_closed": true,
+            "bidding_closed_at": "15/08/2025 10:32",
+            "archived": false,
+            "bid_opening_in": null,
+            "show_consignment_details": false,
+            "client_company_name": "Waaree Energies Ltd.",
+            "status": "Confirmed",
+            "quotes_sent": 1,
+            "vendor_rank": 1,
+            "shipper": "1803 - Waaree Energies Limited. Tumb",
+            "consignee": null,
+            "is_negotiating": false,
+            "editing_enabled": false,
+            "show_cost_of_l1_quote": false
+        },
+        {
+            "id": "cce64073-18ec-42d1-87ab-e1272d3ad909",
+            "name": "3250800093",
+            "enquiry_type": "Spot",
+            "mode": "FTL",
+            "shipment_type": "DOMESTIC",
+            "key": "250814WBQU",
+            "l1_quote_total_cost_display": null,
+            "cargo_type": {
+                "hazardous": false,
+                "envirotainer": false,
+                "refrigerated": false
+            },
+            "quantity": [
+                "1 x 9FT Pickup Truck"
+            ],
+            "created_at": "14/08/2025 20:59",
+            "origin": "3C/1, Ecotech 2, Udyog Vihar Road, Gautam Buddha Nagar, Udyog Vihar, Greater Noida-201306, Uttar Pradesh",
+            "destination": "UL India Pvt. Ltd, KalyaniPlatina, 3rd Floor,Block I, No. 24, EPIP Zone, Phase, Phase II, Whitefield, Bangalore-560066, Karnataka",
+            "origin_zip_code": "201306",
+            "destination_zip_code": "560066",
+            "other_origins": [],
+            "other_origin_zip_codes": [],
+            "other_destinations": [],
+            "other_destination_zip_codes": [],
+            "bid_close_time": "15/08/2025 10:30",
+            "bid_open_time": null,
+            "min_quote_valid_till": null,
+            "bid_close_timestamp": "2025-08-15T10:30:00.000+05:30",
+            "enquiry_label": "Old",
+            "bidding_closed": true,
+            "bidding_closed_at": "15/08/2025 10:30",
+            "archived": false,
+            "bid_opening_in": null,
+            "show_consignment_details": false,
+            "client_company_name": "Waaree Energies Ltd.",
+            "status": "Lost",
+            "quotes_sent": 1,
+            "vendor_rank": 2,
+            "shipper": null,
+            "consignee": null,
+            "is_negotiating": false,
+            "editing_enabled": false,
+            "show_cost_of_l1_quote": false
+        },
+        {
+            "id": "f1e9bca5-371c-497b-9710-c54325921734",
+            "name": "3250102864",
+            "enquiry_type": "Spot",
+            "mode": "FTL",
+            "shipment_type": "DOMESTIC",
+            "key": "250814L3KF",
+            "l1_quote_total_cost_display": null,
+            "cargo_type": {
+                "hazardous": false,
+                "envirotainer": false,
+                "refrigerated": false
+            },
+            "quantity": [
+                "1 x 20FTODC (LxWXH - 20'x8'x8'8\") 11 Ton Truck"
+            ],
+            "created_at": "14/08/2025 18:19",
+            "origin": "Survey No. 38/1,Village-Tumb, Taluka- Umbergaon, Tumb-396150, Gujarat",
+            "destination": "D 37 100, Baradeo, Godowlia, Varanasi-221001, Uttar Pradesh",
+            "origin_zip_code": "396150",
+            "destination_zip_code": "221001",
+            "other_origins": [],
+            "other_origin_zip_codes": [],
+            "other_destinations": [],
+            "other_destination_zip_codes": [],
+            "bid_close_time": "14/08/2025 20:18",
+            "bid_open_time": null,
+            "min_quote_valid_till": null,
+            "bid_close_timestamp": "2025-08-14T20:18:00.000+05:30",
+            "enquiry_label": "Old",
+            "bidding_closed": true,
+            "bidding_closed_at": "14/08/2025 20:18",
+            "archived": false,
+            "bid_opening_in": null,
+            "show_consignment_details": false,
+            "client_company_name": "Waaree Energies Ltd.",
+            "status": "Lost",
+            "quotes_sent": 1,
+            "vendor_rank": 3,
+            "shipper": null,
+            "consignee": null,
+            "is_negotiating": false,
+            "editing_enabled": false,
+            "show_cost_of_l1_quote": false
+        },
+        {
+            "id": "600b2ef8-9b1b-4c33-b26e-01c4cc66bff0",
+            "name": "3250102951",
+            "enquiry_type": "Spot",
+            "mode": "FTL",
+            "shipment_type": "DOMESTIC",
+            "key": "25081464FL",
+            "l1_quote_total_cost_display": null,
+            "cargo_type": {
+                "hazardous": false,
+                "envirotainer": false,
+                "refrigerated": false
+            },
+            "quantity": [
+                "1 x 40FT (LxWXH - 40'x8'x9'6\") 25 Ton Truck"
+            ],
+            "created_at": "14/08/2025 18:15",
+            "origin": "3C/1, Ecotech 2, Udyog Vihar Road, Gautam Buddha Nagar, Udyog Vihar, Greater Noida-201306, Uttar Pradesh",
+            "destination": "62,Govind Nagar,Choudhary Ramchandra Marg, Jaipur-302021, Rajasthan",
+            "origin_zip_code": "201306",
+            "destination_zip_code": "302021",
+            "other_origins": [],
+            "other_origin_zip_codes": [],
+            "other_destinations": [],
+            "other_destination_zip_codes": [],
+            "bid_close_time": "14/08/2025 20:15",
+            "bid_open_time": null,
+            "min_quote_valid_till": null,
+            "bid_close_timestamp": "2025-08-14T20:15:00.000+05:30",
+            "enquiry_label": "Old",
+            "bidding_closed": true,
+            "bidding_closed_at": "14/08/2025 20:15",
+            "archived": false,
+            "bid_opening_in": null,
+            "show_consignment_details": false,
+            "client_company_name": "Waaree Energies Ltd.",
+            "status": "Lost",
+            "quotes_sent": 1,
+            "vendor_rank": 2,
+            "shipper": null,
+            "consignee": null,
+            "is_negotiating": false,
+            "editing_enabled": false,
+            "show_cost_of_l1_quote": false
+        },
+        {
+            "id": "18224c69-a8b1-471e-9e98-9365ecac5d30",
+            "name": "Raw Material Movemennt - Majigam",
+            "enquiry_type": "Spot",
+            "mode": "FTL",
+            "shipment_type": "DOMESTIC",
+            "key": "250814YY27",
+            "l1_quote_total_cost_display": null,
+            "cargo_type": {
+                "hazardous": false,
+                "envirotainer": false,
+                "refrigerated": false
+            },
+            "quantity": [
+                "3 x 40FT (LxWXH - 40'x8'x8'8\") 20 Ton Truck"
+            ],
+            "created_at": "14/08/2025 18:17",
+            "origin": "Khata no. 436, Block no. 232/1, Milkat no. 167, Village Majigam, Tal-Chikhli, Dist-Navsari, 396530, Gujarat",
+            "destination": "Survey No. 1934, NH-48, Near Darshan Hotel, Village # Degam, Taluka # Chikhli, Degam-396530, Gujarat",
+            "origin_zip_code": "396530",
+            "destination_zip_code": "396530",
+            "other_origins": [],
+            "other_origin_zip_codes": [],
+            "other_destinations": [],
+            "other_destination_zip_codes": [],
+            "bid_close_time": "14/08/2025 20:15",
+            "bid_open_time": null,
+            "min_quote_valid_till": null,
+            "bid_close_timestamp": "2025-08-14T20:15:00.000+05:30",
+            "enquiry_label": "Old",
+            "bidding_closed": true,
+            "bidding_closed_at": "14/08/2025 20:15",
+            "archived": false,
+            "bid_opening_in": null,
+            "show_consignment_details": false,
+            "client_company_name": "Waaree Energies Ltd.",
+            "status": "Closed",
+            "quotes_sent": 0,
+            "vendor_rank": null,
+            "shipper": null,
+            "consignee": null,
+            "is_negotiating": false,
+            "editing_enabled": false,
+            "show_cost_of_l1_quote": false
+        },
+        {
+            "id": "e5e99b1b-a02e-4143-8a6a-125a5ad62dda",
+            "name": "Vapi to Samakhiali - Nirmal Tandel",
+            "enquiry_type": "Spot",
+            "mode": "FTL",
+            "shipment_type": "DOMESTIC",
+            "key": "250814419S",
+            "l1_quote_total_cost_display": null,
+            "cargo_type": {
+                "hazardous": false,
+                "envirotainer": false,
+                "refrigerated": false
+            },
+            "quantity": [
+                "1 x 22FT (LxWXH - 22'x8'x8'8\") Truck"
+            ],
+            "created_at": "14/08/2025 18:08",
+            "origin": "WAAPACKS PRIVATE LIMITED                                       SHED NO. 08, PLOT NO. 244/09-10, VRAJ,                                       INDUSTRIAL PARK, MORAI, OPPOSITE LOW                                       PRICE SOCIETY, MORAI, Orvad,                                        Valsad-396185",
+            "destination": "Sangam Solar One Pvt. Ltd.                                        Survey No.644, Orpat Industrial Estate,                                        Near Surajbar Bridge, Orpat Nagar, 8-A                                        National Highway, Vandhia, Samakhiyali                                        Kutch,Tal - Bhachau, Dist - Kutch-370150-370150, Gujarat",
+            "origin_zip_code": "396185",
+            "destination_zip_code": "370150",
+            "other_origins": [],
+            "other_origin_zip_codes": [],
+            "other_destinations": [],
+            "other_destination_zip_codes": [],
+            "bid_close_time": "14/08/2025 20:05",
+            "bid_open_time": null,
+            "min_quote_valid_till": null,
+            "bid_close_timestamp": "2025-08-14T20:05:00.000+05:30",
+            "enquiry_label": "Old",
+            "bidding_closed": true,
+            "bidding_closed_at": "14/08/2025 20:05",
+            "archived": false,
+            "bid_opening_in": null,
+            "show_consignment_details": false,
+            "client_company_name": "Waaree Energies Ltd.",
+            "status": "Lost",
+            "quotes_sent": 1,
+            "vendor_rank": 3,
+            "shipper": null,
+            "consignee": null,
+            "is_negotiating": false,
+            "editing_enabled": false,
+            "show_cost_of_l1_quote": false
+        },
+        {
+            "id": "4d7e362b-fc87-4425-b13b-5742d52f23e4",
+            "name": "3250102932",
+            "enquiry_type": "Spot",
+            "mode": "FTL",
+            "shipment_type": "DOMESTIC",
+            "key": "250814AJQT",
+            "l1_quote_total_cost_display": null,
+            "cargo_type": {
+                "hazardous": false,
+                "envirotainer": false,
+                "refrigerated": false
+            },
+            "quantity": [
+                "1 x 40FT (LxWXH - 40'x8'x8'8\") 22 Ton Truck"
+            ],
+            "created_at": "14/08/2025 18:01",
+            "origin": "Survey No. 38/1,Village-Tumb, Taluka- Umbergaon, Tumb-396150, Gujarat",
+            "destination": "G-3/6, M.I.D.C, Boisar Tarapur Road, Tarapur MIDC,Boisar, Palghar-401506, Maharashtra",
+            "origin_zip_code": "396150",
+            "destination_zip_code": "401506",
+            "other_origins": [],
+            "other_origin_zip_codes": [],
+            "other_destinations": [],
+            "other_destination_zip_codes": [],
+            "bid_close_time": "14/08/2025 20:00",
+            "bid_open_time": null,
+            "min_quote_valid_till": null,
+            "bid_close_timestamp": "2025-08-14T20:00:00.000+05:30",
+            "enquiry_label": "Old",
+            "bidding_closed": true,
+            "bidding_closed_at": "14/08/2025 20:00",
+            "archived": false,
+            "bid_opening_in": null,
+            "show_consignment_details": false,
+            "client_company_name": "Waaree Energies Ltd.",
+            "status": "Confirmed",
+            "quotes_sent": 1,
+            "vendor_rank": 1,
+            "shipper": "1803 - Waaree Energies Limited. Tumb",
+            "consignee": null,
+            "is_negotiating": false,
+            "editing_enabled": false,
+            "show_cost_of_l1_quote": false
+        },
+        {
+            "id": "e3f4be92-d4c8-45fe-85a0-3707174ce7b9",
+            "name": "3250102960",
+            "enquiry_type": "Spot",
+            "mode": "FTL",
+            "shipment_type": "DOMESTIC",
+            "key": "25081422Z8",
+            "l1_quote_total_cost_display": null,
+            "cargo_type": {
+                "hazardous": false,
+                "envirotainer": false,
+                "refrigerated": false
+            },
+            "quantity": [
+                "1 x 32FTMXL (LxWXH - 32'x8'x8'8\"') 16 Ton Truck"
+            ],
+            "created_at": "14/08/2025 17:43",
+            "origin": "3C/1, Ecotech 2, Udyog Vihar Road, Gautam Buddha Nagar, Udyog Vihar, Greater Noida-201306, Uttar Pradesh",
+            "destination": "KHASRA NO. 40, 41, 56, 920/38, 921/39, BHINMAL ROAD, JALORE-343001, Rajasthan",
+            "origin_zip_code": "201306",
+            "destination_zip_code": "343001",
+            "other_origins": [],
+            "other_origin_zip_codes": [],
+            "other_destinations": [],
+            "other_destination_zip_codes": [],
+            "bid_close_time": "14/08/2025 19:43",
+            "bid_open_time": null,
+            "min_quote_valid_till": null,
+            "bid_close_timestamp": "2025-08-14T19:43:00.000+05:30",
+            "enquiry_label": "Old",
+            "bidding_closed": true,
+            "bidding_closed_at": "14/08/2025 19:43",
+            "archived": false,
+            "bid_opening_in": null,
+            "show_consignment_details": false,
+            "client_company_name": "Waaree Energies Ltd.",
+            "status": "Lost",
+            "quotes_sent": 1,
+            "vendor_rank": 2,
+            "shipper": null,
+            "consignee": null,
+            "is_negotiating": false,
+            "editing_enabled": false,
+            "show_cost_of_l1_quote": false
+        },
+        {
+            "id": "a2929d52-038d-4581-911a-e918b4ac9a3e",
+            "name": "3250102940",
+            "enquiry_type": "Spot",
+            "mode": "FTL",
+            "shipment_type": "DOMESTIC",
+            "key": "2508147C88",
+            "l1_quote_total_cost_display": null,
+            "cargo_type": {
+                "hazardous": false,
+                "envirotainer": false,
+                "refrigerated": false
+            },
+            "quantity": [
+                "1 x 40FTHB (LXWXH - 40'x8'x8'8\") (Weight 23 MT) Truck"
+            ],
+            "created_at": "14/08/2025 17:18",
+            "origin": "Survey No. 1934, NH-48, Near Darshan Hotel, Village # Degam, Taluka # Chikhli, Degam-396530, Gujarat",
+            "destination": "ORIANA SOLAR SYSTEM LLP - Chakan Industries Area, Phase-11, Village Khalumbre, Khed, Chakan, Plot No 3, PAP-K-16, ( formerly known asBlr Logistiks Ltd.), Pune - 410501, Maharashtra",
+            "origin_zip_code": "396530",
+            "destination_zip_code": "410501",
+            "other_origins": [],
+            "other_origin_zip_codes": [],
+            "other_destinations": [],
+            "other_destination_zip_codes": [],
+            "bid_close_time": "14/08/2025 19:17",
+            "bid_open_time": null,
+            "min_quote_valid_till": null,
+            "bid_close_timestamp": "2025-08-14T19:17:00.000+05:30",
+            "enquiry_label": "Old",
+            "bidding_closed": true,
+            "bidding_closed_at": "14/08/2025 19:17",
+            "archived": false,
+            "bid_opening_in": null,
+            "show_consignment_details": false,
+            "client_company_name": "Waaree Energies Ltd.",
+            "status": "Confirmed",
+            "quotes_sent": 1,
+            "vendor_rank": 1,
+            "shipper": "1801-Waaree Energies Limited",
+            "consignee": null,
+            "is_negotiating": false,
+            "editing_enabled": false,
+            "show_cost_of_l1_quote": false
+        },
+        {
+            "id": "9bdb2c1d-d1b6-4fb4-af53-27998dda8368",
+            "name": "3250102923",
+            "enquiry_type": "Spot",
+            "mode": "FTL",
+            "shipment_type": "DOMESTIC",
+            "key": "250814KJH1",
+            "l1_quote_total_cost_display": null,
+            "cargo_type": {
+                "hazardous": false,
+                "envirotainer": false,
+                "refrigerated": false
+            },
+            "quantity": [
+                "1 x 40FTHB (LXWXH - 40'x8'x8'8\") (Weight 23 MT) Truck",
+                "1 x 8FT Truck"
+            ],
+            "created_at": "14/08/2025 16:34",
+            "origin": "Survey No. 1934, NH-48, Near Darshan Hotel, Village # Degam, Taluka # Chikhli, Degam-396530, Gujarat",
+            "destination": "Ajay Industries - C-55, MIDC, Aurangabad - 431136, Maharashtra",
+            "origin_zip_code": "396530",
+            "destination_zip_code": "431136",
+            "other_origins": [],
+            "other_origin_zip_codes": [],
+            "other_destinations": [],
+            "other_destination_zip_codes": [],
+            "bid_close_time": "14/08/2025 18:33",
+            "bid_open_time": null,
+            "min_quote_valid_till": null,
+            "bid_close_timestamp": "2025-08-14T18:33:00.000+05:30",
+            "enquiry_label": "Old",
+            "bidding_closed": true,
+            "bidding_closed_at": "14/08/2025 18:33",
+            "archived": false,
+            "bid_opening_in": null,
+            "show_consignment_details": false,
+            "client_company_name": "Waaree Energies Ltd.",
+            "status": "Lost",
+            "quotes_sent": 1,
+            "vendor_rank": 3,
+            "shipper": null,
+            "consignee": null,
+            "is_negotiating": false,
+            "editing_enabled": false,
+            "show_cost_of_l1_quote": false
+        },
+        {
+            "id": "133cb513-af37-4e7f-85a4-9b2ec1a2a8f1",
+            "name": "3250102955",
+            "enquiry_type": "Spot",
+            "mode": "FTL",
+            "shipment_type": "DOMESTIC",
+            "key": "250814XH4G",
+            "l1_quote_total_cost_display": null,
+            "cargo_type": {
+                "hazardous": false,
+                "envirotainer": false,
+                "refrigerated": false
+            },
+            "quantity": [
+                "2 x 40FT (LxWXH - 40'x8'x8'8\") 22 Ton Truck"
+            ],
+            "created_at": "14/08/2025 16:31",
+            "origin": "Unit 2B, Survey no. 267, NH-8, Nr Reliance Petrol Pump, Nandigram,-396105, Gujarat",
+            "destination": "Plot No 3, PAP-K-16, Chakan Industries Area, Phase-11, Village Khalumbre, Khed, Chakan, Pune-410501, Maharashtra",
+            "origin_zip_code": "396105",
+            "destination_zip_code": "410501",
+            "other_origins": [],
+            "other_origin_zip_codes": [],
+            "other_destinations": [],
+            "other_destination_zip_codes": [],
+            "bid_close_time": "14/08/2025 18:24",
+            "bid_open_time": null,
+            "min_quote_valid_till": null,
+            "bid_close_timestamp": "2025-08-14T18:24:00.000+05:30",
+            "enquiry_label": "Old",
+            "bidding_closed": true,
+            "bidding_closed_at": "14/08/2025 18:24",
+            "archived": false,
+            "bid_opening_in": null,
+            "show_consignment_details": false,
+            "client_company_name": "Waaree Energies Ltd.",
+            "status": "Lost",
+            "quotes_sent": 1,
+            "vendor_rank": 6,
+            "shipper": null,
+            "consignee": null,
+            "is_negotiating": false,
+            "editing_enabled": false,
+            "show_cost_of_l1_quote": false
+        },
+        {
+            "id": "18b0463b-e4ed-40f8-8959-5b4486ed650a",
+            "name": "3250102964 + 5501510514",
+            "enquiry_type": "Spot",
+            "mode": "FTL",
+            "shipment_type": "DOMESTIC",
+            "key": "250814RRMV",
+            "l1_quote_total_cost_display": null,
+            "cargo_type": {
+                "hazardous": false,
+                "envirotainer": false,
+                "refrigerated": false
+            },
+            "quantity": [
+                "1 x 19FT (LxWXH - 19'x7'x8'8\"') 7.5 Ton Truck"
+            ],
+            "created_at": "14/08/2025 16:23",
+            "origin": "3C/1, Ecotech 2, Udyog Vihar Road, Gautam Buddha Nagar, Udyog Vihar, Greater Noida-201306, Uttar Pradesh",
+            "destination": "Plot No. 334, Shed No. 2, Road No. 3, GIDC, Sachin, Surat-394230,Gujarat",
+            "origin_zip_code": "201306",
+            "destination_zip_code": "394230",
+            "other_origins": [],
+            "other_origin_zip_codes": [],
+            "other_destinations": [
+                "Waaree Energies Limited, Survey No. 1934, NH-48, Near Darshan Hotel, Village # Degam, Taluka # Chikhli, Degam-396530, Gujarat"
+            ],
+            "other_destination_zip_codes": [
+                "396530"
+            ],
+            "bid_close_time": "14/08/2025 18:22",
+            "bid_open_time": null,
+            "min_quote_valid_till": null,
+            "bid_close_timestamp": "2025-08-14T18:22:00.000+05:30",
+            "enquiry_label": "Old",
+            "bidding_closed": true,
+            "bidding_closed_at": "14/08/2025 18:22",
+            "archived": false,
+            "bid_opening_in": null,
+            "show_consignment_details": false,
+            "client_company_name": "Waaree Energies Ltd.",
+            "status": "Confirmed",
+            "quotes_sent": 1,
+            "vendor_rank": 1,
+            "shipper": "1301-Indosolar Pvt. Ltd",
+            "consignee": null,
+            "is_negotiating": false,
+            "editing_enabled": false,
+            "show_cost_of_l1_quote": false
+        }
+    ]
+}

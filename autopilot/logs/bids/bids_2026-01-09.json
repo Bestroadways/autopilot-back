@@ -1,0 +1,46 @@
+[
+  {
+    "timestamp": "2026-01-09T06:41:45.971Z",
+    "enquiryKey": "260109HX5A",
+    "bidType": "PUBLIC_SUBMISSION",
+    "bidPrice": 55000,
+    "timeToClosingMs": null,
+    "timeToClosingSec": 0,
+    "currentRank": null,
+    "success": true,
+    "responseTimeMs": 0,
+    "calculatedBids": {
+      "high": 59777,
+      "medium": 58777,
+      "low": 58777,
+      "marketValue": 55000
+    },
+    "percentages": {
+      "high": 7.85,
+      "medium": 6.3,
+      "low": 5.13
+    }
+  }
+  {
+    "timestamp": "2026-01-09T06:41:45.971Z",
+    "enquiryKey": "2601093XM7",
+    "bidType": "PUBLIC_SUBMISSION",
+    "bidPrice": 107777,
+    "timeToClosingMs": null,
+    "timeToClosingSec": 0,
+    "currentRank": null,
+    "success": true,
+    "responseTimeMs": 0,
+    "calculatedBids": {
+      "high": 107777,
+      "medium": 107777,
+      "low": 107777,
+      "marketValue": 107777
+    },
+    "percentages": {
+      "high": 7.85,
+      "medium": 6.3,
+      "low": 5.13
+    }
+  }
+]

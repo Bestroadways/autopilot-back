@@ -1,0 +1,17 @@
+[
+  {
+    "timestamp": "2026-05-24T04:59:48.892Z",
+    "enquiryKey": "260523T1KM",
+    "bidType": "HIGH",
+    "bidPrice": 74945,
+    "timeToClosingMs": 9746.5,
+    "timeToClosingSec": 9,
+    "currentRank": 1,
+    "success": true,
+    "responseTimeMs": 2959,
+    "revisionsLeft": 3,
+    "bidsSubmitted": 1,
+    "startedBy": "public-submission",
+    "userFullName": "Public Submission"
+  }
+]
